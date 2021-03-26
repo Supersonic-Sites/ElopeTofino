@@ -13,7 +13,17 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - label: "Components"
+        label_singular: "component"
+        name: "components"
+        widget: "list"
+        types:
+          - label: "Subheader"
+            name: "subheader"
+            widget: "object"
+            fields:
+                - { label: "Image", name: "img", widget: "string" }
