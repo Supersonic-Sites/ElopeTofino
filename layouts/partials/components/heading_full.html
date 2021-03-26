@@ -1,0 +1,59 @@
+<section class="bg-{{ .heading_full.bg_color }}">
+
+
+    <div class="container max-w-7xl mx-auto px-4">
+        {{ if .heading_full.bg_color }}
+
+            {{ if eq .heading_full.size "big" }}
+
+                <h2 class="font-bold capitalize text-5xl md:text-6xl lg:text-7xl text-center text-white">
+            {{ .heading_full.title }}
+                </h2>
+            {{ end }}
+
+            {{ if eq .heading_full.size "medium" }}
+
+            <h2 class="font-bold capitalize text-4xl md:text-5xl lg:text-6xl text-center text-white">
+            {{ .heading_full.title }}
+            </h2>
+            {{ end }}
+
+            {{ if eq .heading_full.size "small" }}
+            <h2 class="font-bold capitalize text-3xl md:text-4xl lg:text-5xl text-center text-white">
+            {{ .heading_full.title }}
+            </h2>
+            {{ end }}
+
+            {{ if .heading_full.desc }}
+            <p class="mt-6 max-w-5xl mx-auto text-white text-center text-xl">{{ .heading_full.desc }}</p>
+            {{ end }}           
+        {{ else }}
+
+        {{ if eq .heading_full.size "big" }}
+        <h2 class="font-bold capitalize text-5xl md:text-6xl lg:text-7xl text-center text-black">
+            {{ .heading_full.title }}
+        </h2>
+        {{ end }}
+
+        {{ if eq .heading_full.size "medium" }}
+        <h2 class="font-bold capitalize text-4xl md:text-5xl lg:text-6xl text-center text-black">
+            {{ .heading_full.title }}
+        </h2>
+        {{ end }}
+
+        {{ if eq .heading_full.size "small" }}
+        <h2 class="font-bold capitalize text-3xl md:text-4xl lg:text-5xl text-center text-black">
+            {{ .heading_full.title }}
+        </h2>
+        {{ end }}
+
+        
+        {{ if .heading_full.desc }}
+        <p class="mt-6 text-center max-w-5xl mx-auto text-xl text-black">{{ .heading_full.desc }}</p>
+        {{ end }}      
+
+
+        {{ end }}
+
+    </div>
+</section>

@@ -1,0 +1,59 @@
+<section class="mt-24">
+    <div class="container max-w-7xl mx-auto px-4">
+      <h2 class="font-bold capitalize text-3xl lg:text-5xl text-center mb-12">
+        {{ .iconbox3.title }}
+      </h2>
+      <div class="lg:max-w-4xl mx-auto">
+      <p class="text-center mb-24">
+        {{ .iconbox3.desc }}
+      </p>
+    </div>
+ 
+      <div class="grid grid-cols-12 md:gap-12">
+  
+        <div class="col-span-12 mb-12 lg:col-span-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" >
+          <div class="flex flex-col items-center">
+              <svg class="fill-primary mb-8">
+                <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg{{ .iconbox3.box1_icon }}"></use>
+              </svg>
+            <h4 class="font-bold text-3xl text-black mb-8">
+                {{ .iconbox3.box1_subtitle }}
+            </h4>
+            <p class="text-center">{{ .iconbox3.box1_desc }}</p>
+          </div>
+        </div>
+  
+  
+        <div class="col-span-12 mb-12 lg:col-span-4"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+          <div class="flex flex-col items-center">
+
+              <svg class="fill-primary mb-8">
+                <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg{{ .iconbox3.box2_icon }}"></use>
+              </svg>
+
+            <h4 class="font-bold text-3xl text-black mb-8">
+                {{ .iconbox3.box2_subtitle }}
+            </h4>
+            <p class="text-center">
+                {{ .iconbox3.box2_desc }}
+            </p>
+          </div>
+        </div>
+  
+        <div class="col-span-12 mb-12 lg:col-span-4"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="1000">
+          <div class="flex flex-col items-center">
+              <svg class="fill-primary mb-8">
+                <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg{{ .iconbox3.box3_icon }}"></use>
+              </svg>
+            <h4 class="font-bold text-3xl text-black mb-8">
+                {{ .iconbox3.box3_subtitle }}
+            </h4>
+            <p class="text-center">
+                {{ .iconbox3.box3_desc }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>

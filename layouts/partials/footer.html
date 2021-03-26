@@ -1,0 +1,130 @@
+<!-- This example requires Tailwind CSS v2.0+ -->
+<footer class="bg-white" aria-labelledby="footerHeading">
+    <h2 id="footerHeading" class="sr-only">Footer</h2>
+    <div class="max-w-7xl mx-auto py-12 lg:py-16 px-4 lg:px-4 xl:px-0">
+      <div class="xl:grid xl:grid-cols-4 xl:gap-8">
+        <div class="space-y-8 xl:col-span-2">
+            <img class="mx-auto md:mx-0" 
+            src="https://ik.imagekit.io/supersonicsites/tr:ar-16-5,w-250,c_scale,f_auto,q_auto,dpr_auto,/DEV/logoipsum_hUIykKq5Y.png" 
+            alt="{{ .Site.Params.sitename }}"
+            width="250px" height="78px">
+          
+            <p class="text-gray-500 text-base lg:w-4/5 text-center md:text-left">
+                {{ .Site.Params.Description }}
+          </p>
+          <div class="flex space-x-6 justify-center md:justify-start">
+            {{ if .Site.Params.social.facebook }}
+            <a href="{{ $.Site.Params.social.facebook | absURL }}" class="text-gray-400 hover:text-primary transition duration-500 ">
+              <span class="sr-only">Facebook</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#facebook"></use>
+              </svg>
+            </a>
+            {{ end }}
+            {{ if .Site.Params.social.instagram }}
+            <a href="{{ .Site.Params.social.instagram | absURL  }}" class="text-gray-400 hover:text-primary transition duration-500 ">
+              <span class="sr-only">Instagram</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#instagram"></use>
+              </svg>
+            </a>
+            {{ end }}
+            {{ if .Site.Params.social.twitter }}
+            <a href="{{ .Site.Params.social.twitter | absURL  }}" class="text-gray-400 hover:text-primary transition duration-500 ">
+              <span class="sr-only">Twitter</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#twitter"></use>
+              </svg>
+            </a>
+            {{ end }}
+            {{ if .Site.Params.social.linkedin }}
+            <a href="{{ .Site.Params.social.linkedin | absURL  }}" class="text-gray-400 hover:text-primary transition duration-500 ">
+              <span class="sr-only">linkedin</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#linkedin"></use>
+              </svg>
+            </a>
+            {{ end }}
+          </div>
+        
+        </div>
+        <div class="mt-12 grid grid-cols-1 gap-8 xl:mt-0 col-span-2">
+          <div class="grid grid-cols-2 gap-8">
+            <div class="flex flex-col items-left">
+              <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                Solutions
+              </h3>
+              <ul class="mt-4 space-y-3">
+                {{ range .Site.Menus.main -}}
+                <li>
+                  <a href="{{ .URL | relLangURL }}" class="text-base text-gray-500 hover:text-primary transition duration-500">
+                    {{ .Name }}
+                  </a>
+                </li>
+                {{ end }}
+                
+              </ul>
+            </div>
+            <div class="flex flex-col items-left">
+                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                    Contact
+                  </h3>
+
+                  <div class="flex flex-row items-center mt-4 text-gray-400 hover:text-primary transition duration-500">
+                    <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#phone"></use>
+                      </svg>
+                      <a href="tel:{{ .Site.Params.schema.phone }}" 
+                      target="_blank" rel="nofollow noreferrer">
+                        {{ .Site.Params.schema.phone }}
+                        </a>
+                    </div>
+
+
+                  <address class="text-base text-gray-500 mt-4 space-y-4">
+              
+                    {{ .Site.Params.schema.address }},
+                    {{ if .Site.Params.schema.address2 }}
+                    <br>
+                    {{ .Site.Params.schema.address2 }}
+                    {{ else }}
+                    <span></span>
+                    {{ end }}
+                    <br>
+                    {{ .Site.Params.schema.city }}, {{ .Site.Params.schema.region }} 
+                    <br>
+                    {{ .Site.Params.schema.postalcode }}
+                    <br>
+                    {{ .Site.Params.schema.country }}
+            
+                  </address>  
+
+                <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase mt-4 space-y-4">
+                  Business Hours
+                </h3>
+                <ul class="mt-4 space-y-2">
+
+                    {{ range .Site.Params.hours }}
+                  <li>
+                    <p class="text-base text-gray-500">
+                      {{ .hour }}
+                    </p>
+                  </li>
+                    {{ end }}
+                  
+                </ul>
+              </div>
+          </div>
+        
+        </div>
+      </div>
+      <div class="mt-12 border-t border-gray-200 pt-8 lg:flex lg:flex-row lg:justify-between">
+        <p class="text-base text-gray-400 text-center">
+            Copyright &copy; {{ dateFormat "2006" now }}, All rights reserved. -  <a href="{{ .Site.BaseURL | relLangURL }}privacy-policy" class="underline hover:text-primary transition duration-500">Privacy Policy</a>
+        </p>
+        <p class="text-base text-gray-400 text-center">
+            Handcrafted with ❤️ by <a href="https://www.supersonicsites.com" class="underline transition duration-500 hover:text-primary transition duration-500 ">Supersonic Sites</a>
+        </p>
+      </div>
+    </div>
+  </footer>

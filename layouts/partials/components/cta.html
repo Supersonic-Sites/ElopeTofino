@@ -1,0 +1,29 @@
+<section class="py-20 bg-{{ .cta.bg_color }}">
+    <div class="container max-w-7xl mx-auto px-4">
+        <div class="flex flex-col justify-center items-center">
+            {{ if .cta.bg_color }}
+            <h2 class="font-bold text-4xl md:text-5xl capitalize mb-4 text-center text-white">
+                {{ .cta.title }}
+            </h2>
+
+            <div class="mt-6 rounded-md shadow sm:mt-8">
+
+                <a href="{{ .cta.cta_link }}" class="w-full flex items-center justify-center btn_secondary">
+                    {{ .cta.cta }}
+                </a>
+            </div>
+            {{ else }}
+            <h2 class="font-bold text-4xl md:text-5xl capitalize mb-4 text-center text-black">
+                {{ .cta.title }}
+            </h2>
+
+            <div class="mt-6 rounded-md shadow sm:mt-8">
+
+                <a href="{{ .cta.cta_link }}" class="w-full flex items-center justify-center btn_secondary">
+                    {{ .cta.cta }}
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

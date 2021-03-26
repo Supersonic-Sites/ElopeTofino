@@ -1,12 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" lang="{{ .Language }}">
+  <head>
+
+    {{- partial "head" .}}
+    
+    {{/* styles */}}
+    {{ $options := dict "inlineImports" true }}
+    {{ $styles := resources.Get "css/main.css"  }}
+    {{ $styles = $styles | resources.PostCSS }}
+    {{ if  hugo.IsProduction  }}
+      {{ $styles = $styles | minify }}
+    {{ end }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
+  </head>
 <body>
     {{ block "main" . }}{{ end }}
 </body>
