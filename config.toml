@@ -1,6 +1,84 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+enableRobotsTXT = true
+disableKinds = [
+  "taxonomy",
+  "taxonomyTerm",
+  "RSS"
+]
 
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1.0
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2.0
+
+  [[menu.main]]
+  name = "Services"
+  url = "services/"
+  weight = 3.0
+
+  [[menu.main]]
+  name = "Gallery"
+  url = "#/"
+  weight = 4.0
+
+  [[menu.main]]
+  name = "Contact"
+  url = "contact/"
+  weight = 5.0
+
+
+[params]
+sitename = "Supersonic Sites Library"
+servicename = "Supersonic Sites Library"
+description = "Lorem Ipsum"
+usebasin = ""
+googlemap = ""
+gtm = ""
+kit = ""
+imagekit_base_url = ""
+
+  [params.social]
+  facebook = "https://www.facebook.com"
+  twitter = "#"
+  pinterest = "#"
+  instagram = "#"
+  linkedin = "#"
+
+  [params.schema]
+  type = "RentAction"
+  priceRange = "$$"
+  reservation = "false"
+  openinghour = "Mo-Fr 9:00-17:00"
+  logofooter = ""
+  logo = ""
+  ogimage = ""
+  address2 = ""
+  phone = "+1-"
+  email = "info@"
+
+  [[params.hours]]
+  hour = "Mon to Fri - 9:00-17:00"
+
+  [[params.hours]]
+  hour = "Sat - Closed"
+
+  [[params.hours]]
+  hour = "Sun - Closed"
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
 [build]
 writeStats = true
+
+
