@@ -1,10 +1,15 @@
-{{ define "main"}}
-<ul>
-    <!-- Ranges through content/posts/*.md -->
-    {{ range .Pages }}
-        <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-        </li>
-    {{ end }}
-    </ul>
+{{ define "main" }}
+
+
+{{ range .Params.Components }}
+
+  {{ range $component, $value := . }}
+
+    {{ partial ( printf "components/%s.html" $component ) (dict $component $value )}}
+
+  {{ end }}
+  
+{{ end }}
+
+
 {{ end }}

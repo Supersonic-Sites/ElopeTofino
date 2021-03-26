@@ -15,6 +15,9 @@
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 <body>
+    {{- partial "nav" . }}
     {{ block "main" . }}{{ end }}
+    {{- partial "script" . }}
+    {{- partial "footer" . }}
 </body>
 </html>
