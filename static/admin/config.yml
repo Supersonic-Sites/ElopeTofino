@@ -23,7 +23,8 @@ collections:
         widget: "list"
         types:
           - label: "Subheader"
-            name: "subheader"
+            name: "header_sub"
             widget: "object"
             fields:
-                - { label: "Image", name: "img", widget: "string" }
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Image", name: "img", widget: "image" }
