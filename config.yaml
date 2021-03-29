@@ -1,0 +1,63 @@
+title:
+description: 
+
+
+languageCode: en-us
+title: My New Hugo Site
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - RSS
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: about/
+      weight: 2
+    - name: Services
+      url: services/
+      weight: 3
+    - name: Gallery
+      url: '#/'
+      weight: 4
+    - name: Contact
+      url: contact/
+      weight: 5
+params:
+  sitename: Supersonic Sites Library
+  servicename: Supersonic Sites Library
+  description: Lorem Ipsum
+  usebasin: ''
+  googlemap: ''
+  gtm: ''
+  kit: ''
+  imagekit_base_url: ''
+  social:
+    facebook: 'https://www.facebook.com/'
+    twitter: '#'
+    pinterest: '#'
+    instagram: '#'
+    linkedin: '#'
+  schema:
+    type: RentAction
+    priceRange: $$
+    reservation: 'false'
+    openinghour: 'Mo-Fr 9:00-17:00'
+    logofooter: ''
+    logo: ''
+    ogimage: ''
+    address2: ''
+    phone: +1-
+    email: info@
+  hours:
+    - hour: 'Mon to Fri - 9:00-17:00'
+    - hour: Sat - Closed
+    - hour: Sun - Closed
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+build:
+  writeStats: true

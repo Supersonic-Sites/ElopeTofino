@@ -2,28 +2,39 @@ backend:
   name: git-gateway
   branch: main
 
-
 local_backend: true
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'pages'
-    label: 'Pages'
-    folder: 'content/'
+  - name: "settings"
+    label: "Settings"
+    files:
+      - label: "Configs"
+        name:  "configs"
+        file: "config.yaml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+        
+  - name: "pages"
+    label: "Pages"
+    folder: "content/"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
       - label: "Components"
         label_singular: "component"
         name: "components"
         widget: "list"
         types:
           - label: "Subheader"
-            name: "subheader"
+            name: "header_sub"
             widget: "object"
             fields:
-                - { label: "Image", name: "img", widget: "string" }
+              - { label: "Image", name: "img", widget: "string" }
+
+
