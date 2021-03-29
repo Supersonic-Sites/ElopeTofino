@@ -2,7 +2,7 @@
 
 {{ range $component := .Params.Components }}
 
-{{ partial ( printf "components/%s.html" $component.type ) $component }}
+  {{ partial ( printf "components/%s.html" $component.type ) $component }}
   
 {{ end }}
 

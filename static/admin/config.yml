@@ -22,9 +22,17 @@ collections:
         name: "components"
         widget: "list"
         types:
+<<<<<<< HEAD
           - label: "header_sub"
+=======
+          - label: "Subheader"
+>>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
             name: "header_sub"
             widget: "object"
             fields:
                 - { label: "Title", name: "title", widget: "string" }
+<<<<<<< HEAD
                 - { label: "Image", name: "img", widget: "string" }
+=======
+                - { label: "Image", name: "img", widget: "image" }
+>>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
