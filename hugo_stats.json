@@ -43,11 +43,8 @@
       "-translate-x-32",
       "-translate-y-1/2",
       "absolute",
-<<<<<<< HEAD
-=======
       "bg-center",
       "bg-cover",
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
       "bg-light-blue-800",
       "bg-opacity-0",
       "bg-white",
@@ -57,10 +54,7 @@
       "border-transparent",
       "bottom-12",
       "btn_primary",
-<<<<<<< HEAD
-=======
       "capitalize",
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
       "col-span-2",
       "duration-100",
       "duration-150",
@@ -119,12 +113,6 @@
       "max-w-7xl",
       "max-w-prose",
       "mb-12",
-<<<<<<< HEAD
-      "md:justify-start",
-      "md:mx-0",
-      "md:pl-0",
-      "md:text-5xl",
-=======
       "md:h-72",
       "md:justify-start",
       "md:mt-0",
@@ -133,15 +121,11 @@
       "md:pl-0",
       "md:text-5xl",
       "md:text-7xl",
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
       "md:text-left",
       "mr-2",
       "mt-12",
       "mt-2",
-<<<<<<< HEAD
-=======
       "mt-24",
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
       "mt-4",
       "mx-auto",
       "my-6",
@@ -177,10 +161,7 @@
       "scale-90",
       "shadow-lg",
       "sm:px-6",
-<<<<<<< HEAD
-=======
       "sm:text-left",
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
       "space-x-10",
       "space-x-6",
       "space-y-1",
@@ -190,10 +171,7 @@
       "space-y-8",
       "sr-only",
       "text-2xl",
-<<<<<<< HEAD
-=======
       "text-4xl",
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
       "text-5xl",
       "text-9xl",
       "text-base",
@@ -205,10 +183,7 @@
       "text-lg",
       "text-sm",
       "text-warm-gray-400",
-<<<<<<< HEAD
-=======
       "text-white",
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
       "top-0",
       "top-1/2",
       "top-12",

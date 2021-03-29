@@ -2,11 +2,76 @@ backend:
   name: git-gateway
   branch: main
 
-
 local_backend: true
 media_folder: static/img
 public_folder: /img
 collections:
+  - label: "Settings"
+    name: "settings"
+    files:
+      - name: "config"
+        label: "config.yaml"
+        file: "config.yaml"
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: 'BaseURL', name: 'baseURL', widget: 'string', default: "/" }
+          - { label: "disableKinds", name: "disabledKinds", widget: "hidden"}
+          - { label: "sitemap", name: "sitemap", widget: "hidden"}
+          - { label: "build", name: "build", widget: "hidden"}
+          - { label: "enableRobotsTXT", name: "enableRobotsTXT", widget: "hidden"}
+          - { label: "Language Code", name: "languageCode", widget: "string"}
+          - label: "Menu"
+            name: "menu"
+            widget: "list"
+            fields:
+              - label: 'Menu Items'
+                name: 'main'
+                widget: list
+                fields:
+                  - { label: 'Name', name: 'name', widget: 'string' }
+                  - { label: 'URL', name: 'url', widget: 'string' }
+                  - { label: 'Weight', name: 'weight', widget: 'string' }
+          - label: "Parameters"
+            name: "params"
+            widget: "list"
+            fields:
+              - { label: 'Site Name', name: 'sitename', widget: 'string' }
+              - { label: 'Service Name', name: 'servicename', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'UseBasin Endpoint', name: 'usebasin', widget: 'string' }
+              - { label: 'Google Map', name: 'googlemap', widget: 'string' }
+              - { label: 'Tag Manager ID', name: 'gtm', widget: 'string' }
+              - label: "Social Media"
+                name: "social"
+                widget: "list"
+                fields:
+                  - { label: 'Facebook', name: 'facebook', widget: 'string' }
+                  - { label: 'Twitter', name: 'twitter', widget: 'string' }
+                  - { label: 'Pinterest', name: 'pinterest', widget: 'string' }
+                  - { label: 'Instagram', name: 'instagram', widget: 'string' }
+                  - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
+              - label: "Schema Info"
+                name: "schema"
+                widget: "list"
+                fields:
+                  - { label: 'type', name: 'type', widget: 'string' }
+                  - { label: 'priceRange', name: 'priceRange', widget: 'string' }
+                  - { label: 'Reservation', name: 'reservation', widget: 'boolean', required: false }
+                  - { label: 'Opening Hours', name: 'openinghour', widget: 'string' }
+                  - { label: 'Logo in Footer', name: 'logofooter', widget: 'string' }
+                  - { label: 'Logo', name: 'logo', widget: 'string' }
+                  - { label: 'OpenGraph Image', name: 'ogimage', widget: 'string' }
+                  - { label: 'Address Line 1', name: 'address', widget: 'string' }
+                  - { label: 'Address Line 2', name: 'address2', widget: 'string' }
+                  - { label: 'Phone Number', name: 'phone', widget: 'string', default: "+1-" }
+                  - { label: 'Email Address', name: 'email', widget: 'string' }
+              - label: "Business Hours"
+                name: "hours"
+                widget: list
+                fields:
+                  - { label: 'Enter Hour', name: 'hours', widget: 'string' }
+
   - name: 'pages'
     label: 'Pages'
     folder: 'content/'
@@ -22,17 +87,9 @@ collections:
         name: "components"
         widget: "list"
         types:
-<<<<<<< HEAD
-          - label: "header_sub"
-=======
           - label: "Subheader"
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
             name: "header_sub"
             widget: "object"
             fields:
                 - { label: "Title", name: "title", widget: "string" }
-<<<<<<< HEAD
                 - { label: "Image", name: "img", widget: "string" }
-=======
-                - { label: "Image", name: "img", widget: "image" }
->>>>>>> c56d5fbb831023d7a5eea68d6dd52ccd63bab45f
