@@ -10,20 +10,22 @@ collections:
     name: "settings"
     files:
       - name: "config"
-        label: "config.yaml"
-        file: "config.yaml"
+        label: "Master Config File"
+        file: "config.toml"
         fields:
+          - { label: 'BaseURL', name: 'baseURL', widget: 'string', default: "/" }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
-          - { label: 'BaseURL', name: 'baseURL', widget: 'string', default: "/" }
+          - { label: "Language Code", name: "languageCode", widget: "string"}
+          - { label: "DefaultContentLanguage", name: "DefaultContentLanguage", widget: "hidden"}
           - { label: "disableKinds", name: "disabledKinds", widget: "hidden"}
           - { label: "sitemap", name: "sitemap", widget: "hidden"}
           - { label: "build", name: "build", widget: "hidden"}
           - { label: "enableRobotsTXT", name: "enableRobotsTXT", widget: "hidden"}
-          - { label: "Language Code", name: "languageCode", widget: "string"}
+          
           - label: "Menu"
             name: "menu"
-            widget: "list"
+            widget: "object"
             fields:
               - label: 'Menu Items'
                 name: 'main'
@@ -34,7 +36,7 @@ collections:
                   - { label: 'Weight', name: 'weight', widget: 'string' }
           - label: "Parameters"
             name: "params"
-            widget: "list"
+            widget: "object"
             fields:
               - { label: 'Site Name', name: 'sitename', widget: 'string' }
               - { label: 'Service Name', name: 'servicename', widget: 'string' }
@@ -44,16 +46,16 @@ collections:
               - { label: 'Tag Manager ID', name: 'gtm', widget: 'string' }
               - label: "Social Media"
                 name: "social"
-                widget: "list"
+                widget: "object"
                 fields:
-                  - { label: 'Facebook', name: 'facebook', widget: 'string' }
-                  - { label: 'Twitter', name: 'twitter', widget: 'string' }
-                  - { label: 'Pinterest', name: 'pinterest', widget: 'string' }
-                  - { label: 'Instagram', name: 'instagram', widget: 'string' }
-                  - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
+                  - { label: 'Facebook', name: 'facebook', widget: 'string', default: "#" }
+                  - { label: 'Twitter', name: 'twitter', widget: 'string', default: "#" }
+                  - { label: 'Pinterest', name: 'pinterest', widget: 'string', default: "#" }
+                  - { label: 'Instagram', name: 'instagram', widget: 'string', default: "#" }
+                  - { label: 'LinkedIn', name: 'linkedin', widget: 'string', default: "#" }
               - label: "Schema Info"
                 name: "schema"
-                widget: "list"
+                widget: "object"
                 fields:
                   - { label: 'type', name: 'type', widget: 'string' }
                   - { label: 'priceRange', name: 'priceRange', widget: 'string' }
@@ -62,7 +64,8 @@ collections:
                   - { label: 'Logo in Footer', name: 'logofooter', widget: 'string' }
                   - { label: 'Logo', name: 'logo', widget: 'string' }
                   - { label: 'OpenGraph Image', name: 'ogimage', widget: 'string' }
-                  - { label: 'Address Line 1', name: 'address', widget: 'string' }
+                  - { label: 'Show Address Publicly?', name: 'address_toggle', widget: 'boolean', required: false }
+                  - { label: 'Address Line 1', name: 'address1', widget: 'string' }
                   - { label: 'Address Line 2', name: 'address2', widget: 'string' }
                   - { label: 'Phone Number', name: 'phone', widget: 'string', default: "+1-" }
                   - { label: 'Email Address', name: 'email', widget: 'string' }
@@ -270,16 +273,20 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
-          - label: "Heading Fullwidth"
-            name: "heading_full"
+          - label: "Image Fullwidth"
+            name: "img_full"
             widget: "object"
             fields:
               - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
-              - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
-              - { label: "Description", name: "desc", widget: "string" }
-          - label: "2 Columns Image Left"
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          - label: "Half Image Left"
             name: "img_half_left"
             widget: "object"
             fields:
@@ -292,8 +299,35 @@ collections:
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
               - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
-          - label: "2 Columns Image Right"
+          - label: "Half Image Right"
             name: "img_half_right"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          - label: "Third Image Left"
+            name: "img_third_left"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Third Image Right"
+            name: "img_third_right"
             widget: "object"
             fields:
               - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
@@ -311,6 +345,15 @@ collections:
             fields:
                 - { label: "Title", name: "title", widget: "string" }
                 - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+          - label: "Heading Fullwidth"
+            name: "heading_full"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
+              - { label: "Description", name: "desc", widget: "string" }                
           - label: "Small Divider"
             name: "divider_half"
             widget: "object"

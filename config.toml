@@ -1,0 +1,66 @@
+baseURL = "/"
+title = "Supersonic Sites Library"
+description = "Lorem Ipsum"
+languageCode = "en-ca"
+DefaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+
+[build]
+writeStats = true
+enableRobotsTXT = true
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = "1.0"
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = "2.0"
+
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = "3.0"
+
+[params]
+gtm = "#"
+servicename = "Business"
+googlemap = "#"
+sitename = "SuperCMS"
+usebasin = "#"
+description = "Description Here"
+
+[params.schema]
+ogimage = "#"
+logofooter = "#"
+city = "Rigaud"
+logo = "#"
+phone = "819-219-0502"
+priceRange = "$$"
+region = "QC"
+country = "Canada"
+postalcode = "J0P 1P0"
+type = "ProfessionalServices"
+openinghour = "Mo-Fr 9:00-17:00"
+email = "info@"
+address1 = "119 Rue Saint-Pierre"
+address2 = "#"
+address_toggle = false
+
+[params.social]
+facebook = "https://www.facebook.com"
+twitter = "#"
+pinterest = "#"
+instagram = "#"
+linkedin = "#"
+
+[[params.hours]]
+hours = "Mon to Fri 9AM to 5PM"

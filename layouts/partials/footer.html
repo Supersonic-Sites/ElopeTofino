@@ -13,7 +13,9 @@
                 {{ .Site.Params.Description }}
           </p>
           <div class="flex space-x-6 justify-center md:justify-start">
-            {{ if .Site.Params.social.facebook }}
+            {{ if eq .Site.Params.social.facebook "#" }}
+            <span></span>
+            {{ else }}
             <a href="{{ $.Site.Params.social.facebook | absURL }}" class="text-gray-400 hover:text-primary transition duration-500 ">
               <span class="sr-only">Facebook</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -21,7 +23,9 @@
               </svg>
             </a>
             {{ end }}
-            {{ if .Site.Params.social.instagram }}
+            {{ if eq .Site.Params.social.instagram "#" }}
+            <span></span>
+            {{ else }}
             <a href="{{ .Site.Params.social.instagram | absURL  }}" class="text-gray-400 hover:text-primary transition duration-500 ">
               <span class="sr-only">Instagram</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -29,7 +33,9 @@
               </svg>
             </a>
             {{ end }}
-            {{ if .Site.Params.social.twitter }}
+            {{ if eq .Site.Params.social.twitter "#" }}
+            <span></span>
+            {{ else }}
             <a href="{{ .Site.Params.social.twitter | absURL  }}" class="text-gray-400 hover:text-primary transition duration-500 ">
               <span class="sr-only">Twitter</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -37,7 +43,9 @@
               </svg>
             </a>
             {{ end }}
-            {{ if .Site.Params.social.linkedin }}
+            {{ if eq .Site.Params.social.linkedin "#" }}
+            <span></span>
+            {{ else }}
             <a href="{{ .Site.Params.social.linkedin | absURL  }}" class="text-gray-400 hover:text-primary transition duration-500 ">
               <span class="sr-only">linkedin</span>
               <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -71,7 +79,7 @@
                   </h3>
 
                   <div class="flex flex-row items-center mt-4 text-gray-400 hover:text-primary transition duration-500">
-                    <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg class="h-3 w-3 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#phone"></use>
                       </svg>
                       <a href="tel:{{ .Site.Params.schema.phone }}" 
@@ -80,15 +88,14 @@
                         </a>
                     </div>
 
-
+                    {{ if .Site.Params.schema.address_toggle }}
                   <address class="text-base text-gray-500 mt-4 space-y-4">
-              
-                    {{ .Site.Params.schema.address }},
-                    {{ if .Site.Params.schema.address2 }}
-                    <br>
-                    {{ .Site.Params.schema.address2 }}
-                    {{ else }}
+                    
+                    {{ .Site.Params.schema.address1 }},
+                    {{ if eq .Site.Params.schema.address2 "#" }}
                     <span></span>
+                    {{ else }}
+                    {{ .Site.Params.schema.address2 }}
                     {{ end }}
                     <br>
                     {{ .Site.Params.schema.city }}, {{ .Site.Params.schema.region }} 
@@ -96,9 +103,9 @@
                     {{ .Site.Params.schema.postalcode }}
                     <br>
                     {{ .Site.Params.schema.country }}
-            
+                  
                   </address>  
-
+                  {{ end }}
                 <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase mt-4 space-y-4">
                   Business Hours
                 </h3>
@@ -107,7 +114,7 @@
                     {{ range .Site.Params.hours }}
                   <li>
                     <p class="text-base text-gray-500">
-                      {{ .hour }}
+                      {{ .hours }}
                     </p>
                   </li>
                     {{ end }}

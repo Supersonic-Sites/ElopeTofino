@@ -4,7 +4,6 @@
       "!--",
       "!doctype",
       "a",
-      "address",
       "article",
       "base",
       "body",
@@ -43,11 +42,6 @@
       "-translate-x-32",
       "-translate-y-1/2",
       "absolute",
-<<<<<<< HEAD
-=======
-      "bg-center",
-      "bg-cover",
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
       "bg-light-blue-800",
       "bg-opacity-0",
       "bg-white",
@@ -57,10 +51,6 @@
       "border-transparent",
       "bottom-12",
       "btn_primary",
-<<<<<<< HEAD
-=======
-      "capitalize",
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
       "col-span-2",
       "duration-100",
       "duration-150",
@@ -119,29 +109,14 @@
       "max-w-7xl",
       "max-w-prose",
       "mb-12",
-<<<<<<< HEAD
       "md:justify-start",
       "md:mx-0",
       "md:pl-0",
       "md:text-5xl",
-=======
-      "md:h-72",
-      "md:justify-start",
-      "md:mt-0",
-      "md:mx-0",
-      "md:pb-6",
-      "md:pl-0",
-      "md:text-5xl",
-      "md:text-7xl",
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
       "md:text-left",
       "mr-2",
       "mt-12",
       "mt-2",
-<<<<<<< HEAD
-=======
-      "mt-24",
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
       "mt-4",
       "mx-auto",
       "my-6",
@@ -177,10 +152,6 @@
       "scale-90",
       "shadow-lg",
       "sm:px-6",
-<<<<<<< HEAD
-=======
-      "sm:text-left",
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
       "space-x-10",
       "space-x-6",
       "space-y-1",
@@ -190,10 +161,6 @@
       "space-y-8",
       "sr-only",
       "text-2xl",
-<<<<<<< HEAD
-=======
-      "text-4xl",
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
       "text-5xl",
       "text-9xl",
       "text-base",
@@ -205,10 +172,6 @@
       "text-lg",
       "text-sm",
       "text-warm-gray-400",
-<<<<<<< HEAD
-=======
-      "text-white",
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
       "top-0",
       "top-1/2",
       "top-12",
