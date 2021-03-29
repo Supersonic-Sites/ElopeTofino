@@ -1,63 +1,35 @@
-title:
-description: 
-
-
-languageCode: en-us
-title: My New Hugo Site
-enableRobotsTXT: true
-disableKinds:
-  - taxonomy
-  - taxonomyTerm
-  - RSS
+title: SuperCMS
+description: It!
+baseURL: /
+languageCode: en-ca
 menu:
-  main:
-    - name: Home
-      url: /
-      weight: 1
-    - name: About
-      url: about/
-      weight: 2
-    - name: Services
-      url: services/
-      weight: 3
-    - name: Gallery
-      url: '#/'
-      weight: 4
-    - name: Contact
-      url: contact/
-      weight: 5
+  - main:
+      - name: Home
+        url: /
+        weight: "1"
 params:
-  sitename: Supersonic Sites Library
-  servicename: Supersonic Sites Library
-  description: Lorem Ipsum
-  usebasin: ''
-  googlemap: ''
-  gtm: ''
-  kit: ''
-  imagekit_base_url: ''
-  social:
-    facebook: 'https://www.facebook.com/'
-    twitter: '#'
-    pinterest: '#'
-    instagram: '#'
-    linkedin: '#'
-  schema:
-    type: RentAction
-    priceRange: $$
-    reservation: 'false'
-    openinghour: 'Mo-Fr 9:00-17:00'
-    logofooter: ''
-    logo: ''
-    ogimage: ''
-    address2: ''
-    phone: +1-
-    email: info@
-  hours:
-    - hour: 'Mon to Fri - 9:00-17:00'
-    - hour: Sat - Closed
-    - hour: Sun - Closed
-sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-build:
-  writeStats: true
+  - gtm: ""
+    servicename: CMS
+    schema:
+      - ogimage: ""
+        logofooter: ""
+        logo: ""
+        phone: +1-819-219-0502
+        priceRange: $$
+        address: 123 Rue Labelle
+        type: Professional
+        openinghour: Mo-9-50
+        email: info@supersonicsites.com
+        address2: ""
+    googlemap: ""
+    social:
+      - facebook: https://www.facebook.com
+        twitter: "/"
+        pinterest: ""
+        instagram: ""
+        linkedin: ""
+    hours:
+      - hours: Monday 9 to 5
+    sitename: SuperCMS
+    usebasin: ''
+    description: This is it
