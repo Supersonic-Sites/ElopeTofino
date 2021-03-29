@@ -6,21 +6,6 @@ local_backend: true
 media_folder: static/img
 public_folder: /img
 collections:
-<<<<<<< HEAD
-  - name: "settings"
-    label: "Settings"
-    files:
-      - label: "Configs"
-        name:  "configs"
-        file: "config.yaml"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string" }
-        
-  - name: "pages"
-    label: "Pages"
-    folder: "content/"
-=======
   - label: "Settings"
     name: "settings"
     files:
@@ -90,28 +75,262 @@ collections:
   - name: 'pages'
     label: 'Pages'
     folder: 'content/'
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "SEO Title Max 45 characters", name: "title", widget: "string" }
+      - { label: "SEO Description Max 120 characters", name: "description", widget: "string" }
       - label: "Components"
         label_singular: "component"
         name: "components"
         widget: "list"
         types:
+          - label: "4 Columns Text Cards"
+            name: "cards_fourth_text"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "SHADOW ON/OFF", name: "shadow_select", widget: "boolean", required: false }
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Title ON/OFF", name: "title_select", widget: "boolean", required: false }
+                    - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Title Color", name: "title_color", widget: "string", default: "black" }
+                    - { label: "Subtitle ON/OFF", name: "subtitle_select", widget: "boolean", required: false }
+                    - { label: "Subtitle", name: "subtitle", widget: "string" }
+                    - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
+                    - { label: "Divider Color", name: "divider_color", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+          - label: "4 Columns Icon Cards"
+            name: "cards_fourth_icon"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Icon", name: "icon", widget: "string" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+          - label: "4 Columns Image Cards"
+            name: "cards_fourth_img"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          - label: "3 Columns Text Cards"
+            name: "cards_third_text"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "SHADOW ON/OFF", name: "shadow_select", widget: "boolean", required: false }
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Title ON/OFF", name: "title_select", widget: "boolean", required: false }
+                    - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Title Color", name: "title_color", widget: "string", default: "black" }
+                    - { label: "Subtitle ON/OFF", name: "subtitle_select", widget: "boolean", required: false }
+                    - { label: "Subtitle", name: "subtitle", widget: "string" }
+                    - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
+                    - { label: "Divider Color", name: "divider_color", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+          - label: "3 Columns Icon Cards"
+            name: "cards_third_icon"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Icon", name: "icon", widget: "string" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          - label: "3 Columns Image Cards"
+            name: "cards_third_img"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          - label: "2 Columns Text Cards"
+            name: "cards_half_text"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "SHADOW ON/OFF", name: "shadow_select", widget: "boolean", required: false }
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Title ON/OFF", name: "title_select", widget: "boolean", required: false }
+                    - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Title Color", name: "title_color", widget: "string", default: "black" }
+                    - { label: "Subtitle ON/OFF", name: "subtitle_select", widget: "boolean", required: false }
+                    - { label: "Subtitle", name: "subtitle", widget: "string" }
+                    - { label: "Divider ON/OFF", name: "divider_select", widget: "boolean", required: false }
+                    - { label: "Divider Color", name: "divider_color", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+          - label: "2 Columns Icon Cards"
+            name: "cards_half_icon"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Icon", name: "icon", widget: "string" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string" }
+          - label: "2 Columns Image Cards"
+            name: "cards_half_img"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - label: "Cards"
+                  name: "cards"
+                  label_singular: "card"
+                  widget: "list"
+                  fields: 
+                    - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+                    - { label: "AOS", name: "aos", widget: "string" }
+                    - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                    - { label: "Title", name: "title", widget: "string" }
+                    - { label: "Description", name: "desc", widget: "string" }
+                    - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+                    - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                    - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          - label: "Heading Fullwidth"
+            name: "heading_full"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
+              - { label: "Description", name: "desc", widget: "string" }
+          - label: "2 Columns Image Left"
+            name: "img_half_left"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          - label: "2 Columns Image Right"
+            name: "img_half_right"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
+              - { label: "AOS", name: "aos", widget: "string" }
+              - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
+              - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
           - label: "Subheader"
             name: "header_sub"
             widget: "object"
             fields:
-<<<<<<< HEAD
-              - { label: "Image", name: "img", widget: "string" }
-
-
-=======
                 - { label: "Title", name: "title", widget: "string" }
-                - { label: "Image", name: "img", widget: "string" }
->>>>>>> 99889e65e97b9c1ae0c59ede621dcd2a54d6713f
+                - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+          - label: "Small Divider"
+            name: "divider_half"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+          - label: "Divider"
+            name: "divider"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+          - label: "Large Divider"
+            name: "divider2x"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+          - label: "Call to Action Bar"
+            name: "cta"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Call to Action Text", name: "cta", widget: "string" }
+                - { label: "Call to Action Link", name: "cta_link", widget: "string" }

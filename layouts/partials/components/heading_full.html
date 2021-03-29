@@ -1,0 +1,59 @@
+<section class="bg-{{ .bg_color }}">
+
+
+    <div class="container max-w-7xl mx-auto px-4">
+        {{ if eq .bg_color "white" }}
+
+            {{ if eq .title_size "big" }}
+
+                <h2 class="font-bold capitalize text-5xl md:text-6xl lg:text-7xl text-center text-black">
+            {{ .title }}
+                </h2>
+            {{ end }}
+
+            {{ if eq .title_size "medium" }}
+
+            <h2 class="font-bold capitalize text-4xl md:text-5xl lg:text-6xl text-center text-black">
+            {{ .title }}
+            </h2>
+            {{ end }}
+
+            {{ if eq .title_size "small" }}
+            <h2 class="font-bold capitalize text-3xl md:text-4xl lg:text-5xl text-center text-black">
+            {{ .title }}
+            </h2>
+            {{ end }}
+
+            {{ if .desc_select }}
+            <p class="mt-6 max-w-5xl mx-auto text-black text-center text-xl">{{ .desc }}</p>
+            {{ end }}           
+        {{ else }}
+
+        {{ if eq .title_size "big" }}
+        <h2 class="font-bold capitalize text-5xl md:text-6xl lg:text-7xl text-center text-white">
+            {{ .title }}
+        </h2>
+        {{ end }}
+
+        {{ if eq .title_size "medium" }}
+        <h2 class="font-bold capitalize text-4xl md:text-5xl lg:text-6xl text-center text-white">
+            {{ .title }}
+        </h2>
+        {{ end }}
+
+        {{ if eq .title_size "small" }}
+        <h2 class="font-bold capitalize text-3xl md:text-4xl lg:text-5xl text-center text-white">
+            {{ .title }}
+        </h2>
+        {{ end }}
+
+        
+        {{ if .desc_select }}
+        <p class="mt-6 text-center max-w-5xl mx-auto text-xl text-white">{{ .desc }}</p>
+        {{ end }}      
+
+
+        {{ end }}
+
+    </div>
+</section>
