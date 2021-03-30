@@ -18,17 +18,17 @@ enableRobotsTXT = true
 [[menu.main]]
 name = "Home"
 url = "/"
-weight = "1.0"
+weight = "1"
 
 [[menu.main]]
 name = "About"
 url = "about/"
-weight = "2.0"
+weight = "2"
 
 [[menu.main]]
 name = "Contact"
 url = "contact/"
-weight = "3.0"
+weight = "3"
 
 [params]
 gtm = "#"

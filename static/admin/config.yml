@@ -90,6 +90,24 @@ collections:
         name: "components"
         widget: "list"
         types:
+          - label: "Divider"
+            name: "divider"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
+          - label: "Large Divider"
+            name: "divider2x"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
+          - label: "Small Divider"
+            name: "divider_half"
+            widget: "object"
+            fields:
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
           - label: "4 Columns Text Cards"
             name: "cards_fourth_text"
             widget: "object"
@@ -115,6 +133,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
+
           - label: "4 Columns Icon Cards"
             name: "cards_fourth_icon"
             widget: "object"
@@ -133,6 +152,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
+
           - label: "4 Columns Image Cards"
             name: "cards_fourth_img"
             widget: "object"
@@ -151,6 +171,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "3 Columns Text Cards"
             name: "cards_third_text"
             widget: "object"
@@ -176,6 +197,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
+
           - label: "3 Columns Icon Cards"
             name: "cards_third_icon"
             widget: "object"
@@ -194,6 +216,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "3 Columns Image Cards"
             name: "cards_third_img"
             widget: "object"
@@ -212,6 +235,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "2 Columns Text Cards"
             name: "cards_half_text"
             widget: "object"
@@ -237,6 +261,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
+
           - label: "2 Columns Icon Cards"
             name: "cards_half_icon"
             widget: "object"
@@ -255,6 +280,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string" }
                     - { label: "CTA Link", name: "cta_link", widget: "string" }
+
           - label: "2 Columns Image Cards"
             name: "cards_half_img"
             widget: "object"
@@ -273,6 +299,7 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "Image Fullwidth"
             name: "img_full"
             widget: "object"
@@ -286,6 +313,7 @@ collections:
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
               - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "Half Image Left"
             name: "img_half_left"
             widget: "object"
@@ -299,6 +327,7 @@ collections:
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
               - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "Half Image Right"
             name: "img_half_right"
             widget: "object"
@@ -312,6 +341,7 @@ collections:
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
               - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "Third Image Left"
             name: "img_third_left"
             widget: "object"
@@ -339,12 +369,16 @@ collections:
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
               - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
           - label: "Subheader"
             name: "header_sub"
             widget: "object"
             fields:
                 - { label: "Title", name: "title", widget: "string" }
+                - { label: "BG Color (Override Image)", name: "bg_toggle", widget: "boolean", required: false }
+                - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
                 - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+
           - label: "Heading Fullwidth"
             name: "heading_full"
             widget: "object"
@@ -354,21 +388,7 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
               - { label: "Description", name: "desc", widget: "string" }                
-          - label: "Small Divider"
-            name: "divider_half"
-            widget: "object"
-            fields:
-                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
-          - label: "Divider"
-            name: "divider"
-            widget: "object"
-            fields:
-                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
-          - label: "Large Divider"
-            name: "divider2x"
-            widget: "object"
-            fields:
-                - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+
           - label: "Call to Action Bar"
             name: "cta"
             widget: "object"
@@ -377,3 +397,20 @@ collections:
                 - { label: "Title", name: "title", widget: "string" }
                 - { label: "Call to Action Text", name: "cta", widget: "string" }
                 - { label: "Call to Action Link", name: "cta_link", widget: "string" }
+
+          - label: "Contact Form"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title", name: "title", widget: "desc", default: "Get In Touch" }
+              - { label: "Sub Text", name: "desc", widget: "text", default: "Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu." }
+              - { label: "Physical Address ON/OFF", name: "address_toggle", widget: "boolean", required: false }
+              - { label: "Address Line 1", name: "address1", widget: "string", default: "742 Evergreen Terrace" }
+              - { label: "Address Line 2", name: "address2", widget: "string", default: "Springfield, OR 12345" }
+              - { label: "Phone Number", name: "phone", widget: "string", default: "+1 (555) 123-4567" }
+              - { label: "Email", name: "email", widget: "string", default: "support@example.com" }
+              - { label: "UseBasin Endpoint", name: "usebasin", widget: "string" }
+              - { label: "CTA Button", name: "cta", widget: "string", default: "Submit" }
+
+              
