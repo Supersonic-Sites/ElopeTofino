@@ -1,0 +1,13 @@
+<section>
+
+    <div class="container max-w-7xl mx-auto px-4 flex flex-col items-center">
+
+        <div class="youtube w-full shadow-2xl" data-embed="{{ .VideoID }}">
+            <div class="play-button"></div>
+        </div>
+
+    </div>
+
+</section>
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}" defer></script>

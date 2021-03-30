@@ -81,7 +81,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: "SEO Title Max 45 characters", name: "title", widget: "string" }
       - { label: "SEO Description Max 120 characters", name: "description", widget: "string" }
@@ -166,7 +166,7 @@ collections:
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
-                    - { label: "Alt", name: "img_alt", widget: "string", default: "This is a test" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
                     - { label: "Title", name: "title", widget: "string" }
                     - { label: "Description", name: "desc", widget: "string" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
@@ -231,6 +231,7 @@ collections:
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
                     - { label: "Title", name: "title", widget: "string" }
                     - { label: "Description", name: "desc", widget: "string" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
@@ -295,11 +296,36 @@ collections:
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
                     - { label: "Title", name: "title", widget: "string" }
                     - { label: "Description", name: "desc", widget: "string" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Video Full"
+            name: "video_full"
+            widget: "object"
+            fields:
+              - { label: "Video ID", name: "VideoID", widget: "string", default: "dQw4w9WgXcQ" }
+
+          - label: "Video Half Left"
+            name: "video_half_left"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Video ID", name: "VideoID", widget: "string", default: "dQw4w9WgXcQ" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Video Half Right"
+            name: "video_half_right"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Video ID", name: "VideoID", widget: "string", default: "dQw4w9WgXcQ" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
 
           - label: "Image Fullwidth"
             name: "img_full"
@@ -309,6 +335,7 @@ collections:
               - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
               - { label: "AOS", name: "aos", widget: "string" }
               - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
@@ -323,6 +350,7 @@ collections:
               - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
               - { label: "AOS", name: "aos", widget: "string" }
               - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
@@ -337,6 +365,7 @@ collections:
               - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
               - { label: "AOS", name: "aos", widget: "string" }
               - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
@@ -351,6 +380,7 @@ collections:
               - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
               - { label: "AOS", name: "aos", widget: "string" }
               - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
@@ -365,6 +395,7 @@ collections:
               - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
               - { label: "AOS", name: "aos", widget: "string" }
               - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
@@ -379,6 +410,20 @@ collections:
                 - { label: "BG Color (Override Image)", name: "bg_toggle", widget: "boolean", required: false }
                 - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
                 - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+          
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+                - { label: "Pre Title", name: "pre_title", widget: "string" }
+                - { label: "Title", name: "title", widget: "string" }
+                - { label: "Description", name: "desc", widget: "text" }
+                - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
+                - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+                - { label: "CTA 2 ON/OFF", name: "cta2_select", widget: "boolean", required: false }
+                - { label: "CTA #2", name: "cta2", widget: "string", default: "Call To Action" }
+                - { label: "CTA Link #2", name: "cta2_link", widget: "string", default: "contact/" }
 
           - label: "Heading Fullwidth"
             name: "heading_full"
@@ -422,7 +467,21 @@ collections:
               - { label: "Description", name: "desc", widget: "string", default: "Can’t find the answer you’re looking for? Reach out to our" }
               - { label: "CTA Text", name: "cta", widget: "string", default: "customer support." }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
-              - label: "Frequently Asked Question"
+              - label: "Frequently Asked Questions"
+                name: "faqs"
+                label_singular: "faq"
+                widget: "list"
+                fields: 
+                  - { label: "Question", name: "question", widget: "string", default: "How to you make holy water?" }
+                  - { label: "Answer", name: "answer", widget: "text", default: "You boil the hell out of it. orem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." }
+          
+          - label: "FAQ Toggle"
+            name: "faq_toggle"
+            widget: "object"
+            fields:
+              - { label: "Top Question", name: "question", widget: "string", default: "How to you make holy water?" }
+              - { label: "Top Answer", name: "answer", widget: "string", default: "You boil the hell out of it. orem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." }
+              - label: "Frequently Asked Questions"
                 name: "faqs"
                 label_singular: "faq"
                 widget: "list"
