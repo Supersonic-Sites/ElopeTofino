@@ -413,4 +413,18 @@ collections:
               - { label: "UseBasin Endpoint", name: "usebasin", widget: "string" }
               - { label: "CTA Button", name: "cta", widget: "string", default: "Submit" }
 
-              
+          - label: "FAQ One Third"
+            name: "faq_third"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string", default: "Frequently asked questions" }
+              - { label: "Description", name: "desc", widget: "string", default: "Can’t find the answer you’re looking for? Reach out to our" }
+              - { label: "CTA Text", name: "cta", widget: "string", default: "customer support." }
+              - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+              - label: "Frequently Asked Question"
+                name: "faqs"
+                label_singular: "faq"
+                widget: "list"
+                fields: 
+                  - { label: "Question", name: "question", widget: "string", default: "How to you make holy water?" }
+                  - { label: "Answer", name: "answer", widget: "text", default: "You boil the hell out of it. orem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." }
