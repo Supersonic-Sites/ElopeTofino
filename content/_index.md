@@ -2,33 +2,68 @@
 title: Homepage
 description: Lorem Ipsum
 components:
-  - cta2: Our Packages
-    img: DEV/olga-iacovlenco-87tScgRbXKI-unsplash_fBe08QHMb.jpg
+  - cta2: Call To Action
+    img: ElopeTofino/olga-iacovlenco-87tScgRbXKI-unsplash_keFQbJDnIR.jpg
     cta_link: contact/
-    cta_select: false
-    cta: About The Area
-    desc: Who said eloping can't be a blast ? We're here to make the whole
-      experience intimate, fun and meaningful.
-    cta2_link: contact/
-    title: Elope in one of the most beautiful place on earth
-    cta2_select: true
-    type: hero
-    pre_title: Intimate & Meaningful
-  - type: divider
-    bg_color: white
-  - type: video_half_left
-    bg_color: white
-    VideoID: dQw4w9WgXcQ
     cta: Call To Action
-    cta_link: contact/
-    title: A Title about my idol...Rick Martin
-    desc: A great description
-    cta_select: true
+    desc: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+      eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis
+      imperdiet semper. Vivamus mollis urna et odio consequat suscipit. <br><br>
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis imperdiet semper. Vivamus mollis urna et odio consequat suscipit. 
+    cta2_link: contact/
+    title: This is a title
+    cta2_select: false
+    type: hero
+    pre_title: Let's get started
   - type: divider
     bg_color: white
   - type: video_half_right
     bg_color: white
     VideoID: dQw4w9WgXcQ
-    title: Ricky Rolly
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta
+      lectus quis imperdiet semper. Vivamus mollis urna et odio consequat
+      suscipit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus dapibus eros dolor, eget vestibulum ante elementum in. Quisque
+      porta lectus quis imperdiet semper. Vivamus mollis urna et odio consequat
+      suscipit. "
+    title: My favorite artist
+  - type: divider
+    bg_color: white
+  - type: faq_third
+    title: Frequently asked questions
+    desc: Can’t find the answer you’re looking for? Reach out to our
+    cta: customer support.
+    cta_link: contact/
+    faqs:
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+  - type: divider
+    bg_color: white
+  - img: ElopeTofino/olga-iacovlenco-87tScgRbXKI-unsplash_keFQbJDnIR.jpg
+    aos: fade
+    cta_link: contact/
+    bg_color: white
+    cta_select: false
+    img_alt: Please type in a description of the image
+    cta: Call To Action
     desc: Description Here
+    aos_select: true
+    title: title
+    type: img_half_left
 ---
