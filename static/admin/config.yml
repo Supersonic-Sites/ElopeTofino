@@ -166,6 +166,7 @@ collections:
                     - { label: "AOS ON/OFF", name: "aos_select", widget: "boolean", required: false }
                     - { label: "AOS", name: "aos", widget: "string" }
                     - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                    - { label: "Alt", name: "img_alt", widget: "string", default: "This is a test" }
                     - { label: "Title", name: "title", widget: "string" }
                     - { label: "Description", name: "desc", widget: "string" }
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
