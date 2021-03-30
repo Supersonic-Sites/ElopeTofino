@@ -3,7 +3,7 @@ title: Homepage
 description: Lorem Ipsum
 components:
   - cta2: Call To Action
-    img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+    img: ElopeTofino/olga-iacovlenco-87tScgRbXKI-unsplash_keFQbJDnIR.jpg
     cta_link: contact/
     cta: Call To Action
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -51,4 +51,17 @@ components:
       - question: How to you make holy water?
         answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
           adipisicing elit. Quas cupiditate laboriosam fugiat.
+  - type: divider
+    bg_color: white
+  - img: ElopeTofino/olga-iacovlenco-87tScgRbXKI-unsplash_keFQbJDnIR.jpg
+    aos: fade
+    cta_link: contact/
+    bg_color: white
+    cta_select: false
+    img_alt: Please type in a description of the image
+    cta: Call To Action
+    desc: Description Here
+    aos_select: true
+    title: title
+    type: img_half_left
 ---
