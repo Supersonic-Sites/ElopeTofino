@@ -6,10 +6,12 @@ components:
     img: ElopeTofino/olga-iacovlenco-87tScgRbXKI-unsplash_keFQbJDnIR.jpg
     cta_link: contact/
     cta: Call To Action
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta
-      lectus quis imperdiet semper. Vivamus mollis urna et odio consequat
-      suscipit. "
+    desc: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+      eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis
+      imperdiet semper. Vivamus mollis urna et odio consequat suscipit. <br><br>
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis imperdiet semper. Vivamus mollis urna et odio consequat suscipit. 
     cta2_link: contact/
     title: This is a title
     cta2_select: false
