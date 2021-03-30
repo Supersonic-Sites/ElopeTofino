@@ -5,18 +5,20 @@ components:
   - cta2: Call To Action
     img: ElopeTofino/olga-iacovlenco-87tScgRbXKI-unsplash_keFQbJDnIR.jpg
     cta_link: contact/
-    cta: Call To Action
+    cta: Download now!
     desc: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
       eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis
       imperdiet semper. Vivamus mollis urna et odio consequat suscipit. <br><br>
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis imperdiet semper. Vivamus mollis urna et odio consequat suscipit. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis imperdiet semper. Vivamus mollis urna et odio consequat suscipit. <br><br>
+
+      Does this work?
     cta2_link: contact/
-    title: This is a title
+    title: Defying Gravity
     cta2_select: false
     type: hero
-    pre_title: Let's get started
+    pre_title: Dream Big
   - type: divider
     bg_color: white
   - type: video_half_right
