@@ -64,6 +64,5 @@ Strict-Transport-Security = "max-age=31536000; includeSubDomains"
 # Only send referred when HTTPS is used.
 Referrer-Policy = "strict-origin-when-cross-origin"
 # Disable certain magic features, lol.
-Feature-Policy = "vibrate none; usermedia *; sync-xhr self"
 
 
