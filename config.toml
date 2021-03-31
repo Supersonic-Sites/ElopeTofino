@@ -36,6 +36,7 @@ servicename = "Business"
 googlemap = "#"
 sitename = "SuperCMS"
 usebasin = "#"
+videoOn = true
 description = "Description Here"
 
 [params.schema]

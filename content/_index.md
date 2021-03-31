@@ -2,70 +2,66 @@
 title: Homepage
 description: Lorem Ipsum
 components:
-  - cta2: Call To Action
-    img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-    cta_link: contact/
-    cta: Download now!
-    desc: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
-      eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis
-      imperdiet semper. Vivamus mollis urna et odio consequat suscipit. <br><br>
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta lectus quis imperdiet semper. Vivamus mollis urna et odio consequat suscipit. <br><br>
-
-      Does this work?
-    cta2_link: contact/
-    title: Defying Gravity
-    cta2_select: false
-    type: hero
-    pre_title: Dream Big
-  - type: divider
+  - type: video_full
+    VideoID: dQw4w9WgXcQ
+  - type: cards_fourth_img
     bg_color: white
-  - type: video_half_right
+    cards:
+      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+        img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: contact/
+        aos: zoom-in
+        title: Title
+        desc: Description
+        aos_select: true
+      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+        img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: contact/
+        aos: zoom-in
+        aos_select: true
+        title: Title
+        desc: description
+      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+        img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: contact/
+        aos: zoom-in
+        aos_select: true
+        title: Title
+        desc: Description
+      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+        img_alt: Please type in a description of the image
+        cta: Call To Action
+        cta_link: contact/
+        aos_select: true
+        aos: zoom-in
+        title: Title
+        desc: Description
+  - type: video_half_left
     bg_color: white
     VideoID: dQw4w9WgXcQ
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      dapibus eros dolor, eget vestibulum ante elementum in. Quisque porta
-      lectus quis imperdiet semper. Vivamus mollis urna et odio consequat
-      suscipit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Phasellus dapibus eros dolor, eget vestibulum ante elementum in. Quisque
-      porta lectus quis imperdiet semper. Vivamus mollis urna et odio consequat
-      suscipit. "
-    title: My favorite artist
-  - type: divider
-    bg_color: white
-  - type: faq_third
-    title: Frequently asked questions
-    desc: Can’t find the answer you’re looking for? Reach out to our
-    cta: customer support.
-    cta_link: contact/
-    faqs:
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-  - type: divider
-    bg_color: white
-  - img: ElopeTofino/olga-iacovlenco-87tScgRbXKI-unsplash_keFQbJDnIR.jpg
-    aos: fade
+    title: Title
+    desc: Description
+  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+    aos: zoom-in
     cta_link: contact/
     bg_color: white
-    cta_select: false
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: Description Here
+    desc: Description
     aos_select: true
-    title: title
-    type: img_half_left
+    title: Title
+    type: img_full
+  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+    aos: zoom-in
+    cta_link: contact/
+    bg_color: white
+    img_alt: Please type in a description of the image
+    cta: Call To Action
+    desc: Description
+    aos_select: true
+    title: Title
+    type: img_third_right
 ---

@@ -7,16 +7,19 @@
 {{ $script := resources.Get "js/lazysizes.min.js" }}
 <script src="{{ $script.Permalink }}" async></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.11.3/cloudinary-core-shrinkwrap.min.js" async></script>
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" asybc></script>
+{{ if $.Site.Params.VideoOn}}
+{{ $script := resources.Get "js/video.js" | minify}}
+<script src="{{ $script.Permalink }}" defer></script>
+{{ end }}
+<script type="text/javascript" src="https://unpkg.com/imagekit-javascript/dist/imagekit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" async></script>
 
-{{ "<!-- cloudinary -->" | safeHTML }}
-<script type="text/javascript" async>
-    var cl = cloudinary.Cloudinary.new({cloud_name: "supersonicsites"}); 
-    // replace 'demo' with your cloud name in the line above 
-    cl.responsive();
-	</script>
 
 <script defer>
     AOS.init();
-  </script>
+</script>
+<script defer>
+    var imagekit = new ImageKit({
+    urlEndpoint: "https://ik.imagekit.io/supersonicsites"
+});  
+</script>

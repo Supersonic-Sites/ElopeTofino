@@ -59,6 +59,8 @@ X-Content-Type-Options = "nosniff"
 X-XSS-Protection = "1; mode=block"
 # Force HTTPS only.
 Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+# Load scripts only via HTTPS and from allowed domains.
+Content-Security-Policy = "default-src 'self'; script-src 'self' cdnjs.cloudflare.com cdn.jsdelivr.net; style-src 'self' unpkg.com"
 # Only send referred when HTTPS is used.
 Referrer-Policy = "strict-origin-when-cross-origin"
 # Disable certain magic features, lol.

@@ -41,6 +41,7 @@ collections:
               - { label: 'Site Name', name: 'sitename', widget: 'string' }
               - { label: 'Service Name', name: 'servicename', widget: 'string' }
               - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: "Video On Website", name: "videoOn", widget: "boolean", required: false }
               - { label: 'UseBasin Endpoint', name: 'usebasin', widget: 'string' }
               - { label: 'Google Map', name: 'googlemap', widget: 'string' }
               - { label: 'Tag Manager ID', name: 'gtm', widget: 'string' }
