@@ -2,14 +2,14 @@
 title: Homepage
 description: Lorem Ipsum
 components:
-  - cta2: Learn More
+  - cta2: Pricing
     img: ElopeTofino/ElopeTofino_Hero_Shot_zU9eYRaTnY.jpg
     cta_link: contact/
-    cta: Start Here
+    cta: Let's Talk
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
       mattis urna, non elementum ante suscipit in. Nam posuere est vel lorem
       gravida dictum. "
-    cta2_link: contact/
+    cta2_link: pricing/
     title: Elope Tofino Headline
     cta2_select: true
     type: hero
@@ -27,7 +27,7 @@ components:
       malesuada posuere nunc. "
   - type: divider
     bg_color: white
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+  - img: /ElopeTofino/getulio-moraes-jbtbin3u0Xw-unsplash_-1_O7GwE6.jpg
     aos: fade-up
     cta_link: contact/
     bg_color: white
@@ -48,6 +48,7 @@ components:
       elit egestas dolor, et euismod nisl sapien nec eros. Nullam et bibendum
       ligula. Integer commodo elementum dapibus. Praesent et leo et erat sodales
       tristique ut at mauris. Ut eget gravida urna.
+    aos_select: true
     title: Title about why people choose to elope
     type: img_half_right
   - type: divider
@@ -65,13 +66,103 @@ components:
       ullamcorper id velit id, malesuada posuere nunc.
   - type: divider
     bg_color: white
-  - type: pricing
-    bg_color: white
-  - type: divider_half
-    bg_color: white
   - type: testimonial_half
     bg_color: primary
+    testimonials:
+      - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
+        img_alt: Picture of Linda Eam-Shepherd during her wedding
+        name: Linda Eam-Shepherd
+        position: Elopement artist
+        desc: Thank you so much Emilie for our August 29,2020 wedding at Pettinger
+          Point. Our day turned out so amazing and perfect.  ❤️ Cam and Linda
+          and Andre (our doggie)
+        image_toggle: true
+      - img: ElopeTofino/testimonial_elope3_EbfKtcEA5i.jpg
+        img_alt: Picture of Georgia Belliveau
+        name: Georgia Belliveau
+        position: Eloped in 2013
+        desc: Thank you Emilie! We had a BEAUTIFUL elopement, thank you so much for
+          helping our day be so special and memorable. Everything was perfect 🙂
+          Georgia+Andrew+OscarDog
+        image_toggle: true
+      - img: ElopeTofino/testimonial_elope_1__XnkqzSzCj.jpg
+        img_alt: Picture of Alana Robb-Douglas alongside her testimonial
+        name: Alana Robb-Douglas
+        position: Proudly Married
+        desc: The whole experience was magical. We had an intimate beach wedding, and
+          planning it was so stress-free thanks to Emilie and her expertise. The
+          ceremony was exactly what we envisioned and our photos were absolutely
+          stunning thanks to Douglas. Thank you to everyone for giving us the
+          perfect wedding.
+        image_toggle: true
+      - img: ElopeTofino/elope_testimonial4_RuPLj4KoW.png
+        img_alt: Picture of Alix
+        name: Alix L.
+        position: Eloped in 2020
+        desc: I highly recommend Emilie from Elope Tofino to assist in coordinating your
+          intimate wedding! When both my husband and I met her the day before
+          our wedding as well as our wedding day, she made us feel relaxed and
+          comfortable. I am so thankful for all the hard work and care she put
+          into making our dream intimate beach wedding a reality!
+        image_toggle: true
   - type: divider
+    bg_color: white
+  - type: pricing
+    bg_color: white
+    title: Pricing
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta, mi
+      in accumsan varius, mi augue faucibus quam, a pharetra augue dui vel
+      magna. Donec eget mattis eros.
+    pricing_cards:
+      - cta: Let's Talk
+        cta_link: contact/
+        features:
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+        title: Intimate Elopement
+        desc: Starts at
+        price: $2,200
+      - cta: Let's Talk
+        cta_link: contact/
+        title: West Coast Elopement
+        desc: Starts at
+        price: $3,200
+        features:
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+      - cta: Let's Talk
+        cta_link: contact/
+        title: Tiny Wedding
+        desc: Starts at
+        price: $4,300
+        features:
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+      - cta: Let's Talk
+        cta_link: contact/
+        title: Adventure Elopement
+        desc: Starts at
+        price: $4,990
+        features:
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: Potenti felis, in cras at at ligula nunc.
+  - type: divider_half
     bg_color: white
   - type: faq_third
     title: Frequently asked questions
@@ -90,19 +181,14 @@ components:
           adipisicing elit. Quas cupiditate laboriosam fugiat.
   - type: divider2x
     bg_color: white
-  - type: heading_full
-    bg_color: white
-    title_size: small
-    title: Tell us about your love story!
-    desc_select: true
-    desc: Let's start a conversation about how to make your eloping dream come true.
-  - type: divider_half
-    bg_color: white
-  - type: form_center
-    bg_color: white
-    form_bg_color: primary
+  - bg_color: white
+    phone: +1 (555) 123-4567
     cta: Submit
-    usebasin: "#"
-  - type: divider
-    bg_color: white
+    desc: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa
+      dictumst amet. Sapien tortor lacus arcu.
+    title: Get In Touch
+    type: contact
+    email: support@example.com
+    address1: 742 Evergreen Terrace
+    address2: Springfield, OR 12345
 ---

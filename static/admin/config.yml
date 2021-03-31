@@ -178,7 +178,27 @@ collections:
             name: "pricing"
             widget: "object"
             fields:
-              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" } 
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title", name: "title", widget: "string", default: "Pricing Plans" } 
+              - { label: "Description", name: "desc", widget: "text", default: "Start building for free, then add a site plan to go live. Account plans unlock additional features." }
+              - label: "Cards"
+                name: "pricing_cards"
+                label_singular: "Pricing Card"
+                widget: "list"
+                fields: 
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - { label: "Price per month?", name: "price_monthly", widget: "boolean", required: false }
+                  - { label: "Call to Action", name: "cta", widget: "string", default: "Let's Talk" }
+                  - { label: "Call to Action Link", name: "cta_link", widget: "string", default: "contact/" }
+                  - label: "Features"
+                    name: features
+                    label_singular: "Feature"
+                    widget: "list"
+                    fields: 
+                      - { label: "Feature", name: "feature", widget: "string", default: "Potenti felis, in cras at at ligula nunc." }
+                    
 
           - label: "3 Columns Text Cards"
             name: "cards_third_text"
@@ -315,6 +335,18 @@ collections:
             widget: "object"
             fields:
               - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
+              - label: "Testimonials"
+                name: "testimonials"
+                label_singular: "Testimonial"
+                widget: "list"
+                fields: 
+                  - { label: "Testimonial Text", name: "desc", widget: "string" }
+                  - { label: "Image ON/OFF", name: "image_toggle", widget: "boolean", required: false }
+                  - { label: "Image", name: "img", widget: "string", default: "DEV/cropped-Supersonic-sites__logo-192x192__1__f85PI13RW.png" }
+                  - { label: "Image", name: "img_alt", widget: "string", default: "Description of the picture here" }
+                  - { label: "First and Last Name", name: "name", widget: "string", default: "Erica Bailey" }
+                  - { label: "Position", name: "position", widget: "string", default: "CEO at Tulip.com" }
+
 
           - label: "Video Full"
             name: "video_full"
