@@ -4,9 +4,9 @@
       <div class="flex items-center justify-between w-full lg:w-auto py-2 pl-2 md:pl-0">
         <a href="{{ .Site.BaseURL | absURL }}">
           <img class="" 
-          width="200px"
-          height="63px" 
-          src="https://ik.imagekit.io/supersonicsites/tr:ar-16-5,w-300,c_scale,f_auto,q_auto,dpr_auto,/DEV/logoipsum_hUIykKq5Y.png" alt="{{ .Site.Params.sitename }}">
+          width="125px"
+          height="125px" 
+          src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-125,c_scale,f_auto,q_auto,dpr_auto,/{{ .Site.Params.Schema.Logo }}" alt="{{ .Site.Params.sitename }}">
         </a>
 
         <!-- Mobile Menu Open Button -->
@@ -27,8 +27,8 @@
       <div class="hidden space-x-10 lg:flex lg:ml-10">
           <ul class="flex">
               {{ range .Site.Menus.main -}}
-              <li class="py-8 px-4 transition duration-500 border-b-4 text-lg border-transparent hover:border-primary hover:text-primary">        
-              <a class="font-bold" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+              <li class="py-8 px-4 transition duration-500 text-xl hover: hover:text-primary">        
+              <a class="" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
               {{ end }}
             </ul>
@@ -54,8 +54,8 @@
           <div>
           <img class=""
           width="200px"
-          height="63px" 
-          src="https://ik.imagekit.io/supersonicsites/tr:ar-16-5,w-200,c_scale,f_auto,q_auto,dpr_auto,/DEV/logoipsum_hUIykKq5Y.png" alt="{{ .Site.Params.sitename }}">
+          height="200px" 
+          src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-200,c_scale,f_auto,q_auto,dpr_auto,/{{ .Site.Params.Schema.Logo }}" alt="{{ .Site.Params.sitename }}">
           </div>
 
           <!-- Mobile Menu Close Button -->
@@ -77,11 +77,11 @@
           <div class="px-2 space-y-1">
               <ul class="flex flex-col items-center justify-center">
                   {{ range .Site.Menus.main -}}
-                  <li class="py-6 px-4 transition duration-500 border-b-4 border-transparent font-extrabold hover:text-primary focus:text-primary">        
-                  <a class="text-2xl font-bold" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  <li class="py-6 px-4 transition duration-500 border-b-4 border-transparent hover:text-primary focus:text-primary">        
+                  <a class="text-2xl" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                 </li>
                   {{ end }}
-                  <li class="my-6 text-2xl"><a href="tel:{{ .Site.Params.schema.phone }}" class="btn_primary">Call Now</a></li>
+                  
                 </ul>
           </div>
         </div>

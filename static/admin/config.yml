@@ -173,6 +173,12 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+          
+          - label: "Pricing Cards"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" } 
 
           - label: "3 Columns Text Cards"
             name: "cards_third_text"
@@ -303,6 +309,12 @@ collections:
                     - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
                     - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
                     - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+
+          - label: "Testimonial Half"
+            name: "testimonial_half"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
 
           - label: "Video Full"
             name: "video_full"

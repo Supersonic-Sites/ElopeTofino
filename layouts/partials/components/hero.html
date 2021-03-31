@@ -1,20 +1,20 @@
 
 <section 
-class="h-screen mt-20 md:mt-0 py-96 md:py-64 px-8 text-white flex bg-cover bg-center bg-cover bg-no-repeat" 
-style="background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1980,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }}');">
+class="h-96 mt-20 md:mt-0 py-96 md:py-82 px-8 text-white flex bg-cover bg-bottom bg-cover bg-no-repeat" 
+style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1980,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }}');">
 
   <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center md:items-start">
 
     <div class="lg:max-w-4xl" data-aos="fade" data-aos-duration="1500">
-      <p class="font-bold uppercase text-2xl text-center md:text-left" >
+      <p class=" uppercase text-2xl text-center md:text-left" >
 
         {{ .pre_title }}
       </p>
-    <h1 class="font-bold capitalize text-5xl md:text-7xl text-center md:text-left">
+    <h1 class="tracking-wide capitalize text-5xl md:text-7xl text-center md:text-left">
       {{ .title }}
     </h1>
 
-    <h2 class="font-bold capitalize text-xl md:text-2xl text-center md:text-left my-6">
+    <h2 class=" capitalize text-xl md:text-2xl text-center md:text-left my-6">
       {{ .desc | safeHTML }}
     </h2>
 

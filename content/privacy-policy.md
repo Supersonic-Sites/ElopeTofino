@@ -1,10 +1,9 @@
 ---
 title: Privacy Policy
-description: "The privacy policy of Brightest Days"
-companyname: "Rain Coast Rentals" #Company Name Here
-companyemail: "info@raincoastrentals.com" #Company Name Here
+description: The privacy policy of Elope Tofino
+companyname: Elope Tofino
+companyemail: contact@elopetofino.com
 layout: privacy_policy
-
 ---
 
 # Privacy Policy

@@ -1,6 +1,6 @@
 <section class="pb-12 md:pb-24">
     <div class="container max-w-7xl mx-auto px-4">
-    <h2 class="font-bold text-3xl md:text-5xl capitalize mt-12 mb-12 lg:mt-24 lg:mb-24">{{ .team.title }}</h2>
+    <h2 class=" text-3xl md:text-5xl capitalize mt-12 mb-12 lg:mt-24 lg:mb-24">{{ .team.title }}</h2>
 
 {{ range .team.members }}
 <div class="grid grid-cols-12 lg:gap-12 mb-20" data-aos="fade-right" data-aos-duration="800">
@@ -16,8 +16,8 @@
         class="lazyload shadow-xl" />
     </div>
     <div class="col-span-12 lg:col-span-9 flex flex-col">
-        <h2 class="text-3xl md:text-5xl mt-3 md:mt-0 font-bold">{{ .title }} </h2>
-        <p class="text-lg font-bold py-3">{{ .position }}</p>
+        <h2 class="text-3xl md:text-5xl mt-3 md:mt-0 ">{{ .title }} </h2>
+        <p class="text-lg  py-3">{{ .position }}</p>
         <p class="is-size-3"></p>
         <p class="text-lg">{{ .desc }}</p>
     </div>

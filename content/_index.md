@@ -2,85 +2,107 @@
 title: Homepage
 description: Lorem Ipsum
 components:
-  - cta2: Call To Action
-    img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+  - cta2: Learn More
+    img: ElopeTofino/ElopeTofino_Hero_Shot_zU9eYRaTnY.jpg
     cta_link: contact/
-    img_alt: Text
-    cta: Buy Now
-    desc: Lorem ipsum
+    cta: Start Here
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
+      mattis urna, non elementum ante suscipit in. Nam posuere est vel lorem
+      gravida dictum. "
     cta2_link: contact/
-    title1: Title
-    title2: Online
-    type: hero_half_img_diagonal
+    title: Elope Tofino Headline
+    cta2_select: true
+    type: hero
+    pre_title: Lorem Ipsum
   - type: divider
     bg_color: white
-  - type: cards_third_img
+  - type: heading_full
     bg_color: white
-    cards:
-      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-        img_alt: Please type in a description of the image
-        cta: Call To Action
-        cta_link: contact/
-        aos_select: true
-        aos: fade-up
-        title: Titre
-        desc: description
-  - type: cards_fourth_img
+    desc_select: true
+    title_size: medium
+    title: Lorem ipsum dolor sit amet, consectetur adipiscing.
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
+      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
+      malesuada posuere nunc. "
+  - type: divider
     bg_color: white
-    cards:
-      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-        img_alt: Please type in a description of the image
-        cta: Call To Action
-        cta_link: contact/
-        aos: fade-up
-        aos_select: true
-        title: Title
-        desc: Descript
-  - type: cards_half_img
-    bg_color: white
-    cards:
-      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-        img_alt: Please type in a description of the image
-        cta: Call To Action
-        cta_link: contact/
-        aos: fade-up
-        title: Title
-        desc: Description
   - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
     aos: fade-up
     cta_link: contact/
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: Description
-    title: Title
-    type: img_half_left
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-    aos: zoom-in
-    cta_link: contact/
-    bg_color: white
-    img_alt: Please type in a description of the image
-    cta: Call To Action
-    desc: description
-    title: title
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
+      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
+      malesuada posuere nunc. Quisque lobortis semper mi vel rutrum. Praesent
+      bibendum, arcu sit amet pellentesque iaculis, sem elit egestas dolor, et
+      euismod nisl sapien nec eros. Nullam et bibendum ligula. Integer commodo
+      elementum dapibus. Praesent et leo et erat sodales tristique ut at mauris.
+      Ut eget gravida urna.<br><br>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Pellentesque vitae condimentum dolor. Nunc consequat arcu
+      a tempor pulvinar. Nullam vitae ultrices tellus. Integer dolor libero,
+      ullamcorper id velit id, malesuada posuere nunc. Quisque lobortis semper
+      mi vel rutrum. Praesent bibendum, arcu sit amet pellentesque iaculis, sem
+      elit egestas dolor, et euismod nisl sapien nec eros. Nullam et bibendum
+      ligula. Integer commodo elementum dapibus. Praesent et leo et erat sodales
+      tristique ut at mauris. Ut eget gravida urna.
+    title: Title about why people choose to elope
     type: img_half_right
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-    aos: zoom-in
-    cta_link: contact/
+  - type: divider
     bg_color: white
-    img_alt: Please type in a description of the image
-    cta: Call To Action
-    desc: Description
-    aos_select: true
-    title: Title
-    type: img_third_left
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-    aos: zoom-in
-    cta_link: contact/
+  - type: video_half_left
     bg_color: white
-    img_alt: Please type in a description of the image
-    cta: Call To Action
-    desc: description
-    title: title
-    type: img_third_right
+    VideoID: sXgzPQGHrU8
+    title: About Tofino & Ucluelet
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
+      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
+      malesuada posuere nunc.<br><br>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Pellentesque vitae condimentum dolor. Nunc consequat arcu
+      a tempor pulvinar. Nullam vitae ultrices tellus. Integer dolor libero,
+      ullamcorper id velit id, malesuada posuere nunc.
+  - type: divider
+    bg_color: white
+  - type: pricing
+    bg_color: white
+  - type: divider_half
+    bg_color: white
+  - type: testimonial_half
+    bg_color: primary
+  - type: divider
+    bg_color: white
+  - type: faq_third
+    title: Frequently asked questions
+    desc: Can’t find the answer you’re looking for? Reach out to our
+    cta: customer support.
+    cta_link: contact/
+    faqs:
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: How to you make holy water?
+        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
+          adipisicing elit. Quas cupiditate laboriosam fugiat.
+  - type: divider2x
+    bg_color: white
+  - type: heading_full
+    bg_color: white
+    title_size: small
+    title: Tell us about your love story!
+    desc_select: true
+    desc: Let's start a conversation about how to make your eloping dream come true.
+  - type: divider_half
+    bg_color: white
+  - type: form_center
+    bg_color: white
+    form_bg_color: primary
+    cta: Submit
+    usebasin: "#"
+  - type: divider
+    bg_color: white
 ---

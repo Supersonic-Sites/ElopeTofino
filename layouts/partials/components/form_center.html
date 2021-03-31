@@ -9,9 +9,9 @@
           <div class="field">
 
             {{ if eq .form_bg_color "white" }}
-            <label for="form_name" class="font-bold text-white mb-3">First Name *</label>
+            <label for="form_name" class=" text-white mb-3">First Name *</label>
             {{ else }}
-            <label for="form_name" class="font-bold text-black mb-3">First Name *</label>
+            <label for="form_name" class=" text-black mb-3">First Name *</label>
             {{ end }}
 
             <div class="my-2">
@@ -22,9 +22,9 @@
     
           <div class="field">
             {{ if eq .form_bg_color "white" }}
-            <label class="font-bold mb-3 text-white" for="email">Email *</label>
+            <label class=" mb-3 text-white" for="email">Email *</label>
             {{ else }}
-            <label class="font-bold mb-3 text-black" for="email">Email *</label>
+            <label class=" mb-3 text-black" for="email">Email *</label>
             {{ end }}
 
             <div class="my-2">
@@ -35,9 +35,9 @@
     
           <div class="field">
             {{ if eq .form_bg_color "white" }}
-            <label class="font-bold mb-3 text-white" for="phone">Phone Number</label>
+            <label class=" mb-3 text-white" for="phone">Phone Number</label>
             {{ else }}
-            <label class="font-bold mb-3 text-black" for="phone">Phone Number</label>
+            <label class=" mb-3 text-black" for="phone">Phone Number</label>
             {{ end }}
             <div class="my-2">
               <input id="phone" name="phone" class="border py-2 px-3 text-grey-darkest w-full" type="tel" placeholder="e.g. +1-234-567-7890" />
@@ -46,9 +46,9 @@
     
           <div class="field">
             {{ if eq .form_bg_color "white" }}
-            <label for="form_message" class="font-bold mb-3 text-white">Message *</label>
+            <label for="form_message" class=" mb-3 text-white">Message *</label>
             {{ else }}
-            <label for="form_message" class="font-bold mb-3 text-black">Message *</label>
+            <label for="form_message" class=" mb-3 text-black">Message *</label>
             {{ end }}
             <div class="my-2">
             <textarea id="form_message" name="message" class="border py-2 px-3 text-grey-darkest w-full" rows="4" required
