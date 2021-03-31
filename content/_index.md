@@ -72,7 +72,7 @@ components:
       - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
         img_alt: Picture of Linda Eam-Shepherd during her wedding
         name: Linda Eam-Shepherd
-        position: Elopement artist
+        position: Eloped in 2020
         desc: Thank you so much Emilie for our August 29,2020 wedding at Pettinger
           Point. Our day turned out so amazing and perfect.  ❤️ Cam and Linda
           and Andre (our doggie)
@@ -88,7 +88,7 @@ components:
       - img: ElopeTofino/testimonial_elope_1__XnkqzSzCj.jpg
         img_alt: Picture of Alana Robb-Douglas alongside her testimonial
         name: Alana Robb-Douglas
-        position: Proudly Married
+        position: Eloped in 2020
         desc: The whole experience was magical. We had an intimate beach wedding, and
           planning it was so stress-free thanks to Emilie and her expertise. The
           ceremony was exactly what we envisioned and our photos were absolutely
