@@ -50,6 +50,8 @@ Cache-Control = "public, max-age=604800"
 [[headers]]
   for = "/*"
   [headers.values]
+    # We don't use iframes. Block them.
+    X-Frame-Options = "DENY"
     # Don't allow Mime-sniffing.
     X-Content-Type-Options = "nosniff"
     # Add reflective XSS protection.
