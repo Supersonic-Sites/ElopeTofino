@@ -425,6 +425,36 @@ collections:
                 - { label: "CTA #2", name: "cta2", widget: "string", default: "Call To Action" }
                 - { label: "CTA Link #2", name: "cta2_link", widget: "string", default: "contact/" }
 
+          - label: "Hero Half Form"
+            name: "hero_half_form"
+            widget: "object"
+            fields:
+              - { label: "BG Color (Override Image)", name: "bg_toggle", widget: "boolean", required: false }
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "primary" }
+              - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Title", name: "title1", widget: "string" }
+              - { label: "Colored Part Of The Title", name: "title2", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Form Title", name: "form_title", widget: "string" }
+              - { label: "UseBasin Endpoint", name: "usebasin", widget: "string" }
+              - { label: "Call to Action", name: "cta", widget: "string" }
+
+          - label: "Hero Diagonal"
+            name: "hero_half_img_diagonal"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+              - { label: "Image Alt Text", name: "img_alt", widget: "string" }
+              - { label: "Title", name: "title1", widget: "string" }
+              - { label: "Colored Part Of The Title", name: "title2", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "CTA", name: "cta", widget: "string" }
+              - { label: "CTA Link", name: "cta_link", widget: "string" }
+              - { label: "CTA 2 ON/OFF", name: "cta2_select", widget: "boolean", required: false }
+              - { label: "CTA #2", name: "cta2", widget: "string", default: "Call To Action" }
+              - { label: "CTA Link #2", name: "cta2_link", widget: "string", default: "contact/" }
+
+
           - label: "Heading Fullwidth"
             name: "heading_full"
             widget: "object"
@@ -457,6 +487,15 @@ collections:
               - { label: "Phone Number", name: "phone", widget: "string", default: "+1 (555) 123-4567" }
               - { label: "Email", name: "email", widget: "string", default: "support@example.com" }
               - { label: "UseBasin Endpoint", name: "usebasin", widget: "string" }
+              - { label: "CTA Button", name: "cta", widget: "string", default: "Submit" }
+
+          - label: "Centered Form"
+            name: "form_center"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Form Background Color", name: "form_bg_color", widget: "string", default: "white" }
+              - { label: "Usebasin Endpoint", name: "usebasin", widget: "string" }
               - { label: "CTA Button", name: "cta", widget: "string", default: "Submit" }
 
           - label: "FAQ One Third"
