@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://soniccms.netlify.app/"
 title = "Supersonic Sites Library"
 description = "Lorem Ipsum"
 languageCode = "en-ca"
