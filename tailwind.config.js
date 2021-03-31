@@ -46,7 +46,7 @@ module.exports = {
         ],
       },
       colors: {
-        'primary': '#969f91',
+        'primary': '#7d9172',
       }
     },
     fill: theme => ({
