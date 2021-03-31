@@ -2,66 +2,27 @@
 title: Homepage
 description: Lorem Ipsum
 components:
-  - type: video_full
-    VideoID: dQw4w9WgXcQ
-  - type: cards_fourth_img
+  - cta2: Call To Action
+    img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+    cta_link: contact/
+    img_alt: Text
+    cta: Buy Now
+    desc: Lorem ipsum
+    cta2_link: contact/
+    title1: Title
+    title2: Online
+    type: hero_half_img_diagonal
+  - type: divider
+    bg_color: white
+  - type: cards_third_img
     bg_color: white
     cards:
       - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
         img_alt: Please type in a description of the image
         cta: Call To Action
         cta_link: contact/
-        aos: zoom-in
-        title: Title
-        desc: Description
         aos_select: true
-      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-        img_alt: Please type in a description of the image
-        cta: Call To Action
-        cta_link: contact/
-        aos: zoom-in
-        aos_select: true
-        title: Title
+        aos: fade-up
+        title: Titre
         desc: description
-      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-        img_alt: Please type in a description of the image
-        cta: Call To Action
-        cta_link: contact/
-        aos: zoom-in
-        aos_select: true
-        title: Title
-        desc: Description
-      - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-        img_alt: Please type in a description of the image
-        cta: Call To Action
-        cta_link: contact/
-        aos_select: true
-        aos: zoom-in
-        title: Title
-        desc: Description
-  - type: video_half_left
-    bg_color: white
-    VideoID: dQw4w9WgXcQ
-    title: Title
-    desc: Description
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-    aos: zoom-in
-    cta_link: contact/
-    bg_color: white
-    img_alt: Please type in a description of the image
-    cta: Call To Action
-    desc: Description
-    aos_select: true
-    title: Title
-    type: img_full
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
-    aos: zoom-in
-    cta_link: contact/
-    bg_color: white
-    img_alt: Please type in a description of the image
-    cta: Call To Action
-    desc: Description
-    aos_select: true
-    title: Title
-    type: img_third_right
 ---

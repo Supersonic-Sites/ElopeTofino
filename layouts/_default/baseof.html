@@ -12,7 +12,7 @@
       {{ $styles = $styles | minify }}
     {{ end }}
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
   </head>
