@@ -19,7 +19,7 @@ components:
   - type: heading_full
     bg_color: white
     desc_select: true
-    title_size: medium
+    title_size: small
     title: Lorem ipsum dolor sit amet, consectetur adipiscing.
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
       vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
@@ -179,7 +179,7 @@ components:
       - question: How to you make holy water?
         answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
           adipisicing elit. Quas cupiditate laboriosam fugiat.
-  - type: divider2x
+  - type: divider
     bg_color: white
   - bg_color: white
     phone: +1 (555) 123-4567

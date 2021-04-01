@@ -1,37 +1,33 @@
-
-<section 
-class="h-96 md:mt-0 py-96 md:py-82 px-8 text-white flex bg-cover bg-bottom bg-cover bg-no-repeat" 
-style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1980,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }}');">
+<section class="h-96 md:mt-0 py-96 md:py-82 px-8 text-white flex bg-cover bg-bottom bg-cover bg-no-repeat"
+  style="background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://ik.imagekit.io/supersonicsites/tr:ar-4-3,w-1980,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }}');">
 
   <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center md:items-start">
 
     <div class="lg:max-w-4xl" data-aos="fade" data-aos-duration="1500">
-      <p class=" uppercase text-2xl text-center md:text-left" >
+      <p class=" uppercase text-2xl text-center md:text-left">
 
         {{ .pre_title }}
       </p>
-    <h1 class="tracking-wide font-bold capitalize text-5xl md:text-7xl text-center md:text-left">
-      {{ .title }}
-    </h1>
+      <h1 class="tracking-wide font-bold capitalize text-5xl md:text-7xl text-center md:text-left">
+        {{ .title }}
+      </h1>
 
-    <h2 class=" capitalize text-xl md:text-2xl text-center md:text-left my-6">
-      {{ .desc | safeHTML }}
-    </h2>
+      <h2 class="capitalize text-xl md:text-2xl text-center md:text-left mt-4 mb-6">
+        {{ .desc | safeHTML }}
+      </h2>
 
-    <div class="flex flex-col items-center md:flex-row">
-    <a href="{{ .cta_link }}"
-      class="transition duration-500 text-center w-52 mb-2 md:mb-0 md:mr-2 btn_primary">
-      {{ .cta }}
-    </a>
-    {{ if .cta2_select }}
-    <a href="{{ .cta2_link }}"
-    class="transition duration-500 w-52 text-center btn_secondary">
-    {{ .cta2 }}
-  </a>
-    {{ else }}
-    <span></span>
-  {{ end }}
+      <div class="flex flex-col items-center md:flex-row">
+        <a href="{{ .cta_link }}" class="transition duration-500 text-center w-52 mb-2 md:mb-0 md:mr-2 btn_primary">
+          {{ .cta }}
+        </a>
+        {{ if .cta2_select }}
+        <a href="{{ .cta2_link }}" class="transition duration-500 w-52 text-center btn_secondary">
+          {{ .cta2 }}
+        </a>
+        {{ else }}
+        <span></span>
+        {{ end }}
+      </div>
+    </div>
   </div>
-  </div>
-  </div>
-  </section>
+</section>
