@@ -47,6 +47,7 @@ module.exports = {
       },
       colors: {
         'primary': '#7d9172',
+        'stars': '#fdcc0d',
       }
     },
     fill: theme => ({
