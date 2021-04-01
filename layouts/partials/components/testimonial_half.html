@@ -18,9 +18,12 @@
           <div class="flex items-start">
             {{ if .image_toggle }}
             <div class="flex-shrink-0 inline-flex rounded-full border-2 border-white">
-              <img class="h-20 w-20 rounded-full"
+              <img class="h-20 w-20 rounded-full lazyload"
                 src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-256,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }}"
-                alt="{{ .img_alt }}">
+                alt="{{ .img_alt }}"
+                width="200px"
+                height="200px"
+                >
             </div>
             {{ end }}
             <div class="ml-4">

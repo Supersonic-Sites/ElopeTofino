@@ -12,6 +12,8 @@ for (var i = 0; i < youtube.length; i++) {
         image.addEventListener( "load", function() {
             youtube[ i ].appendChild( image );
         }( i ) );
+        image.setAttribute("class", "lazyload");
+        image.setAttribute("alt","Placeholder picture of the video");
 
         youtube[i].addEventListener( "click", function() {
  
@@ -20,6 +22,7 @@ for (var i = 0; i < youtube.length; i++) {
                 iframe.setAttribute( "frameborder", "0" );
                 iframe.setAttribute( "allowfullscreen", "" );
                 iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+                iframe.setAttribute("class", "lazyload");
      
                 this.innerHTML = "";
                 this.appendChild( iframe );
