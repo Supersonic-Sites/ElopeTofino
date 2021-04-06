@@ -50,7 +50,6 @@ components:
 
       </ul>
 
-      <br><br>
 
       If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. <br><br>
 
