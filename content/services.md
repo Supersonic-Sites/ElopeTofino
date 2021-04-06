@@ -16,9 +16,11 @@ components:
     img_alt: Please type in a description of the image
     cta: Call To Action
     desc: >
-      Are you looking for a small getaway wedding with just you, your spouse to
-      be, and two witnesses? If yes, then the Intimate Elopement package is the
-      perfect choice for you! <br><br>
+      Starting at $2,200 the Intimate Elopement is a meaningful and affordable
+      alternative to a large and complicated financially stressful wedding.
+      <br><br>
+
+      Are you looking for a small getaway wedding with just you, your spouse to be, and two witnesses? If yes, then the Intimate Elopement package is the perfect choice for you! <br><br>
 
       In this package, you’ll receive:<br><br>
 
@@ -47,7 +49,7 @@ components:
       If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. Choose your favourite flowers, your choice of cake, and your favourite location. <br><br>
 
       It’s as simple as that - it only takes a few back and forth emails and your job is done! I’ll start talking to vendors and work out all the details. You just need to book your accommodation and arrive the day before your stress-free wedding, ready to enjoy your intimate celebration! 
-    title: Intimate Elopement - Starting at $2,200
+    title: Intimate Elopement
     type: img_half_right
   - type: divider2x
     bg_color: white
