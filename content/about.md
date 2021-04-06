@@ -41,7 +41,10 @@ components:
         title_size: small
         cta_link: contact/
         cta: contact
-        desc: Lorem Ipsum
+        desc: "Elope Tofino uses photographers know and love the area. Capture your
+          wedding day in Vancouver Island’s wild beauty through the eyes and art
+          of someone who knows it best. Check out the photo gallery for their
+          impressive repertoire! "
         aos_select: true
         subtitle: Lorem Ipsum
         title: Relish Local Talent
@@ -55,7 +58,11 @@ components:
         title_size: small
         cta_link: contact/
         cta: contact
-        desc: consectetur lectus ut, ornare purus.
+        desc: >
+          You describe your dream wedding to the last detail and Elope Tofino
+          takes care of the rest. All you need to do is book your accommodation
+          and show up the night before for a quick itinerary debrief. And on the
+          day off, get ready, get married, and enjoy! 
         aos_select: true
         subtitle: consectetur lectus ut, ornare purus.
         title: Stress Free Planning
@@ -68,7 +75,11 @@ components:
         title_size: small
         cta_link: contact/
         cta: contact
-        desc: consectetur lectus ut, ornare purus.
+        desc: >
+          Do you want it to be just you and 2 witnesses, or a small gathering
+          with the most important people in your life? Do you envision a quiet
+          beach wedding or an exciting helicopter adventure? Check out our 4
+          Wedding Packages to see what’s the right fit for you!
         aos_select: true
         subtitle: consectetur lectus ut, ornare purus.
         title: Array of Choices
