@@ -14,18 +14,16 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget
-      enim quis diam molestie luctus. Etiam aliquam in neque sed rhoncus.
-      Phasellus cursus consectetur nunc, eu auctor nulla imperdiet sed. Quisque
-      egestas viverra libero vel condimentum. Nam id mi viverra, consectetur
-      lectus ut, ornare purus. Pellentesque elit mauris, eleifend sed leo at,
-      tristique vestibulum neque. Quisque sagittis pretium elementum. Phasellus
-      vitae sapien cursus purus euismod dignissim at nec mauris. Cras nec
-      feugiat nulla. Quisque non accumsan orci. Nulla ac sem arcu. Donec velit
-      enim, elementum vitae finibus laoreet, commodo et lorem. Sed egestas eros
-      eget dictum vestibulum. Nunc imperdiet commodo pretium. Maecenas erat
-      orci, semper rhoncus ante quis, commodo maximus ipsum. Nam a feugiat
-      lectus.
+    desc: >
+      “Why would people limit themselves to a single lodge when they could get
+      married on a gorgeous beach, by a rainforest, or take a helicopter to a
+      mountain? An elopement wedding has so much more to offer.” <br><br>
+
+      Growing up in France, Emilie enjoyed many small intimate celebrations. The beauty and simplicity of small gatherings stayed with her after she moved to Canada and settled in Ucluelet and Tofino. 
+
+      Emilie fell in love with the wild spaces of Vancouver Island - the surfing culture, the landscape, and the small village community. She took her experience in big event planning and started working as the head wedding coordinator at Black Rock Resort, where she coordinated many luxurious large weddings. After planning over a hundred weddings at the Resort, Emilie was introduced to the concept of elopements. She was struck by the limitations of a large resort wedding and the endless possibilities of a small, intimate marriage celebration. <br><br>
+
+      Emilie started Elope Tofino in 2018 and has never looked back. Her vast wedding planning experience, her passion for small weddings, her care for the bride & groom, and her knowledge and appreciation for the beauty of the West Coast makes an Elope Tofino wedding an intimate event not to forget. 
     aos_select: true
     title: A Passion For Small Weddings
     type: img_half_right
