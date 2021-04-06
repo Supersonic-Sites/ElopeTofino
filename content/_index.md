@@ -48,7 +48,7 @@ components:
       It’s YOUR special day. But big weddings turn the focus on the guests, not on you. And it shouldn’t be that way. You shouldn’t feel obligated to perform on your wedding day. <br><br>
 
 
-      So why not just...run away? Tell us your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. We provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful stress free celebration of your relationship and the start of a new adventure together. 
+      So why not just...run away? Tell us your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. We provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
     aos_select: true
     title: Who said eloping can’t be fun and meaningful?
     type: img_half_right
