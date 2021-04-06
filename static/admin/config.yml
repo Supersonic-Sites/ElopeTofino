@@ -518,10 +518,28 @@ collections:
             widget: "object"
             fields:
               - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Text Aligned", name: "align",  widget: "select", options: ["left", "center"], default: "center"}
               - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
-              - { label: "Description", name: "desc", widget: "text" }                
+              - { label: "Description", name: "desc", widget: "text" }    
+              
+          - label: "People Section"
+            name: "team1"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - label: "Member"
+                name: "member"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                  - { label: "Image Alt Text", name: "img_alt", widget: "string" }  
+
 
           - label: "Call to Action Bar"
             name: "cta"

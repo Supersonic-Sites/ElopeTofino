@@ -1,31 +1,33 @@
 
 <div class="bg-white">
     <div class="container max-w-7xl mx-auto px-4">
-      <div class="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-8">
-        <div class="space-y-5 sm:space-y-4">
-          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">{{ .title }}</h2>
-          <p class="text-xl text-gray-500">{{ .desc }}</p>
+      <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
+        <div class="space-y-5 sm:space-y-4 lg:col-span-4">
+          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">{{ .title | safeHTML }}</h2>
+          <p class="text-xl text-gray-500">{{ .desc | safeHTML }}</p>
         </div>
-        <div class="lg:col-span-2">
+        <div class="lg:col-span-8">
           <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
               {{ range .member }}
             <li>
               <div class="flex items-center space-x-4 lg:space-x-6">
                 <img src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-150,bl-30,q-50,/{{ .img }}"
                 sizes="100vw"
-                width="584px"
-                height="584px"
+                width="150px"
+                height="150px"
                 data-srcset="
-                https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-150,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
-                https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-150,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
-                https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-150,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
-                data-src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-150,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
+                https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-250,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
+                https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-250,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
+                https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-250,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
+                data-src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-250,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
                 class="lazyload w-16 h-16 rounded-full lg:w-20 lg:h-20" alt="{{ .img_alt }}" />
                 
                 
                 <div class="font-medium text-lg leading-6 space-y-1">
                   <h3>{{ .title }}</h3>
-                  <p class="text-indigo-600">{{ .desc }}</p>
+                  {{ if .desc_select }}
+                  <p class="">{{ .desc  | safeHTML }}</p>
+                  {{ end }}
                 </div>
               </div>
             </li>
