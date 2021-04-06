@@ -110,10 +110,13 @@ components:
     bg_color: white
   - type: pricing
     bg_color: white
-    title: Pricing
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta, mi
-      in accumsan varius, mi augue faucibus quam, a pharetra augue dui vel
-      magna. Donec eget mattis eros.
+    title: Packages & Pricing
+    desc: >
+      What’s your dream wedding? Do you want it to be just you and 2 witnesses,
+      or a small gathering with the most important people in your life? Do you
+      envision a quiet beach wedding or an unforgettable helicopter ride and
+      adventure? Check out our 4 Wedding Packages to see what’s the right fit
+      for you! 
     pricing_cards:
       - cta: Let's Talk
         cta_link: contact/
@@ -185,7 +188,7 @@ components:
   - bg_color: white
     phone: +1 (555) 123-4567
     cta: Submit
-    desc: "We want to hear your story. Contact us today to see if a Elope Tofino
+    desc: "We want to hear your story. Contact us today to see if an Elope Tofino
       wedding is the right fit for you! "
     title: Get In Touch
     type: contact
