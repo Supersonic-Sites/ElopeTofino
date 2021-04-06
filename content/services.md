@@ -86,7 +86,7 @@ components:
 
       <li>Two witnesses </li>
 
-      <li>Marriage licence assistance</li>
+      <li>Marriage license assistance</li>
 
       <li>Signing table </li>
 
@@ -132,7 +132,7 @@ components:
 
       <li>3h professional photography</li>
 
-      <li>Marriage licence assistance</li>
+      <li>Marriage license assistance</li>
 
       <li>Signing table</li> 
 
@@ -161,7 +161,43 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: Lorem Ipsum
+    desc: >
+      If you’re eloping, why not elope in true style! You’re skipping traditions
+      anyway, so why not bypass the walk down the aisle and ride in a helicopter
+      instead! Starting at $4,990, the Adventure Elopement takes your elopement
+      to new heights...literally. 
+
+      <br><br>This exciting package includes:<br><br>
+
+      <ul>
+
+      <li>2 HOUR HELICOPTER TOUR</li>
+
+      <li>Bride(s) bouquet(s)</li>
+
+      <li>Groom(s) boutonniere(s)</li>
+
+      <li>Bridal hair & makeup</li>
+
+      <li>2h photography</li>
+
+      <li>BC marriage officiant</li> 
+
+      <li>Two witnesses</li> 
+
+      <li>Marriage license assistance</li>
+
+      <li>Wedding cake for two</li>
+
+      <li>Coordination of the day</li>
+
+      <li>Sparkling wine</li>
+
+      </ul><br><br>
+
+      If you’re ready for an adventure, contact me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your exciting elopement adventure! <br><br>
+
+      It’s as easy as that! After a few emails back and forth, your job is done. I’ll take care of everything. You just need to book your accommodation and arrive the day before your wedding, ready to enjoy the thrills of your special day. 
     title: Service 4
     type: img_half_left
   - type: divider
