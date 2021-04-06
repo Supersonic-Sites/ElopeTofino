@@ -198,7 +198,7 @@ components:
       If you’re ready for an adventure, contact me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your exciting elopement adventure! <br><br>
 
       It’s as easy as that! After a few emails back and forth, your job is done. I’ll take care of everything. You just need to book your accommodation and arrive the day before your wedding, ready to enjoy the thrills of your special day. 
-    title: Service 4
+    title: Adventure Elopement
     type: img_half_left
   - type: divider
     bg_color: white
