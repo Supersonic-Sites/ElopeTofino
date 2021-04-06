@@ -48,8 +48,7 @@ components:
 
       <li>Rain Plan</li>
 
-      </ul>
-
+      </ul><br><br>
 
       If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. <br><br>
 
@@ -97,8 +96,7 @@ components:
 
       <li>Rain Plan</li>
 
-      </ul>
-
+      </ul><br><br>
 
       If you’ve decided you want a West Coast Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. Choose your favourite flowers, your choice of cake, and your favourite location. <br><br>
 
@@ -146,7 +144,7 @@ components:
 
       <li>Rain plan​</li>
 
-      </ul>
+      </ul><br><br>
 
       Note that this package does NOT include a venue rental fee or the costs of drinks, dinners, or entertainment. <br><br>
 
