@@ -26,32 +26,31 @@ components:
 
       <ul>
 
-      item 1
-
-      <li>item 2</li>
-
-
       <li>2h of personal consultation and planning</li>
 
-      Coordination of the day 
+      <li>Coordination of the day</li> 
 
-      BC marriage officiant
+      <li>BC marriage officiant</li>
 
-      Bride(s) bouquet(s)
+      <li>Bride(s) bouquet(s)</li>
 
-      Groom(s) boutonniere(s) 
+      <li>Groom(s) boutonniere(s)</li>
 
-      1h professional photography
+      <li>1h professional photography</li>
 
-      Two witnesses
+      <li>Two witnesses</li>
 
-      Marriage licence assistance
+      <li>Marriage licence assistance</li>
 
-      Signing table 
+      <li>Signing table</li>
 
-      Access to curated locations list
+      <li>Access to curated locations list</li>
 
-      Rain Plan</ul><br><br>
+      <li>Rain Plan</li>
+
+      </ul>
+
+      <br><br>
 
       If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. <br><br>
 
