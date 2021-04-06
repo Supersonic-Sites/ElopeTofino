@@ -21,11 +21,13 @@ components:
     bg_color: white
     desc_select: true
     title_size: small
-    title: Lorem ipsum dolor sit amet, consectetur adipiscing.
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
-      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
-      malesuada posuere nunc. "
+    title: "Who said eloping can't be fun and meaningful? "
+    desc: ELOPE /ɪˈLƏƱP/, VERB <br><br> eloped, eloping, elopement  <br><br>​  1. to
+      run away secretly for the purpose of getting married with one’s intended
+      spouse; to marry in a quick or private fashion, especially without a
+      public period of engagement. <br><br> 2. to run off secretly to be
+      married, usually without the consent or knowledge of one’s parents.
+      <br><br> 3. to run away with a lover
   - type: divider
     bg_color: white
   - img: /ElopeTofino/getulio-moraes-jbtbin3u0Xw-unsplash_-1_O7GwE6.jpg
