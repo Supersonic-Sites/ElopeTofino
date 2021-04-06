@@ -62,7 +62,7 @@ components:
           You describe your dream wedding to the last detail and Elope Tofino
           takes care of the rest. All you need to do is book your accommodation
           and show up the night before for a quick itinerary debrief. And on the
-          day off, get ready, get married, and enjoy! 
+          day of, get ready, get married, and enjoy! 
         aos_select: true
         subtitle: consectetur lectus ut, ornare purus.
         title: Stress Free Planning
