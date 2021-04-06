@@ -347,6 +347,19 @@ collections:
                   - { label: "First and Last Name", name: "name", widget: "string", default: "Erica Bailey" }
                   - { label: "Position", name: "position", widget: "string", default: "CEO at Tulip.com" }
 
+          - label: "Gallery"
+            name: "gallery"
+            widget: "object"
+            fields:
+                - label: "Images"
+                  name: "images"
+                  label_singular: "image"
+                  widget: "list"
+                  fields: 
+                    - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
+                    - { label: "Text Overlay for credits", name: "overlay", widget: "string", default: "ot-overlays%20made%20easy,ots-45,otc-000000,otbg-FFFFFF75;ox-35,oy-30," }
+                    - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
+
 
           - label: "Video Full"
             name: "video_full"
@@ -508,7 +521,7 @@ collections:
               - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
-              - { label: "Description", name: "desc", widget: "string" }                
+              - { label: "Description", name: "desc", widget: "text" }                
 
           - label: "Call to Action Bar"
             name: "cta"

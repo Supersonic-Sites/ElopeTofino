@@ -8,7 +8,7 @@ components:
     title: About Us
   - type: divider
     bg_color: white
-  - img: DEV/michael-dam-mEZ3PoFGs_k-unsplash_FNVafooB3n.jpg
+  - img: ElopeTofino/IMG_0322_BXh5moMLj.jpg
     aos: zoom-in
     cta_link: contact/
     bg_color: white

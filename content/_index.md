@@ -20,11 +20,12 @@ components:
     bg_color: white
     desc_select: true
     title_size: small
-    title: Lorem ipsum dolor sit amet, consectetur adipiscing.
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
-      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
-      malesuada posuere nunc. "
+    title: Why Do People Choose To Elope?
+    desc: Some couples choose to elope to avoid the stress and cost associated with
+      a “conventional” wedding they would be expected to host at home. For
+      others, it’s the sense of adventure and romance that comes with getting
+      married by the ocean. Our packages make it even simpler to organize your
+      elopement or intimate wedding in Tofino & Ucluelet !
   - type: divider
     bg_color: white
   - img: /ElopeTofino/getulio-moraes-jbtbin3u0Xw-unsplash_-1_O7GwE6.jpg
@@ -64,8 +65,28 @@ components:
       adipiscing elit. Pellentesque vitae condimentum dolor. Nunc consequat arcu
       a tempor pulvinar. Nullam vitae ultrices tellus. Integer dolor libero,
       ullamcorper id velit id, malesuada posuere nunc.
-  - type: divider
+  - type: divider_half
     bg_color: white
+  - type: gallery
+    images:
+      - img: ElopeTofino/eloopetofino_fQKctZkfE.jpg
+        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
+        img_alt: Please type in a description of the image
+      - img: /ElopeTofino/elopetofino4_8WhBRUEHW.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
+        img_alt: Please type in a description of the image
+      - img: ElopeTofino/elopetofino_FGbbm7uDsy.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
+        img_alt: Please type in a description of the image
+      - img: ElopeTofino/elopetofino5_U3hA1Oq-Y.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
+        img_alt: Please type in a description of the image
+      - img: ElopeTofino/elopetofino2_DXPjIg4zo.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
+        img_alt: Please type in a description of the image
+      - img: ElopeTofino/elopetofino3_23cCp9osx.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
+        img_alt: Please type in a description of the image
   - type: testimonial_half
     bg_color: primary
     testimonials:

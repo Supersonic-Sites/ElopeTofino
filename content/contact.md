@@ -4,9 +4,9 @@ description: Lorem Ipsum
 components:
   - type: header_sub
     bg_color: primary
-    img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+    img: ElopeTofino/wedding_fjkjslXvm.jpg
     title: Contact Us
-    bg_toggle: true
+    bg_toggle: false
   - bg_color: white
     phone: +1 (555) 123-4567
     cta: Submit

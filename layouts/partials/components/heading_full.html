@@ -25,7 +25,7 @@
             {{ end }}
 
             {{ if .desc_select }}
-            <p class="mt-6 max-w-5xl mx-auto text-black text-center text-xl">{{ .desc }}</p>
+            <p class="mt-6 max-w-5xl mx-auto text-black text-center text-xl">{{ .desc | safeHTML  }}</p>
             {{ end }}           
         {{ else }}
 
@@ -49,7 +49,7 @@
 
         
         {{ if .desc_select }}
-        <p class="mt-6 text-center max-w-5xl mx-auto text-xl text-white">{{ .desc }}</p>
+        <p class="mt-6 text-center max-w-5xl mx-auto text-xl text-white">{{ .desc | safeHTML }}</p>
         {{ end }}      
 
 
