@@ -6,26 +6,28 @@ components:
     img: ElopeTofino/ElopeTofino_Hero_Shot_zU9eYRaTnY.jpg
     cta_link: contact/
     cta: Let's Talk
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-      mattis urna, non elementum ante suscipit in. Nam posuere est vel lorem
-      gravida dictum. "
+    desc: >+
+      Flee from stress. Drop the extras. <br><br> Memorialize your special day
+      with an intimate and meaningful celebration.  
+
     cta2_link: pricing/
-    title: Elope Tofino Headline
+    title: Elope Tofino
     cta2_select: true
     type: hero
-    pre_title: Lorem Ipsum
+    pre_title: Just do you with
   - type: divider
     bg_color: white
   - type: heading_full
     bg_color: white
     desc_select: true
     title_size: small
-    title: Why Do People Choose To Elope?
-    desc: Some couples choose to elope to avoid the stress and cost associated with
-      a “conventional” wedding they would be expected to host at home. For
-      others, it’s the sense of adventure and romance that comes with getting
-      married by the ocean. Our packages make it even simpler to organize your
-      elopement or intimate wedding in Tofino & Ucluelet !
+    title: ELOPE /ɪˈLƏƱP/, VERB
+    desc: eloped, eloping, elopement  <br><br>​  1. to run away secretly for the
+      purpose of getting married with one’s intended spouse; to marry in a quick
+      or private fashion, especially without a public period of engagement.
+      <br><br> 2. to run off secretly to be married, usually without the consent
+      or knowledge of one’s parents. <br><br> 3. to run away with a lover
+      <br><br>
   - type: divider
     bg_color: white
   - img: /ElopeTofino/getulio-moraes-jbtbin3u0Xw-unsplash_-1_O7GwE6.jpg
@@ -34,23 +36,21 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
-      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
-      malesuada posuere nunc. Quisque lobortis semper mi vel rutrum. Praesent
-      bibendum, arcu sit amet pellentesque iaculis, sem elit egestas dolor, et
-      euismod nisl sapien nec eros. Nullam et bibendum ligula. Integer commodo
-      elementum dapibus. Praesent et leo et erat sodales tristique ut at mauris.
-      Ut eget gravida urna.<br><br>Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Pellentesque vitae condimentum dolor. Nunc consequat arcu
-      a tempor pulvinar. Nullam vitae ultrices tellus. Integer dolor libero,
-      ullamcorper id velit id, malesuada posuere nunc. Quisque lobortis semper
-      mi vel rutrum. Praesent bibendum, arcu sit amet pellentesque iaculis, sem
-      elit egestas dolor, et euismod nisl sapien nec eros. Nullam et bibendum
-      ligula. Integer commodo elementum dapibus. Praesent et leo et erat sodales
-      tristique ut at mauris. Ut eget gravida urna.
+    desc: >
+      Weddings are expensive. Especially big weddings. Maybe you saw the price
+      tag of a wedding venue or a catering quote for 200 guests and realized it
+      could be a downpayment for a house! Or maybe you’re struggling with the
+      guest list, trying to decide which friends to invite...and which to
+      ignore. You don’t want to worry about these financial and social stresses
+      when planning your big day. <br><br>
+
+
+      It’s YOUR special day. But big weddings turn the focus on the guests, not on you. And it shouldn’t be that way. You shouldn’t feel obligated to perform on your wedding day. <br><br>
+
+
+      So why not just...run away? Tell us your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. We provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
     aos_select: true
-    title: Title about why people choose to elope
+    title: Who said eloping can’t be fun and meaningful?
     type: img_half_right
   - type: divider
     bg_color: white
@@ -58,14 +58,14 @@ components:
     bg_color: white
     VideoID: sXgzPQGHrU8
     title: About Tofino & Ucluelet
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
-      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
-      malesuada posuere nunc.<br><br>Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Pellentesque vitae condimentum dolor. Nunc consequat arcu
-      a tempor pulvinar. Nullam vitae ultrices tellus. Integer dolor libero,
-      ullamcorper id velit id, malesuada posuere nunc.
-  - type: divider_half
+    desc: >
+      Nature and the great outdoors is your church. The sound of the waves is
+      your music. The lush green of the rainforest is your backdrop. A remote
+      inlet is your aisle. <br><br>
+
+
+      Tofino and Ucluelet, two remote villages on Vancouver Island, embody paradise. Tofino boasts of picturesque sandy beaches while Ucluelet offers a glorious and rugged coastline. Celebrate your intimate wedding in one of the most beautiful and isolated locations this world has to offer. 
+  - type: divider
     bg_color: white
   - type: gallery
     images:
@@ -130,10 +130,13 @@ components:
     bg_color: white
   - type: pricing
     bg_color: white
-    title: Pricing
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta, mi
-      in accumsan varius, mi augue faucibus quam, a pharetra augue dui vel
-      magna. Donec eget mattis eros.
+    title: Packages & Pricing
+    desc: >
+      What’s your dream wedding? Do you want it to be just you and 2 witnesses,
+      or a small gathering with the most important people in your life? Do you
+      envision a quiet beach wedding or an unforgettable helicopter ride and
+      adventure? Check out our 4 Wedding Packages to see what’s the right fit
+      for you! 
     pricing_cards:
       - cta: Let's Talk
         cta_link: contact/
@@ -205,8 +208,8 @@ components:
   - bg_color: white
     phone: +1 (555) 123-4567
     cta: Submit
-    desc: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa
-      dictumst amet. Sapien tortor lacus arcu.
+    desc: "We want to hear your story. Contact us today to see if an Elope Tofino
+      wedding is the right fit for you! "
     title: Get In Touch
     type: contact
     email: support@example.com
