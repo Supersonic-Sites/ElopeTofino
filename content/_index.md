@@ -7,8 +7,8 @@ components:
     cta_link: contact/
     cta: Let's Talk
     desc: >+
-      Flee from stress. Drop the extras. <br><br> Memorialize your special day
-      with an intimate and meaningful celebration.  
+      Flee from stress. Drop the extras. Memorialize your special day with an
+      intimate and meaningful celebration.  
 
     cta2_link: pricing/
     title: Elope Tofino
@@ -48,7 +48,7 @@ components:
       It’s YOUR special day. But big weddings turn the focus on the guests, not on you. And it shouldn’t be that way. You shouldn’t feel obligated to perform on your wedding day. <br><br>
 
 
-      So why not just...run away? Tell us your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. We provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
+      So why not just...run away? Tell me your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. I provide intimate and meaningful weddings for 2-10 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
     aos_select: true
     title: Who said eloping can’t be fun and meaningful?
     type: img_half_right
@@ -64,7 +64,7 @@ components:
       inlet is your aisle. <br><br>
 
 
-      Tofino and Ucluelet, two remote villages on Vancouver Island, embody paradise. Tofino boasts of picturesque sandy beaches while Ucluelet offers a glorious and rugged coastline. Celebrate your intimate wedding in one of the most beautiful and isolated locations this world has to offer. 
+      Tofino and Ucluelet, two remote villages on Vancouver Island, embody paradise. Tofino boasts of picturesque sandy beaches while Ucluelet offers a glorious and rugged coastline. Celebrate your intimate wedding in one of the most beautiful and isolated locations this world has to offer. I work solely with local people, photographers who really know and love the area and will spectacularly capture every aspect of your day.
   - type: divider
     bg_color: white
   - type: gallery
@@ -135,8 +135,8 @@ components:
       What’s your dream wedding? Do you want it to be just you and 2 witnesses,
       or a small gathering with the most important people in your life? Do you
       envision a quiet beach wedding or an unforgettable helicopter ride and
-      adventure? Check out our 4 Wedding Packages to see what’s the right fit
-      for you! 
+      adventure? Check out my 4 Wedding Packages to see what’s the right fit for
+      you! 
     pricing_cards:
       - cta: Let's Talk
         cta_link: contact/
@@ -194,21 +194,36 @@ components:
     cta: customer support.
     cta_link: contact/
     faqs:
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: Can I have more than 8 guests?
+        answer: I wish I could say yes, but unfortunately 10 pers is the max in BC due
+          to Covid-19 restrictions. There is nothing I can do until the
+          restrictions are lifted.
+      - question: Can I bring my dog?
+        answer: >-
+          Yes, we love furry friends! Just be aware that most of the beaches
+          have an “on-leash"
+
+          policy.
+      - question: Can I customize the package and add on services?
+        answer: "Yes, if you would like to add more photography time, a flower crown, a
+          videographer, a live musician, or a bridesmaid bouquet, I'm happy to
+          arrange this for you. "
+      - question: What venue are you using?
+        answer: "I offer venues on the beach, the forest, the cliffs, and hidden coves.
+          We live in one of the most beautiful places in the world and I like to
+          take advantage of it! "
+      - question: What if it rains?
+        answer: Rain is part of Tofino and Ucluelet's charm. On a light rain day, I
+          provide cute umbrellas. I find that most couples are game and are
+          willing to embrace our rainforest microclimate and still get married
+          outside. If the rain is too intense, we will use a cute hidden gazebo
+          I've reserved for your wedding. Let me know if you want more details!
   - type: divider
     bg_color: white
   - bg_color: white
     phone: +1 (555) 123-4567
     cta: Submit
-    desc: "We want to hear your story. Contact us today to see if an Elope Tofino
+    desc: "I want to hear your story. Contact me today to see if an Elope Tofino
       wedding is the right fit for you! "
     title: Get In Touch
     type: contact
