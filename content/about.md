@@ -44,7 +44,7 @@ components:
         desc: Lorem Ipsum
         aos_select: true
         subtitle: Lorem Ipsum
-        title: Lorem Ipsum
+        title: Relish Local Talent
         shadow_select: true
         title_color: primary
         divider_color: black
@@ -58,7 +58,7 @@ components:
         desc: consectetur lectus ut, ornare purus.
         aos_select: true
         subtitle: consectetur lectus ut, ornare purus.
-        title: Lorem Ipsum
+        title: Stress Free Planning
         shadow_select: true
         title_color: primary
         divider_color: black
@@ -71,7 +71,7 @@ components:
         desc: consectetur lectus ut, ornare purus.
         aos_select: true
         subtitle: consectetur lectus ut, ornare purus.
-        title: Lorem Ipsum
+        title: Array of Choices
         shadow_select: true
         title_color: primary
         divider_color: black
