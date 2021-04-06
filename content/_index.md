@@ -36,23 +36,21 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-      vitae condimentum dolor. Nunc consequat arcu a tempor pulvinar. Nullam
-      vitae ultrices tellus. Integer dolor libero, ullamcorper id velit id,
-      malesuada posuere nunc. Quisque lobortis semper mi vel rutrum. Praesent
-      bibendum, arcu sit amet pellentesque iaculis, sem elit egestas dolor, et
-      euismod nisl sapien nec eros. Nullam et bibendum ligula. Integer commodo
-      elementum dapibus. Praesent et leo et erat sodales tristique ut at mauris.
-      Ut eget gravida urna.<br><br>Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Pellentesque vitae condimentum dolor. Nunc consequat arcu
-      a tempor pulvinar. Nullam vitae ultrices tellus. Integer dolor libero,
-      ullamcorper id velit id, malesuada posuere nunc. Quisque lobortis semper
-      mi vel rutrum. Praesent bibendum, arcu sit amet pellentesque iaculis, sem
-      elit egestas dolor, et euismod nisl sapien nec eros. Nullam et bibendum
-      ligula. Integer commodo elementum dapibus. Praesent et leo et erat sodales
-      tristique ut at mauris. Ut eget gravida urna.
+    desc: >
+      Weddings are expensive. Especially big weddings. Maybe you saw the price
+      tag of a wedding venue or a catering quote for 200 guests and realized it
+      could be a downpayment for a house! Or maybe you’re struggling with the
+      guest list, trying to decide which friends to invite...and which to
+      ignore. You don’t want to worry about these financial and social stresses
+      when planning your big day. <br><br>
+
+
+      It’s YOUR special day. But big weddings turn the focus on the guests, not on you. And it shouldn’t be that way. You shouldn’t feel obligated to perform on your wedding day. <br><br>
+
+
+      So why not just...run away? Tell us your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. We provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful stress free celebration of your relationship and the start of a new adventure together. 
     aos_select: true
-    title: Title about why people choose to elope
+    title: Who said eloping can’t be fun and meaningful?
     type: img_half_right
   - type: divider
     bg_color: white
