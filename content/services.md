@@ -114,7 +114,7 @@ components:
     desc: >
       Do you still want a wedding but with only your closest friends and family
       present? The Tiny Wedding Package, starting at $4,300, is the perfect
-      option for you. You’ll receive:
+      option for you. You’ll receive:<br><br>
 
       <ul>
 
