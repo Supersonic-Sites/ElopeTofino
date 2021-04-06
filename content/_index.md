@@ -7,8 +7,8 @@ components:
     cta_link: contact/
     cta: Let's Talk
     desc: >+
-      Flee from stress. Drop the extras. <br><br> Memorialize your special day
-      with an intimate and meaningful celebration.  
+      Flee from stress. Drop the extras. Memorialize your special day with an
+      intimate and meaningful celebration.  
 
     cta2_link: pricing/
     title: Elope Tofino
