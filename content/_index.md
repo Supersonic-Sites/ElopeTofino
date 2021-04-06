@@ -6,14 +6,14 @@ components:
     img: ElopeTofino/ElopeTofino_Hero_Shot_zU9eYRaTnY.jpg
     cta_link: contact/
     cta: Let's Talk
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-      mattis urna, non elementum ante suscipit in. Nam posuere est vel lorem
-      gravida dictum. "
+    desc: >
+      Drop the extras. Memorialize your special day with an intimate and
+      meaningful celebration.  
     cta2_link: pricing/
-    title: Elope Tofino Headline
+    title: Elope Tofino
     cta2_select: true
     type: hero
-    pre_title: Lorem Ipsum
+    pre_title: Just do you with
   - type: divider
     bg_color: white
   - type: heading_full
