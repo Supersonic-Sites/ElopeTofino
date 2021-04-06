@@ -78,7 +78,7 @@ components:
         desc: >
           Do you want it to be just you and 2 witnesses, or a small gathering
           with the most important people in your life? Do you envision a quiet
-          beach wedding or an exciting helicopter adventure? Check out our 4
+          beach wedding or an exciting helicopter adventure? Check out the 4
           Wedding Packages to see what’s the right fit for you!
         aos_select: true
         subtitle: consectetur lectus ut, ornare purus.
