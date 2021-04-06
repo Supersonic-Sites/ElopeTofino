@@ -86,7 +86,7 @@ components:
 
       <li>Two witnesses </li>
 
-      <li>Marriage license assistance</li>
+      <li>Marriage licence assistance</li>
 
       <li>Signing table </li>
 
@@ -132,7 +132,7 @@ components:
 
       <li>3h professional photography</li>
 
-      <li>Marriage license assistance</li>
+      <li>Marriage licence assistance</li>
 
       <li>Signing table</li> 
 
@@ -185,7 +185,7 @@ components:
 
       <li>Two witnesses</li> 
 
-      <li>Marriage license assistance</li>
+      <li>Marriage licence assistance</li>
 
       <li>Wedding cake for two</li>
 
