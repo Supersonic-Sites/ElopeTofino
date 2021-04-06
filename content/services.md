@@ -65,7 +65,46 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: Lorem ipsum
+    desc: >
+      Starting at $3,200, the West Coast Elopement Package offers you a small
+      and meaningful celebration with extra touches like hair and makeup, and a
+      delicious wedding cake for two! This package includes:
+
+      <ul>
+
+      <li>3h of personal consultation and planning</li> 
+
+      <li>Coordination of the day </li>
+
+      <li>BC marriage officiant</li>
+
+      <li>Bride(s) bouquet(s)</li>
+
+      <li>Groom(s) boutonniere(s)</li> 
+
+      <li>Bridal hair & makeup</li>
+
+      <li>2h professional photography</li>
+
+      <li>Two witnesses </li>
+
+      <li>Marriage licence assistance</li>
+
+      <li>Signing table </li>
+
+      <li>Wedding cake for two</li>
+
+      <li>Access to curated locations list</li>
+
+      <li>Rain Plan</li>
+
+      </ul>
+
+      <br><br>
+
+      If you’ve decided you want a West Coast Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. Choose your favourite flowers, your choice of cake, and your favourite location. <br><br>
+
+      And that’s it! After a few emails back and forth, your job is done. I’ll take care of the rest. You just need to book your accommodation and arrive the day before your stress-free wedding, ready to enjoy your intimate celebration! 
     title: "West Coast Elopement "
     type: img_half_left
   - type: divider2x
