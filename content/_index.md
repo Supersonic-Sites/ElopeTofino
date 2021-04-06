@@ -201,12 +201,17 @@ components:
         desc: Starts at
         price: $4,990
         features:
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: 2 HOUR HELICOPTER TOUR
+          - feature: Bride(s) bouquet(s)
+          - feature: "Groom(s) boutonniere(s) "
+          - feature: Bridal hair & makeup
+          - feature: 2h photography
+          - feature: "BC marriage officiant "
+          - feature: "Two witnesses "
+          - feature: Marriage licence assistance
+          - feature: Wedding cake for two
+          - feature: Coordination of the day
+          - feature: Sparkling wine
   - type: divider_half
     bg_color: white
   - type: faq_third
