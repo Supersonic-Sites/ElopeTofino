@@ -48,7 +48,7 @@ components:
       It’s YOUR special day. But big weddings turn the focus on the guests, not on you. And it shouldn’t be that way. You shouldn’t feel obligated to perform on your wedding day. <br><br>
 
 
-      So why not just...run away? Tell us your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. We provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
+      So why not just...run away? Tell me your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. I provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
     aos_select: true
     title: Who said eloping can’t be fun and meaningful?
     type: img_half_right
@@ -64,7 +64,7 @@ components:
       inlet is your aisle. <br><br>
 
 
-      Tofino and Ucluelet, two remote villages on Vancouver Island, embody paradise. Tofino boasts of picturesque sandy beaches while Ucluelet offers a glorious and rugged coastline. Celebrate your intimate wedding in one of the most beautiful and isolated locations this world has to offer. We work solely with local people, photographers who really know and love the area and will spectacularly capture every aspect of your day.
+      Tofino and Ucluelet, two remote villages on Vancouver Island, embody paradise. Tofino boasts of picturesque sandy beaches while Ucluelet offers a glorious and rugged coastline. Celebrate your intimate wedding in one of the most beautiful and isolated locations this world has to offer. I work solely with local people, photographers who really know and love the area and will spectacularly capture every aspect of your day.
   - type: divider
     bg_color: white
   - type: gallery
@@ -135,8 +135,8 @@ components:
       What’s your dream wedding? Do you want it to be just you and 2 witnesses,
       or a small gathering with the most important people in your life? Do you
       envision a quiet beach wedding or an unforgettable helicopter ride and
-      adventure? Check out our 4 Wedding Packages to see what’s the right fit
-      for you! 
+      adventure? Check out my 4 Wedding Packages to see what’s the right fit for
+      you! 
     pricing_cards:
       - cta: Let's Talk
         cta_link: contact/
@@ -208,7 +208,7 @@ components:
   - bg_color: white
     phone: +1 (555) 123-4567
     cta: Submit
-    desc: "We want to hear your story. Contact us today to see if an Elope Tofino
+    desc: "I want to hear your story. Contact me today to see if an Elope Tofino
       wedding is the right fit for you! "
     title: Get In Touch
     type: contact
