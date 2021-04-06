@@ -194,15 +194,30 @@ components:
     cta: customer support.
     cta_link: contact/
     faqs:
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
-      - question: How to you make holy water?
-        answer: You boil the hell out of it. orem ipsum dolor sit amet consectetur
-          adipisicing elit. Quas cupiditate laboriosam fugiat.
+      - question: Can I have more than 8 guests?
+        answer: I wish I could say yes, but unfortunately 10 pers is the max in BC due
+          to Covid-19 restrictions. There is nothing I can do until the
+          restrictions are lifted.
+      - question: Can I bring my dog?
+        answer: >-
+          Yes, we love furry friends! Just be aware that most of the beaches
+          have an “on-leash"
+
+          policy.
+      - question: Can I customize the package and add on services?
+        answer: "Yes, if you would like to add more photography time, a flower crown, a
+          videographer, a live musician, or a bridesmaid bouquet, I'm happy to
+          arrange this for you. "
+      - question: What venue are you using?
+        answer: "I offer venues on the beach, the forest, the cliffs, and hidden coves.
+          We live in one of the most beautiful places in the world and I like to
+          take advantage of it! "
+      - question: What if it rains?
+        answer: Rain is part of Tofino and Ucluelet's charm. On a light rain day, I
+          provide cute umbrellas. I find that most couples are game and are
+          willing to embrace our rainforest microclimate and still get married
+          outside. If the rain is too intense, we will use a cute hidden gazebo
+          I've reserved for your wedding. Let me know if you want more details!
   - type: divider
     bg_color: white
   - bg_color: white
