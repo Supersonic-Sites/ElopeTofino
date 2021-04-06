@@ -19,7 +19,7 @@ components:
       married on a gorgeous beach, by a rainforest, or take a helicopter to a
       mountain? An elopement wedding has so much more to offer.” <br><br>
 
-      Growing up in France, Emilie enjoyed many small intimate celebrations. The beauty and simplicity of small gatherings stayed with her after she moved to Canada and settled in Ucluelet and Tofino. 
+      Growing up in France, Emilie enjoyed many small intimate celebrations. The beauty and simplicity of small gatherings stayed with her after she moved to Canada and settled in Ucluelet and Tofino. <br><br> 
 
       Emilie fell in love with the wild spaces of Vancouver Island - the surfing culture, the landscape, and the small village community. She took her experience in big event planning and started working as the head wedding coordinator at Black Rock Resort, where she coordinated many luxurious large weddings. After planning over a hundred weddings at the Resort, Emilie was introduced to the concept of elopements. She was struck by the limitations of a large resort wedding and the endless possibilities of a small, intimate marriage celebration. <br><br>
 
