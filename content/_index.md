@@ -161,12 +161,19 @@ components:
         desc: Starts at
         price: $3,200
         features:
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: "3h of personal consultation and planning "
+          - feature: "Coordination of the day "
+          - feature: BC marriage officiant
+          - feature: Bride(s) bouquet(s)
+          - feature: "Groom(s) boutonniere(s) "
+          - feature: Bridal hair & makeup
+          - feature: 2h professional photography
+          - feature: "Two witnesses "
+          - feature: Marriage licence assistance
+          - feature: "Signing table "
+          - feature: Wedding cake for two
+          - feature: Access to curated locations list
+          - feature: Rain Plan
       - cta: Let's Talk
         cta_link: contact/
         title: Tiny Wedding
