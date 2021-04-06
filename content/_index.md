@@ -180,12 +180,21 @@ components:
         desc: Starts at
         price: $4,300
         features:
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
-          - feature: Potenti felis, in cras at at ligula nunc.
+          - feature: "4h of personal  consultation and planning "
+          - feature: BC marriage officiant
+          - feature: Bride(s) bouquet(s)
+          - feature: "Groom(s) boutonniere(s) "
+          - feature: "Bridal hair styling "
+          - feature: Professional makeup
+          - feature: 3h professional photography
+          - feature: Marriage licence assistance
+          - feature: "Signing table "
+          - feature: "Wedding cake for up to 10 "
+          - feature: Meat & cheese platter for up to 10
+          - feature: Access to curated locations list
+          - feature: Rain plan​
+          - feature: Does NOT include venue rental fee, costs of drinks, dinners, or
+              entertainment
       - cta: Let's Talk
         cta_link: contact/
         title: Adventure Elopement
