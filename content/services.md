@@ -24,7 +24,14 @@ components:
 
       In this package, you’ll receive:<br><br>
 
-      2h of personal consultation and planning
+      <ul>
+
+      item 1
+
+      <li>item 2</li>
+
+
+      <li>2h of personal consultation and planning</li>
 
       Coordination of the day 
 
@@ -44,7 +51,7 @@ components:
 
       Access to curated locations list
 
-      Rain Plan<br><br>
+      Rain Plan</ul><br><br>
 
       If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. <br><br>
 
@@ -60,7 +67,7 @@ components:
     img_alt: Please type in a description of the image
     cta: Call To Action
     desc: Lorem ipsum
-    title: Service 2
+    title: "West Coast Elopement "
     type: img_half_left
   - type: divider2x
     bg_color: white
