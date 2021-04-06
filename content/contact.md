@@ -10,8 +10,10 @@ components:
   - bg_color: white
     phone: +1 (555) 123-4567
     cta: Submit
-    desc: Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa
-      dictumst amet. Sapien tortor lacus arcu.
+    desc: >+
+      We want to hear your story. Contact us today to see if an Elope Tofino
+      wedding is the right fit for you!
+
     title: Get In Touch
     type: contact
     email: support@example.com
