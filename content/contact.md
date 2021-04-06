@@ -11,7 +11,7 @@ components:
     phone: +1 (555) 123-4567
     cta: Submit
     desc: >+
-      We want to hear your story. Contact us today to see if an Elope Tofino
+      I want to hear your story. Contact me today to see if an Elope Tofino
       wedding is the right fit for you!
 
     title: Get In Touch
