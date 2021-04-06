@@ -41,10 +41,10 @@ components:
         title_size: small
         cta_link: contact/
         cta: contact
-        desc: "Elope Tofino uses photographers know and love the area. Capture your
-          wedding day in Vancouver Island’s wild beauty through the eyes and art
-          of someone who knows it best. Check out the photo gallery for their
-          impressive repertoire! "
+        desc: "Elope Tofino only uses local photographers who know and love the area.
+          Capture your wedding day in Vancouver Island’s wild beauty through the
+          eyes and art of someone who knows it best. Check out the photo gallery
+          for their impressive repertoire! "
         aos_select: true
         subtitle: Lorem Ipsum
         title: Relish Local Talent
