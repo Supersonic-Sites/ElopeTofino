@@ -28,8 +28,6 @@ components:
     aos_select: true
     title: A Passion For Small Weddings
     type: img_half_right
-  - type: divider
-    bg_color: white
   - type: cards_third_text
     bg_color: white
     cards:
