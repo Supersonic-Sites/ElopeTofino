@@ -13,7 +13,7 @@ components:
 
     cta2_link: "#pricing"
     title: Elope Tofino
-    cta2_select: true
+    cta2_select: false
     type: hero
     pre_title: Just do you with
   - type: divider
