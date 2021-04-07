@@ -6,7 +6,7 @@ components:
   - type: header_sub
     bg_color: primary
     img: ElopeTofino/wedding_fjkjslXvm.jpg
-    title: About Us
+    title: About Me
   - type: divider
     bg_color: white
   - img: ElopeTofino/IMG_0322_BXh5moMLj.jpg
