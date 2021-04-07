@@ -1,6 +1,7 @@
 ---
-title: Elopement Guide
-description: SEO description here
+title: Personalize your Tofino Elopement with the Elopement Guide
+description: Choose every detail of your elopement and let Elope Tofino take
+  care of the rest
 components:
   - type: header_sub
     bg_color: primary
@@ -15,8 +16,8 @@ components:
     desc: Each package include all the essentials to ensure a stress-free and
       memorable wedding, elopement or vow renewal, whilst still allowing you to
       add on extra optional services if needed. By only working with trusted
-      suppliers that are great at what they do, we ensure that everything runs
-      as smoothly as possible on your wedding day.
+      suppliers that are great at what they do, I ensure that everything runs as
+      smoothly as possible on your wedding day.
     desc_select: true
     title: All you need to know to get started
   - type: divider
@@ -26,7 +27,7 @@ components:
     desc: >-
       <h3 class="text-3xl font-bold">Choose a Photographer</h3><br>
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in magna vel dolor ultricies eleifend. Nulla ultrices et velit id porta. Donec sit amet dolor elit. Donec mattis turpis odio, in dignissim tortor maximus in. Donec odio libero, cursus sed tortor efficitur, ullamcorper tempor ligula.
+      I only work with local people who know and and love this incredible area. Check out this list of amazing photographers, ready to capture every detail of your special day. 
     team1:
       - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
         title: Agathe Bernard
