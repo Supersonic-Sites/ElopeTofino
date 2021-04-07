@@ -1,6 +1,7 @@
 ---
-title: About Us
-description: About us description of the page
+title: Get a Pro Wedding Planner to Plan Your Tofino Elopement
+description: Elope Tofino has a passion for small weddings and creating
+  meaningful intimate celebrations
 components:
   - type: header_sub
     bg_color: primary
