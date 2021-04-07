@@ -1,6 +1,7 @@
 ---
-title: Homepage
-description: Lorem Ipsum
+title: All-Inclusive Intimate Elopement Packages in Tofino & Ucluelet
+description: Enjoy an intimate, fun, and meaningful Elopement wedding in the
+  picturesque and wild beauty of Tofino & Ucluelet
 components:
   - cta2: Pricing
     img: ElopeTofino/ElopeTofino_Hero_Shot_zU9eYRaTnY.jpg
