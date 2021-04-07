@@ -97,7 +97,6 @@
       "flex-row",
       "flex-shrink-0",
       "focus-ring-inset",
-      "focus:bg-primary",
       "focus:border-white",
       "focus:outline-none",
       "focus:ring-2",

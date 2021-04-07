@@ -4,7 +4,7 @@ description: Enjoy an intimate, fun, and meaningful Elopement wedding in the
   picturesque and wild beauty of Tofino & Ucluelet
 components:
   - cta2: Pricing
-    img: ElopeTofino/ElopeTofino_Hero_Shot_zU9eYRaTnY.jpg
+    img: ElopeTofino/PLP_20_08_FrankYoonie-37_kCiPv11SlW.jpg
     cta_link: contact/
     cta: Let's Talk
     desc: >+
@@ -255,7 +255,7 @@ components:
       wedding is the right fit for you! "
     title: Get In Touch
     type: contact
-    email: support@example.com
+    email: contact@elopetofino.com
     address1: 742 Evergreen Terrace
     address2: Springfield, OR 12345
 ---
