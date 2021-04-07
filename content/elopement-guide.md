@@ -292,4 +292,81 @@ components:
         <object data="https://lh3.googleusercontent.com/f_mAvNjdR6zmrsSOdae6LPX81xYvH4ttFt-Ee2u4omaYwALpWlIYnnaQDw-5jrvxpUvRMFocTtRZm07VDHhcVcw4zQzhoSAT8U_Qh2RaLHXtp5xg_6g7XbGh7vaT1RFEl_nu080-xg=w1920-h1080"></object>
         <object data="https://lh3.googleusercontent.com/Q8fBxReABfDL4ZjvePWYZus07h-q3inkMv4SL3JVlHPmYsJi8RXb8r6uySizZuV9eysKP8qebi9fXQoX0AN_esSBap3JLEuhR7nbO_UGRGm7zd_6-XiRnN3asLOn24g38rHaTh6OsA=w1920-h1080"></object>
       </div>
+  - type: divider
+    bg_color: white
+  - type: gallery-small
+    bg_color: white
+    title: " Tonquin Beach"
+    desc: >-
+      Tonquin offers white sand, sheltered coves and stunning sunsets. With its
+      westerly exposure, Tonquin has the advantage of full sun throughout the
+      day. Continuing along the trail at the top of the stairs will lead to the
+      Lighthouse Trail, which weaves through the forest along the scenic
+      coastline.<br><br>
+
+      <ul>
+
+      <li class="mb-2"><strong>Location:</strong> Tofino</li>
+
+      <li class="mb-2"><strong>Type:</strong> Sandy Beach</li>
+
+      <li class="mb-2"><strong>Access:</strong> 5 min walking</li>
+
+      <li class="mb-2"><strong>Capacity:</strong> 15</li>
+
+      <li class="mb-2"><strong>Privacy:</strong> Medium</li>
+
+      </ul>
+    code: >
+      <script
+      src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js"
+      async></script>
+
+      <div class="pa-gallery-player-widget w-full shadow-2xl" style="width:100%; height:390px; display:none;"
+        data-link="https://photos.app.goo.gl/QvFYJ2TYPvM6mdBq6"
+        data-title="Tonquin Beach"
+        data-description="11 new photos added to shared album">
+        <object data="https://lh3.googleusercontent.com/sWLQaXlyQrUlOeo4B09HETWkX7_8akloMPOtBq5wI4eyIesct2WOMkEgvvD7ob3xJfkzL9zQLq7sb0hLG2ln4ePe2dMrfjD4Vk8jAcTBe6WhSWa2f94bTmL6QzO_DbbeuaodFw48Ng=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/obU718o_xGnHKbdHG2HACI9bBb-_-2w4_OVUxwjqp4d7cCQPtT5BvE2-AamZ0JQ2IOfAic0IWDlE9yLSeJOSC33MQRfEd40b-LCSA3wpBV1KgPITXVa5zG59aCpmrDKqRtkP0uHslA=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/9aRowFJdBcmeTEFOHxz4Q4hMSHbKywI7lQEbhPzMdFwwZ6f3fn7bRAx8kZfCNC18r-K0yXgeOpjTinMOVWd1lFAd32gjL5NHA7Bc2IW2PKAMKZVEGLdRCzJ6Q7_N-hLZhHlvN6MQSw=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/pywO6Ho2dIkiorW2Fa7QJoaB2oQaKyQ2fvXAiUxa4YraPJ6RnnzxyT-biqusrwFqPUS_FR8QHcAknZwoPxDtKbacnMS2ItIa6GVELKd3k8lifkpNLjJFn4fCvQegXLMJADsWGGApOA=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/pOIrk628msMZTAbZUGKTmlTZf6a5qlFXUbBNAoqczkGg__uCOh0JrBLORWStTTM7hB8bUdemvnovsUY30WdwrWQSPTxAgWXLB_b3VznX9bWE2ioOsg0cJMAV8UHYjidx2UGbqUapUA=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/0yF2VvY3THUXMhWR4JfXp6yYG6Pge8FjRADz5xzhPNy0NXLuv9qnNM7dD3G4723ukpSO3TYKWOu4NtvFtItP2Jb_6bZg3GsN8DcM8Om8Nf7ftGkdd-1RsOO1wY6jnogkIlP1ypAAOQ=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/q_xCB9KWIvEIL9FAdObExZzWE_vOg_5_s9EQgW0Q2p0BMAWIVQkiQFUNY2Mb1m2k3vzZxPk4pL-wV8fAeOtv_ePAxdagkOiSyg8xgoDiu0wz1duXL0ozZczzxs6rUikZ62GAi7jU4A=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/OISLiZ3fUwyBGDjSy9OOa5Dzq3asW1uNgtUIYv39gADVR1nzYB3ly_9WDehkCIkO-Kaf_xysxE8SM5kV3sltZ447CUqxvZlPYudS5iqZhNx6lKU5j_CIjdPLHEprFsoml1d-KDysww=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/hRd5PtgIc28xeCqUrefjzu7rw_zZNRl75Strl1bHAWhFWq8jUO3IePqZX6jhD6KWHEbdjgtXRjJx07FFUKhl0Lo9UEkgqK4m4IGzWf2lHLH9_UsCN51mlLliAWnq13ATw_h__KmaVg=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/rNJtNTb9hn5dvlBRoB1Duf_tE2DWq2ku9wyqKdnpQ_AHDbJaFVNe3vin7YkLZo--ldL05st-HiiGHntNEVaq8DFLZttYlQzSQ_v4PUBZchA-biZESbq83WU4Gs6Wo5wN_49c4lhWVg=w1920-h1080"></object>
+        <object data="https://lh3.googleusercontent.com/LhPt2pOptERgYScWxo7dM9IvgJDU_F5djydDVyFE0NKW20pvyHPJNc-xaapeKpqD9s2Yz7b03YStVL-ZiOK3UhJzeupIFhQR2lmQ3XA_n9uU2GBPFTXgxWYEx87aDFGzSkyxQ6M2dA=w1920-h1080"></object>
+      </div>
+  - type: divider2x
+    bg_color: white
+  - img: ElopeTofino/K_S_May_16_PaulLevy_Photo-55_PPVzfKXn_.jpg
+    aos: fade-up
+    cta_link: contact/
+    bg_color: white
+    img_alt: Please type in a description of the image
+    cta: Call To Action
+    desc: >-
+      
+      <ul>
+          <li class="list-disc ml-6 mb-2"><strong>Bridal hair and makeup service:</strong>$450</li>
+          <li class="list-disc ml-6 mb-2"><strong>Guest hair and makeup service</strong>$350</li>
+          <li class="list-disc ml-6 mb-2"><strong>Bridal flower crown</strong>: (ask for a quote)</li>
+          <li class="list-disc ml-6 mb-2"><strong>Guest boutonniere</strong>: $40</li>
+          <li class="list-disc ml-6 mb-2"><strong>Dog flower collar</strong>$70</li>
+          <li class="list-disc ml-6 mb-2"><strong>Single tier cake from Zoe's Bakery</strong>$65</li>
+          <li class="list-disc ml-6 mb-2"><strong>Additional 1 hour of photography coverage</strong>starting at $650.00 </li>
+          <li class="list-disc ml-6 mb-2"><strong>Elopement Cinematic video (no vows recorded)</strong>$1500.00</li>
+          <li class="list-disc ml-6 mb-2"><strong>Elopement Cinematic video (with vows recorded)</strong>$1900</li>
+          </ul>
+    aos_select: false
+    title: "Step 5: Add On Services"
+    type: img_half_right
+  - type: divider2x
+    bg_color: white
+  - type: cta
+    bg_color: white
+    title: "You have questions? "
+    cta: Contact Me Directly
+    cta_link: contact
 ---
