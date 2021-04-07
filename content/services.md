@@ -1,6 +1,6 @@
 ---
-title: Services
-description: Description here
+title: "Choose Your Perfect Elopement Package "
+description: "Choose an Tofino & Ucluelet Elopement Package for 2-10 people "
 components:
   - type: header_sub
     bg_color: primary
