@@ -60,9 +60,9 @@ components:
     VideoID: sXgzPQGHrU8
     title: About Tofino & Ucluelet
     desc: >
-      Nature and the great outdoors is your church. The sound of the waves is
-      your music. The lush green of the rainforest is your backdrop. A remote
-      inlet is your aisle. <br><br>
+      The great outdoors is your church. The sound of the waves is your music.
+      The lush green of the rainforest is your backdrop. A remote inlet is your
+      aisle. <br><br>
 
 
       Tofino and Ucluelet, two remote villages on Vancouver Island, embody paradise. Tofino boasts of picturesque sandy beaches while Ucluelet offers a glorious and rugged coastline. Celebrate your intimate wedding in one of the most beautiful and isolated locations this world has to offer. I work solely with local people, photographers who really know and love the area and will spectacularly capture every aspect of your day.
