@@ -50,9 +50,7 @@ components:
 
       </ul><br><br>
 
-      If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. <br><br>
-
-      It’s as simple as that - it only takes a few back and forth emails and your job is done! I’ll start talking to vendors and work out all the details. You just need to book your accommodation and arrive the day before your stress-free wedding, ready to enjoy your intimate celebration! 
+      If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. 
     aos_select: true
     title: Intimate Elopement
     type: img_half_right
@@ -99,9 +97,9 @@ components:
 
       </ul><br><br>
 
-      If you’ve decided you want a West Coast Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. Choose your favourite flowers, your choice of cake, and your favourite location. <br><br>
+      If you’ve decided you want a West Coast Elopement, reach out to me and I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. <br><br>
 
-      And that’s it! After a few emails back and forth, your job is done. I’ll take care of the rest. You just need to book your accommodation and arrive the day before your stress-free wedding, ready to enjoy your intimate celebration! 
+      You just need to book your accommodation and arrive the day before your stress-free wedding, and I'll take care of the rest. 
     title: "West Coast Elopement "
     type: img_half_left
   - type: divider2x
