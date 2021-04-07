@@ -147,7 +147,7 @@ components:
 
       Note that this package does NOT include a venue rental fee or the costs of drinks, dinners, or entertainment. <br><br>
 
-      Contact me if you’ve decided you want a Tiny Wedding and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. Choose your favourite flowers, your choice of cake and photographer, and your favourite location. <br><br>
+      Reach out on my Contact page if you want a Tiny Wedding. Choose your favourite flowers, your choice of cake and photographer, and your favourite location to personalize your elopement package. <br><br>
 
       It’s as simple as that! After a few emails back and forth, your job is done. I’ll take care of the rest. You just need to book your accommodation and arrive the day before your stress-free wedding, ready to enjoy your intimate celebration with your closest family and friends! 
     title: Tiny Wedding
