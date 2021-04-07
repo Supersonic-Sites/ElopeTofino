@@ -1,5 +1,5 @@
 ---
-title: Elope Tofino Contact Page
+title: Our Contact Page
 description: "Contact Elope Tofino to start planning your perfect intimate wedding "
 components:
   - type: header_sub
