@@ -160,7 +160,7 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: >
+    desc: >-
       If you’re eloping, why not elope in true style! You’re skipping traditions
       anyway, so why not bypass the walk down the aisle and ride in a helicopter
       instead! Starting at $4,990, the Adventure Elopement takes your elopement
@@ -194,9 +194,7 @@ components:
 
       </ul><br><br>
 
-      If you’re ready for an adventure, contact me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your exciting elopement adventure! <br><br>
-
-      It’s as easy as that! After a few emails back and forth, your job is done. I’ll take care of everything. You just need to book your accommodation and arrive the day before your wedding, ready to enjoy the thrills of your special day. 
+      If you’re ready for an adventure, contact me and I’ll get back to you with more information. 
     title: Adventure Elopement
     type: img_half_left
   - type: divider
