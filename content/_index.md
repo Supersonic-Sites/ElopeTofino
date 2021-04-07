@@ -10,7 +10,7 @@ components:
       Flee from stress. Drop the extras. Memorialize your special day with an
       intimate and meaningful celebration.  
 
-    cta2_link: pricing/
+    cta2_link: "#pricing"
     title: Elope Tofino
     cta2_select: true
     type: hero
@@ -28,13 +28,14 @@ components:
       <br><br> 2. to run off secretly to be married, usually without the consent
       or knowledge of one’s parents. <br><br> 3. to run away with a lover
       <br><br>
+    align: center
   - type: divider
     bg_color: white
-  - img: /ElopeTofino/getulio-moraes-jbtbin3u0Xw-unsplash_-1_O7GwE6.jpg
+  - img: ElopeTofino/rsz_untitled_673of815__eqnxohm9i_q_q2oX_-eO.jpg
     aos: fade-up
     cta_link: contact/
     bg_color: white
-    img_alt: Please type in a description of the image
+    img_alt: PIcture of a wedding on the beach
     cta: Call To Action
     desc: >
       Weddings are expensive. Especially big weddings. Maybe you saw the price
@@ -71,22 +72,22 @@ components:
     images:
       - img: ElopeTofino/eloopetofino_fQKctZkfE.jpg
         overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
-        img_alt: Please type in a description of the image
+        img_alt: Picture of the gay couple's wedding
       - img: /ElopeTofino/elopetofino4_8WhBRUEHW.webp
         overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
-        img_alt: Please type in a description of the image
+        img_alt: Picture of a married couple on the beach
       - img: ElopeTofino/elopetofino_FGbbm7uDsy.webp
         overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
-        img_alt: Please type in a description of the image
+        img_alt: Sunset on big beach
       - img: ElopeTofino/elopetofino5_U3hA1Oq-Y.webp
         overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
-        img_alt: Please type in a description of the image
+        img_alt: Picture of a couple on the black rocks in Ucluelet
       - img: ElopeTofino/elopetofino2_DXPjIg4zo.webp
         overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
-        img_alt: Please type in a description of the image
+        img_alt: Women in wedding dress in front of the ocean
       - img: ElopeTofino/elopetofino3_23cCp9osx.webp
         overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
-        img_alt: Please type in a description of the image
+        img_alt: Couple holding hands
   - type: testimonial_half
     bg_color: primary
     testimonials:

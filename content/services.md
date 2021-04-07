@@ -8,7 +8,7 @@ components:
     title: Services
   - type: divider
     bg_color: white
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+  - img: ElopeTofino/PLP_20_08_HaleyRory-159_5B5lNqAgED.jpg
     aos: fade-up
     cta_link: contact/
     bg_color: white
@@ -26,42 +26,43 @@ components:
 
       <ul>
 
-      <li>2h of personal consultation and planning</li>
+      <li class="list-disc ml-6">2h of personal consultation and planning</li>
 
-      <li>Coordination of the day</li> 
+      <li class="list-disc ml-6">Coordination of the day</li> 
 
-      <li>BC marriage officiant</li>
+      <li class="list-disc ml-6">BC marriage officiant</li>
 
-      <li>Bride(s) bouquet(s)</li>
+      <li class="list-disc ml-6">Bride(s) bouquet(s)</li>
 
-      <li>Groom(s) boutonniere(s)</li>
+      <li class="list-disc ml-6">Groom(s) boutonniere(s)</li>
 
-      <li>1h professional photography</li>
+      <li class="list-disc ml-6">1h professional photography</li>
 
-      <li>Two witnesses</li>
+      <li class="list-disc ml-6">Two witnesses</li>
 
-      <li>Marriage licence assistance</li>
+      <li class="list-disc ml-6">Marriage licence assistance</li>
 
-      <li>Signing table</li>
+      <li class="list-disc ml-6">Signing table</li>
 
-      <li>Access to curated locations list</li>
+      <li class="list-disc ml-6">Access to curated locations list</li>
 
-      <li>Rain Plan</li>
+      <li class="list-disc ml-6">Rain Plan</li>
 
       </ul><br><br>
 
       If you’ve decided you want an Intimate Elopement, reach out to me and I’ll get back to you with more information. I’ll confirm details with you based on my availability and ask you some questions to get to know you better to help personalize your elopement package. <br><br>
 
       It’s as simple as that - it only takes a few back and forth emails and your job is done! I’ll start talking to vendors and work out all the details. You just need to book your accommodation and arrive the day before your stress-free wedding, ready to enjoy your intimate celebration! 
+    aos_select: true
     title: Intimate Elopement
     type: img_half_right
   - type: divider2x
     bg_color: white
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+  - img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_057_g_pitERUhX.jpg
     aos: fade
     cta_link: contact/
     bg_color: white
-    img_alt: Please type in a description of the image
+    img_alt: Picture of couple by the ocean
     cta: Call To Action
     desc: >
       Starting at $3,200, the West Coast Elopement Package offers you a small
@@ -70,31 +71,31 @@ components:
 
       <ul>
 
-      <li>3h of personal consultation and planning</li> 
+      <li class="list-disc ml-6">3h of personal consultation and planning</li> 
 
-      <li>Coordination of the day </li>
+      <li class="list-disc ml-6">Coordination of the day </li>
 
-      <li>BC marriage officiant</li>
+      <li class="list-disc ml-6">BC marriage officiant</li>
 
-      <li>Bride(s) bouquet(s)</li>
+      <li class="list-disc ml-6">Bride(s) bouquet(s)</li>
 
-      <li>Groom(s) boutonniere(s)</li> 
+      <li class="list-disc ml-6">Groom(s) boutonniere(s)</li> 
 
-      <li>Bridal hair & makeup</li>
+      <li class="list-disc ml-6">Bridal hair & makeup</li>
 
-      <li>2h professional photography</li>
+      <li class="list-disc ml-6">2h professional photography</li>
 
-      <li>Two witnesses </li>
+      <li class="list-disc ml-6">Two witnesses </li>
 
-      <li>Marriage licence assistance</li>
+      <li class="list-disc ml-6">Marriage licence assistance</li>
 
-      <li>Signing table </li>
+      <li class="list-disc ml-6">Signing table </li>
 
-      <li>Wedding cake for two</li>
+      <li class="list-disc ml-6">Wedding cake for two</li>
 
-      <li>Access to curated locations list</li>
+      <li class="list-disc ml-6">Access to curated locations list</li>
 
-      <li>Rain Plan</li>
+      <li class="list-disc ml-6">Rain Plan</li>
 
       </ul><br><br>
 
@@ -105,7 +106,7 @@ components:
     type: img_half_left
   - type: divider2x
     bg_color: white
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+  - img: ElopeTofino/thomas-william-Q3PzwHKpEdc-unsplash_pKIErEsGx.jpg
     aos: fade
     cta_link: contact/
     bg_color: white
@@ -118,31 +119,31 @@ components:
 
       <ul>
 
-      <li>4h of personal  consultation and planning</li> 
+      <li class="list-disc ml-6">4h of personal  consultation and planning</li> 
 
-      <li>BC marriage officiant</li>
+      <li class="list-disc ml-6">BC marriage officiant</li>
 
-      <li>Bride(s) bouquet(s)</li>
+      <li class="list-disc ml-6">Bride(s) bouquet(s)</li>
 
-      <li>Groom(s) boutonniere(s)</li> 
+      <li class="list-disc ml-6">Groom(s) boutonniere(s)</li> 
 
-      <li>Bridal hair styling</li> 
+      <li class="list-disc ml-6">Bridal hair styling</li> 
 
-      <li>Professional makeup</li>
+      <li class="list-disc ml-6">Professional makeup</li>
 
-      <li>3h professional photography</li>
+      <li class="list-disc ml-6">3h professional photography</li>
 
-      <li>Marriage licence assistance</li>
+      <li class="list-disc ml-6">Marriage licence assistance</li>
 
-      <li>Signing table</li> 
+      <li class="list-disc ml-6">Signing table</li> 
 
-      <li>Wedding cake for up to 10</li>
+      <li class="list-disc ml-6">Wedding cake for up to 10</li>
 
-      <li>Meat & cheese platter for up to 10</li>
+      <li class="list-disc ml-6">Meat & cheese platter for up to 10</li>
 
-      <li>Access to curated locations list</li>
+      <li class="list-disc ml-6">Access to curated locations list</li>
 
-      <li>Rain plan​</li>
+      <li class="list-disc ml-6">Rain plan​</li>
 
       </ul><br><br>
 
@@ -155,7 +156,7 @@ components:
     type: img_half_right
   - type: divider2x
     bg_color: white
-  - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
+  - img: ElopeTofino/rsz_2ee6e3_f585e42f1ebb40298172783b268e7566_mv2_EA07RrruG.jpg
     aos: fade
     cta_link: contact/
     bg_color: white
@@ -171,27 +172,27 @@ components:
 
       <ul>
 
-      <li>2 HOUR HELICOPTER TOUR</li>
+      <li class="list-disc ml-6">2 HOUR HELICOPTER TOUR</li>
 
-      <li>Bride(s) bouquet(s)</li>
+      <li class="list-disc ml-6">Bride(s) bouquet(s)</li>
 
-      <li>Groom(s) boutonniere(s)</li>
+      <li class="list-disc ml-6">Groom(s) boutonniere(s)</li>
 
-      <li>Bridal hair & makeup</li>
+      <li class="list-disc ml-6">Bridal hair & makeup</li>
 
-      <li>2h photography</li>
+      <li class="list-disc ml-6">2h photography</li>
 
-      <li>BC marriage officiant</li> 
+      <li class="list-disc ml-6">BC marriage officiant</li> 
 
-      <li>Two witnesses</li> 
+      <li class="list-disc ml-6">Two witnesses</li> 
 
-      <li>Marriage licence assistance</li>
+      <li class="list-disc ml-6">Marriage licence assistance</li>
 
-      <li>Wedding cake for two</li>
+      <li class="list-disc ml-6">Wedding cake for two</li>
 
-      <li>Coordination of the day</li>
+      <li class="list-disc ml-6">Coordination of the day</li>
 
-      <li>Sparkling wine</li>
+      <li class="list-disc ml-6">Sparkling wine</li>
 
       </ul><br><br>
 

@@ -360,6 +360,16 @@ collections:
                     - { label: "Text Overlay for credits", name: "overlay", widget: "string", default: "ot-overlays%20made%20easy,ots-45,otc-000000,otbg-FFFFFF75;ox-35,oy-30," }
                     - { label: "Image Alt Text", name: "img_alt", widget: "string", default: "Please type in a description of the image" }
 
+          - label: "Gallery Small"
+            name: "gallery-small"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Code Snippet", name: "code", widget: "text" }
+              
+
 
           - label: "Video Full"
             name: "video_full"
@@ -539,6 +549,12 @@ collections:
                   - { label: "Description", name: "desc", widget: "text" }
                   - { label: "Image", name: "img", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg" }
                   - { label: "Image Alt Text", name: "img_alt", widget: "string" }  
+
+          - label: "Code"
+            name: "code"
+            widget: "object"
+            fields:
+              - { label: "Code Snippet", name: "snippet", widget: "text"}
 
 
           - label: "Call to Action Bar"
