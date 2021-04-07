@@ -31,7 +31,7 @@ components:
   - type: divider_half
     bg_color: white
   - type: divider
-    bg_color: primary
+    bg_color: white
   - type: cards_third_text
     bg_color: white
     cards:
@@ -88,7 +88,7 @@ components:
         title_color: primary
         divider_color: primary
   - type: divider
-    bg_color: primary
+    bg_color: white
   - type: cta
     bg_color: white
     title: Ready To Elope?
