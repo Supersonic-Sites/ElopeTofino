@@ -33,7 +33,7 @@ components:
   - type: divider
     bg_color: primary
   - type: cards_third_text
-    bg_color: primary
+    bg_color: white
     cards:
       - divider_select: true
         title_select: true
@@ -51,7 +51,7 @@ components:
         title: Relish Local Talent
         shadow_select: true
         title_color: primary
-        divider_color: black
+        divider_color: primary
       - divider_select: true
         title_select: true
         subtitle_select: false
@@ -69,7 +69,7 @@ components:
         title: Stress Free Planning
         shadow_select: true
         title_color: primary
-        divider_color: black
+        divider_color: primary
       - divider_select: true
         title_select: true
         aos: fade-up
@@ -86,7 +86,7 @@ components:
         title: Array of Choices
         shadow_select: true
         title_color: primary
-        divider_color: black
+        divider_color: primary
   - type: divider
     bg_color: primary
   - type: cta
