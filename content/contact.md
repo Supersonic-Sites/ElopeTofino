@@ -18,5 +18,5 @@ components:
     email: contact@elopetofino.com
     address1: 742 Evergreen Terrace
     address2: Springfield, OR 12345
-    address_toggle: true
+    address_toggle: false
 ---
