@@ -1,6 +1,6 @@
 ---
-title: Contact Us
-description: Lorem Ipsum
+title: Contact a Pro Elopement Planner to Plan Your Tofino Wedding
+description: "Contact Elope Tofino to start planning your perfect intimate wedding "
 components:
   - type: header_sub
     bg_color: primary
