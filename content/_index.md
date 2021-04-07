@@ -4,7 +4,7 @@ description: Enjoy an intimate, fun, and meaningful Elopement wedding in the
   picturesque and wild beauty of Tofino & Ucluelet
 components:
   - cta2: Pricing
-    img: ElopeTofino/PLP_18_08_MarieKeith-225_gFlbGh5Jg.jpg
+    img: ElopeTofino/untitled_673of815__EQnxOHM9I.jpg
     cta_link: contact/
     cta: Let's Talk
     desc: >+
