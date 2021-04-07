@@ -149,7 +149,7 @@ components:
 
       Reach out on my Contact page if you want a Tiny Wedding. Choose your favourite flowers, your choice of cake and photographer, and your favourite location to personalize your elopement package. <br><br>
 
-      It’s as simple as that! After a few emails back and forth, your job is done. I’ll take care of the rest. You just need to book your accommodation and arrive the day before your stress-free wedding, ready to enjoy your intimate celebration with your closest family and friends! 
+      It’s as simple as that! After a few emails back and forth, your job is done. I’ll take care of the rest. The only thing on your to-do list is to book your accommodation and arrive the day before, ready to enjoy your intimate celebration with your closest family and friends! 
     title: Tiny Wedding
     type: img_half_right
   - type: divider2x
