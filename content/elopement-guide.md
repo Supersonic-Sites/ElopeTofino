@@ -1,5 +1,5 @@
 ---
-title: Personalize your Tofino Elopement with the Elopement Guide
+title: Elope Tofino Elopement Guide
 description: Choose every detail of your elopement and let Elope Tofino take
   care of the rest
 components:
