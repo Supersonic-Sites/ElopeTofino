@@ -24,7 +24,7 @@ components:
 
       Emilie fell in love with the wild spaces of Vancouver Island - the surfing culture, the landscape, and the small village community. She took her experience in big event planning and started working as the head wedding coordinator at Black Rock Resort, where she coordinated many luxurious large weddings. After planning over a hundred weddings at the Resort, Emilie was introduced to the concept of elopements. She was struck by the limitations of a large resort wedding and the endless possibilities of a small, intimate marriage celebration. <br><br>
 
-      Emilie started Elope Tofino in 2018 and has never looked back. Her vast wedding planning experience, her passion for small weddings, her care for the bride & groom, and her knowledge and appreciation for the beauty of the West Coast makes an Elope Tofino wedding an intimate event not to forget. 
+      Emilie started Elope Tofino in 2018 and has never looked back. Her vast wedding planning experience, her passion for small weddings, her care for the special couple, and her knowledge and appreciation for the beauty of the West Coast makes an Elope Tofino wedding an intimate event not to forget. 
     aos_select: true
     title: A Passion For Small Weddings
     type: img_half_right
