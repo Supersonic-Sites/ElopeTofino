@@ -12,10 +12,10 @@ components:
       intimate and meaningful celebration.  
 
     cta2_link: "#pricing"
-    title: Elope Tofino
+    title: All-Inclusive Intimate Elopement Packages in Tofino & Ucluelet
     cta2_select: false
     type: hero
-    pre_title: Just do you with
+    pre_title: Discover Elope Tofino's
   - type: divider
     bg_color: white
   - type: heading_full
