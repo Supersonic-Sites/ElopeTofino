@@ -1,12 +1,12 @@
 ---
-title: Get a Pro Wedding Planner to Plan Your Tofino Elopement
+title: About Emilie Bottiglierie - Elopement Expert
 description: Elope Tofino has a passion for small weddings and creating
   meaningful intimate celebrations
 components:
   - type: header_sub
     bg_color: primary
     img: ElopeTofino/wedding_fjkjslXvm.jpg
-    title: About Us
+    title: About Me
   - type: divider
     bg_color: white
   - img: ElopeTofino/IMG_0322_BXh5moMLj.jpg
@@ -24,16 +24,14 @@ components:
 
       Emilie fell in love with the wild spaces of Vancouver Island - the surfing culture, the landscape, and the small village community. She took her experience in big event planning and started working as the head wedding coordinator at Black Rock Resort, where she coordinated many luxurious large weddings. After planning over a hundred weddings at the Resort, Emilie was introduced to the concept of elopements. She was struck by the limitations of a large resort wedding and the endless possibilities of a small, intimate marriage celebration. <br><br>
 
-      Emilie started Elope Tofino in 2018 and has never looked back. Her vast wedding planning experience, her passion for small weddings, her care for the bride & groom, and her knowledge and appreciation for the beauty of the West Coast makes an Elope Tofino wedding an intimate event not to forget. 
+      Emilie started Elope Tofino in 2018 and has never looked back. Her vast wedding planning experience, her passion for small weddings, her care for the special couple, and her knowledge and appreciation for the beauty of the West Coast makes an Elope Tofino wedding an intimate event not to forget. 
     aos_select: true
     title: A Passion For Small Weddings
     type: img_half_right
   - type: divider_half
     bg_color: white
-  - type: divider
-    bg_color: primary
   - type: cards_third_text
-    bg_color: primary
+    bg_color: white
     cards:
       - divider_select: true
         title_select: true
@@ -51,7 +49,7 @@ components:
         title: Relish Local Talent
         shadow_select: true
         title_color: primary
-        divider_color: black
+        divider_color: primary
       - divider_select: true
         title_select: true
         subtitle_select: false
@@ -69,7 +67,7 @@ components:
         title: Stress Free Planning
         shadow_select: true
         title_color: primary
-        divider_color: black
+        divider_color: primary
       - divider_select: true
         title_select: true
         aos: fade-up
@@ -86,9 +84,9 @@ components:
         title: Array of Choices
         shadow_select: true
         title_color: primary
-        divider_color: black
+        divider_color: primary
   - type: divider
-    bg_color: primary
+    bg_color: white
   - type: cta
     bg_color: white
     title: Ready To Elope?

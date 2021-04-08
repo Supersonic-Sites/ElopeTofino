@@ -12,10 +12,10 @@ components:
       intimate and meaningful celebration.  
 
     cta2_link: "#pricing"
-    title: Elope Tofino
+    title: Elopement Packages in Ucluelet & Tofino
     cta2_select: false
     type: hero
-    pre_title: Just do you with
+    pre_title: All-Inclusive, Intimate, Personalized
   - type: divider
     bg_color: white
   - type: heading_full
@@ -98,7 +98,11 @@ components:
     title: Testimonials
     desc: Lorem
   - type: testimonial_half
+<<<<<<< HEAD
     bg_color: " white"
+=======
+    bg_color: white
+>>>>>>> a5b10ed5f29fa02363ac387d580e060120d2ebfd
     testimonials:
       - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
         img_alt: Picture of Linda Eam-Shepherd during her wedding

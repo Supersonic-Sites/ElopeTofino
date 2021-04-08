@@ -1,5 +1,5 @@
 ---
-title: Contact a Pro Elopement Planner to Plan Your Tofino Wedding
+title: Our Contact Page
 description: "Contact Elope Tofino to start planning your perfect intimate wedding "
 components:
   - type: header_sub
@@ -18,5 +18,5 @@ components:
     email: contact@elopetofino.com
     address1: 742 Evergreen Terrace
     address2: Springfield, OR 12345
-    address_toggle: true
+    address_toggle: false
 ---
