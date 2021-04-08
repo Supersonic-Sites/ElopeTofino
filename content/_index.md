@@ -89,6 +89,14 @@ components:
       - img: ElopeTofino/elopetofino3_23cCp9osx.webp
         overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
         img_alt: Couple holding hands
+  - type: divider_half
+    bg_color: white
+  - type: heading_full
+    bg_color: white
+    align: center
+    title_size: medium
+    title: Testimonials
+    desc: Lorem
   - type: testimonial_half
     bg_color: white
     testimonials:
