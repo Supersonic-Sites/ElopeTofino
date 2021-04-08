@@ -48,6 +48,9 @@ module.exports = {
       colors: {
         'primary': '#7d9172',
         'stars': '#fdcc0d',
+      },
+      screens: {
+        '3xl': '2000px',
       }
     },
     fill: theme => ({
