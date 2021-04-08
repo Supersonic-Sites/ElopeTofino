@@ -21,7 +21,7 @@ components:
   - type: heading_full
     bg_color: white
     desc_select: true
-    title_size: small
+    title_size: medium
     title: ELOPE /ɪˈLƏƱP/, VERB
     desc: eloped, eloping, elopement  <br><br>​  1. to run away secretly for the
       purpose of getting married with one’s intended spouse; to marry in a quick
@@ -89,8 +89,16 @@ components:
       - img: ElopeTofino/elopetofino3_23cCp9osx.webp
         overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
         img_alt: Couple holding hands
+  - type: divider_half
+    bg_color: white
+  - type: heading_full
+    bg_color: white
+    align: center
+    title_size: medium
+    title: Testimonials
+    desc: Lorem
   - type: testimonial_half
-    bg_color: primary
+    bg_color: " white"
     testimonials:
       - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
         img_alt: Picture of Linda Eam-Shepherd during her wedding
