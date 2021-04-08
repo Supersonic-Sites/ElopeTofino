@@ -90,7 +90,7 @@ components:
         overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
         img_alt: Couple holding hands
   - type: testimonial_half
-    bg_color: primary
+    bg_color: white
     testimonials:
       - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
         img_alt: Picture of Linda Eam-Shepherd during her wedding
