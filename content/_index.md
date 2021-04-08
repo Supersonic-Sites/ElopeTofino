@@ -98,11 +98,7 @@ components:
     title: Testimonials
     desc: Lorem
   - type: testimonial_half
-<<<<<<< HEAD
-    bg_color: " white"
-=======
     bg_color: white
->>>>>>> a5b10ed5f29fa02363ac387d580e060120d2ebfd
     testimonials:
       - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
         img_alt: Picture of Linda Eam-Shepherd during her wedding
@@ -140,8 +136,6 @@ components:
           comfortable. I am so thankful for all the hard work and care she put
           into making our dream intimate beach wedding a reality!
         image_toggle: true
-  - type: divider
-    bg_color: white
   - type: pricing
     bg_color: white
     title: Packages & Pricing
