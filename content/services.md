@@ -16,7 +16,7 @@ components:
     img_alt: Please type in a description of the image
     cta: Call To Action
     desc: >
-      Starting at $2,200 the Intimate Elopement is a meaningful and affordable
+      Starting at $2,600 the Intimate Elopement is a meaningful and affordable
       alternative to a large and complicated financially stressful wedding.
       <br><br>
 
@@ -28,7 +28,9 @@ components:
 
       <li class="list-disc ml-6">2h of personal consultation and planning</li>
 
-      <li class="list-disc ml-6">Coordination of the day</li> 
+      <li class="list-disc ml-6">Coordination of the day</li>
+
+      <li class="list-disc ml-6">Detailed itinerary of the event</li>  
 
       <li class="list-disc ml-6">BC marriage officiant</li>
 
@@ -63,7 +65,7 @@ components:
     img_alt: Picture of couple by the ocean
     cta: Call To Action
     desc: >
-      Starting at $3,200, the West Coast Elopement Package offers you a small
+      Starting at $3,700, the West Coast Elopement Package offers you a small
       and meaningful celebration with extra touches like hair and makeup, and a
       delicious wedding cake for two! This package includes:<br><br>
 
@@ -72,6 +74,8 @@ components:
       <li class="list-disc ml-6">3h of personal consultation and planning</li> 
 
       <li class="list-disc ml-6">Coordination of the day </li>
+
+      <li class="list-disc ml-6">Detailed itinerary of the event</li>
 
       <li class="list-disc ml-6">BC marriage officiant</li>
 
@@ -112,12 +116,14 @@ components:
     cta: Call To Action
     desc: >
       Do you still want a wedding but with only your closest friends and family
-      present? The Tiny Wedding Package, starting at $4,300, is the perfect
+      present? The Tiny Wedding Package, starting at $4,800, is the perfect
       option for you. You’ll receive:<br><br>
 
       <ul>
 
-      <li class="list-disc ml-6">4h of personal  consultation and planning</li> 
+      <li class="list-disc ml-6">4h of personal  consultation and planning</li>
+
+      <li class="list-disc ml-6">Detailed itinerary of the event</li> 
 
       <li class="list-disc ml-6">BC marriage officiant</li>
 
@@ -161,7 +167,7 @@ components:
     desc: >-
       If you’re eloping, why not elope in true style! You’re skipping traditions
       anyway, so why not bypass the walk down the aisle and ride in a helicopter
-      instead! Starting at $4,990, the Adventure Elopement takes your elopement
+      instead! Starting at $5,400, the Adventure Elopement takes your elopement
       to new heights...literally. 
 
       <br><br>This exciting package includes:<br><br>
@@ -169,6 +175,8 @@ components:
       <ul>
 
       <li class="list-disc ml-6">2 HOUR HELICOPTER TOUR</li>
+
+      <li class="list-disc ml-6">Detailed itinerary of the event</li>
 
       <li class="list-disc ml-6">Bride(s) bouquet(s)</li>
 
