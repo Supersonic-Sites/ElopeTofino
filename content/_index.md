@@ -159,12 +159,12 @@ components:
           - feature: Rain Plan
         title: Intimate Elopement
         desc: Starts at
-        price: $2,200
+        price: $2,600
       - cta: Let's Talk
         cta_link: contact/
         title: West Coast Elopement
         desc: Starts at
-        price: $3,200
+        price: $3,700
         features:
           - feature: "3h of personal consultation and planning "
           - feature: "Coordination of the day "
@@ -183,7 +183,7 @@ components:
         cta_link: contact/
         title: Tiny Wedding
         desc: Starts at
-        price: $4,300
+        price: $4,800
         features:
           - feature: "4h of personal  consultation and planning "
           - feature: BC marriage officiant
@@ -204,7 +204,7 @@ components:
         cta_link: contact/
         title: Adventure Elopement
         desc: Starts at
-        price: $4,990
+        price: $5,400
         features:
           - feature: 2 HOUR HELICOPTER TOUR
           - feature: Bride(s) bouquet(s)
