@@ -148,6 +148,7 @@ components:
         features:
           - feature: 2h of personal consultation and planning
           - feature: "Coordination of the day "
+          - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
           - feature: Bride(s) bouquet(s)
           - feature: Groom(s) boutonniere(s)
@@ -168,6 +169,7 @@ components:
         features:
           - feature: "3h of personal consultation and planning "
           - feature: "Coordination of the day "
+          - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
           - feature: Bride(s) bouquet(s)
           - feature: "Groom(s) boutonniere(s) "
@@ -186,6 +188,7 @@ components:
         price: $4,800
         features:
           - feature: "4h of personal  consultation and planning "
+          - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
           - feature: Bride(s) bouquet(s)
           - feature: "Groom(s) boutonniere(s) "
@@ -207,6 +210,7 @@ components:
         price: $5,400
         features:
           - feature: 2 HOUR HELICOPTER TOUR
+          - feature: Detailed itinerary of the event
           - feature: Bride(s) bouquet(s)
           - feature: "Groom(s) boutonniere(s) "
           - feature: Bridal hair & makeup
