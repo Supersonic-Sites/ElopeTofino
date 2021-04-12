@@ -24,7 +24,7 @@ components:
       that need to be shared! And what better way to share them than with a
       special couple on their special day.<br><br> 
 
-      I’ve planned hundreds of weddings, and I’ve served as the head wedding coordinator at a luxury resort. But my passion is for small weddings. I take all my experience and propel it towards creating an unforgettable romantic experience in one of the most beautiful places on earth. I’m excited to hear your vision, personalize your elopement package, and help you create the perfect wedding memory to cherish for years to come.<br><br>
+      I’ve planned hundreds of weddings, and I’ve served as the head wedding coordinator at a luxury resort. But my passion is for small weddings. I take all my experience and propel it towards creating an unforgettable romantic experience in one of the most beautiful places on earth. <br><br>
 
       When I’m not organizing an elopement on the beach, I’m enjoying the beach for myself, playing in the ocean and surfing, organizing small gatherings and picnics with my close friends, or planning surprise baby showers. I love small meaningful celebrations. It’s my happy place and I love what I do.<br><br> 
 
