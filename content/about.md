@@ -16,9 +16,13 @@ components:
     img_alt: Please type in a description of the image
     cta: Call To Action
     desc: >+
-      HI, I’M EMILE BOTTIGLIERIE.<br><br>
-
-      After moving from France, I traveled around for 10 years before finally settling in Tofino. Every day I’m reminded of why I moved here – the astounding beauty of the rainforest, the beaches, the coves, and the rocky coastline take my breath away…and it will take away yours too! After spending 5 years exploring this area, I’ve discovered so many hidden gems that need to be shared! And what better way to share them than with a special couple on their special day.<br><br> 
+      After moving from France, I traveled around for 10 years before finally
+      settling in Tofino. Every day I’m reminded of why I moved here – the
+      astounding beauty of the rainforest, the beaches, the coves, and the rocky
+      coastline take my breath away…and it will take away yours too! After
+      spending 5 years exploring this area, I’ve discovered so many hidden gems
+      that need to be shared! And what better way to share them than with a
+      special couple on their special day.<br><br> 
 
       I’ve planned hundreds of weddings, and I’ve served as the head wedding coordinator at a luxury resort. But my passion is for small weddings. I take all my experience and propel it towards creating an unforgettable romantic experience in one of the most beautiful places on earth. I’m excited to hear your vision, personalize your elopement package, and help you create the perfect wedding memory to cherish for years to come.<br><br>
 
@@ -28,7 +32,7 @@ components:
 
 
     aos_select: true
-    title: A Passion For Small Weddings
+    title: HI, I’M EMILE BOTTIGLIERIE.
     type: img_half_right
   - type: divider_half
     bg_color: white
