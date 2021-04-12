@@ -15,16 +15,18 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: >
-      “Why would people limit themselves to a single lodge when they could get
-      married on a gorgeous beach, by a rainforest, or take a helicopter to a
-      mountain? An elopement wedding has so much more to offer.” <br><br>
+    desc: >+
+      HI, I’M EMILE BOTTIGLIERIE.<br><br>
 
-      Growing up in France, Emilie enjoyed many small intimate celebrations. The beauty and simplicity of small gatherings stayed with her after she moved to Canada and settled in Ucluelet and Tofino. <br><br> 
+      After moving from France, I traveled around for 10 years before finally settling in Tofino. Every day I’m reminded of why I moved here – the astounding beauty of the rainforest, the beaches, the coves, and the rocky coastline take my breath away…and it will take away yours too! After spending 5 years exploring this area, I’ve discovered so many hidden gems that need to be shared! And what better way to share them than with a special couple on their special day.<br><br> 
 
-      Emilie fell in love with the wild spaces of Vancouver Island - the surfing culture, the landscape, and the small village community. She took her experience in big event planning and started working as the head wedding coordinator at Black Rock Resort, where she coordinated many luxurious large weddings. After planning over a hundred weddings at the Resort, Emilie was introduced to the concept of elopements. She was struck by the limitations of a large resort wedding and the endless possibilities of a small, intimate marriage celebration. <br><br>
+      I’ve planned hundreds of weddings, and I’ve served as the head wedding coordinator at a luxury resort. But my passion is for small weddings. I take all my experience and propel it towards creating an unforgettable romantic experience in one of the most beautiful places on earth. I’m excited to hear your vision, personalize your elopement package, and help you create the perfect wedding memory to cherish for years to come.<br><br>
 
-      Emilie started Elope Tofino in 2018 and has never looked back. Her vast wedding planning experience, her passion for small weddings, her care for the special couple, and her knowledge and appreciation for the beauty of the West Coast makes an Elope Tofino wedding an intimate event not to forget. 
+      When I’m not organizing an elopement on the beach, I’m enjoying the beach for myself, playing in the ocean and surfing, organizing small gatherings and picnics with my close friends, or planning surprise baby showers. I love small meaningful celebrations. It’s my happy place and I love what I do.<br><br> 
+
+      I can’t wait to hear your story and help you create an intimate, fun, and meaningful celebration. 
+
+
     aos_select: true
     title: A Passion For Small Weddings
     type: img_half_right
