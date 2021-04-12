@@ -5,7 +5,7 @@ components:
   - type: header_sub
     bg_color: primary
     img: ElopeTofino/wedding_fjkjslXvm.jpg
-    title: Contact Us
+    title: Contact Me
     bg_toggle: false
   - bg_color: white
     phone: +1 (555) 123-4567
