@@ -28,7 +28,7 @@ components:
 
       When I’m not organizing an elopement on the beach, I’m enjoying the beach for myself, playing in the ocean and surfing, organizing small gatherings and picnics with my close friends, or planning surprise baby showers. I love small meaningful celebrations. It’s my happy place and I love what I do.<br><br> 
 
-      I can’t wait to hear your story and help you create an intimate, fun, and meaningful celebration. 
+      I can’t wait to hear your story and help you create an intimate, fun, and meaningful celebration and memories that you will cherish for years to come. 
 
 
     aos_select: true
