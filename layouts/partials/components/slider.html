@@ -6,14 +6,23 @@
 
         {{ range .slides }}
       <div class="swiper-slide">
-        <img src="https://ik.imagekit.io/supersonicsites/tr:w-1200,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }}"
+        <img src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-2000,/{{ .slide }}"
                         sizes="100vw"
                         data-srcset="
-                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1200,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 640w,
-                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1400,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 768w,
-                        https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-2000,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 1280w,"
-                        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-1580,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }}"
-                        class="lazyload" alt="{{ .slide_alt }}" />  
+                        https://ik.imagekit.io/supersonicsites/tr:ar-25-9,w-1200,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 340w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-25-9,w-1400,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 540w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-25-9,w-2000,/{{ .slide }} 2000w,"
+                        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-25-9,w-1580,/{{ .slide }}"
+                        class="w-full lg:hidden" alt="{{ .slide_alt }}" />  
+
+        <img src="https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-2000,/{{ .slide }}"
+                        sizes="100vw"
+                        data-srcset="
+                        https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-1200,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 340w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-1400,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 540w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-2000,/{{ .slide }} 2000w,"
+                        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-1580,/{{ .slide }}"
+                        class="w-full hidden lg:block" alt="{{ .slide_alt }}" />  
         
         </div>
       {{ end }}
