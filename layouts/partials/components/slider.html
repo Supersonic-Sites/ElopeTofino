@@ -1,0 +1,30 @@
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+
+        {{ range .slides }}
+      <div class="swiper-slide">
+        <img src="https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-1280,/{{ .slide }}"
+                        sizes="100vw"
+                        data-srcset="
+                        https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-2000,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 640w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-2000,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 768w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-2000,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 1280w"
+                        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-21-9,w-1580,c_scale,f_auto,q_auto,dpr_auto,/{{ .slide }} 1536w"
+                        width="2000px"
+                        height="860px"
+                        class="lazyload" alt="{{ .slide_alt }}" />  
+        
+        </div>
+      {{ end }}
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>

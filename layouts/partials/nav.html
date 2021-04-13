@@ -1,13 +1,7 @@
 <header class="relative bg-light-blue-800">
   <div class="relative z-50" x-data="{ isOpen: false }">
-    <nav class="relative max-w-7xl mx-auto flex items-center justify-between" aria-label="Global">
-      <div class="flex items-center justify-between w-full lg:w-auto py-2 pl-2 md:pl-0">
-        <a href="{{ .Site.BaseURL | absURL }}">
-          <img class=""
-          width="125px"
-          height="125px" 
-          src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-125,c_scale,f_auto,q_auto,dpr_auto,/{{ .Site.Params.Schema.Logo }}" alt="{{ .Site.Params.sitename }}">
-        </a>
+    <nav class="relative max-w-7xl mx-auto flex items-center justify-center" aria-label="Global">
+      <div class="flex items-center justify-center w-full lg:w-auto py-2 pl-2 md:pl-0">
 
         <!-- Mobile Menu Open Button -->
 
@@ -25,12 +19,27 @@
         <!-- End of Menu Open Button -->
       </div>
       <div class="hidden space-x-10 lg:flex lg:ml-10">
-          <ul class="flex">
-              {{ range .Site.Menus.main -}}
-              <li class="py-8 px-4 transition duration-500 text-xl hover: hover:text-primary">        
-              <a class="" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-            </li>
-              {{ end }}
+          <ul class="flex items-center">
+              
+              <li class="py-8 px-8 transition duration-500 text-xl hover: hover:text-primary">        
+              <a class="" href="{{ .Site.BaseURL | absURL }}">Home</a>
+              </li>
+              <li class="py-8 px-8 transition duration-500 text-xl hover: hover:text-primary">        
+                <a class="" href="{{ .Site.BaseURL | absURL }}about/">About</a>
+              </li>
+              <a href="{{ .Site.BaseURL | absURL }}">
+                <picture>
+                  <source width="180px" height="180px" srcset="{{ .Site.BaseURL | absURL }}img/logo.webp" type="image/webp">
+                  <source width="180px" height="180px" srcset="{{ .Site.BaseURL | absURL }}img/logo.png" type="image/jpeg"> 
+                  <img width="180px" height="180px" src="{{ .Site.BaseURL | absURL }}img/logo.png" alt="{{ .Site.Params.sitename }}">
+                </picture>
+              </a>
+              <li class="py-8 px-8 transition duration-500 text-xl hover: hover:text-primary">        
+                <a class="" href="{{ .Site.BaseURL | absURL }}services">Services</a>
+              </li>
+              <li class="py-8 px-8 transition duration-500 text-xl hover: hover:text-primary">        
+                <a class="" href="{{ .Site.BaseURL | absURL }}contact/">Contact</a>
+              </li>
             </ul>
       </div>
     </nav>

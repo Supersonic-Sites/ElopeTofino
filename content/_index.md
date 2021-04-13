@@ -3,25 +3,23 @@ title: All-Inclusive Intimate Elopement Packages in Tofino & Ucluelet
 description: Enjoy an intimate, fun, and meaningful Elopement wedding in the
   picturesque and wild beauty of Tofino & Ucluelet
 components:
-  - cta2: Pricing
-    img: ElopeTofino/PLP_20_08_FrankYoonie-37_kCiPv11SlW.jpg
-    cta_link: contact/
-    cta: Let's Talk
-    desc: >+
-      Flee from stress. Drop the extras. Memorialize your special day with an
-      intimate and meaningful celebration.  
-
-    cta2_link: "#pricing"
-    title: Elopement Packages in Ucluelet & Tofino
-    cta2_select: false
-    type: hero
-    pre_title: All-Inclusive, Intimate, Personalized
+  - type: slider
+    slides:
+      - slide: ElopeTofino/K_S_May_16_PaulLevy_Photo-55_PPVzfKXn_.jpg
+        slide_alt: Image Alt
+      - slide: ElopeTofino/PLP_18_08_MarieKeith-225_gFlbGh5Jg.jpg
+        slide_alt: Image Alt
+      - slide: ElopeTofino/PLP_18_08_MeaghanMasumi-208_gu3owFGB6.jpg
+        slide_alt: Image Alt
+      - slide: ElopeTofino/PLP_RenneMatt_Jan17-32_VBKP75ehS.jpg
+        slide_alt: Image Alt
   - type: divider
     bg_color: white
-  - type: heading_full
+  - type: elope
     bg_color: white
+    align: center
     desc_select: true
-    title_size: medium
+    title_size: small
     title: ELOPE /ɪˈLƏƱP/, VERB
     desc: eloped, eloping, elopement  <br><br>​  1. to run away secretly for the
       purpose of getting married with one’s intended spouse; to marry in a quick
@@ -29,10 +27,9 @@ components:
       <br><br> 2. to run off secretly to be married, usually without the consent
       or knowledge of one’s parents. <br><br> 3. to run away with a lover
       <br><br>
-    align: center
   - type: divider
     bg_color: white
-  - img: ElopeTofino/rsz_untitled_673of815__eqnxohm9i_q_q2oX_-eO.jpg
+  - img: ElopeTofino/homepage_tXhBVnuoL2.jpg
     aos: fade-up
     cta_link: contact/
     bg_color: white
@@ -66,73 +63,6 @@ components:
       Tofino and Ucluelet, two remote villages on Vancouver Island, embody paradise. Tofino boasts of picturesque sandy beaches while Ucluelet offers a glorious and rugged coastline. Celebrate your intimate wedding in one of the most beautiful and isolated locations this world has to offer. I work solely with local people, photographers who really know and love the area and will spectacularly capture every aspect of your day.
   - type: divider
     bg_color: white
-  - type: gallery
-    images:
-      - img: ElopeTofino/eloopetofino_fQKctZkfE.jpg
-        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
-        img_alt: Picture of the gay couple's wedding
-      - img: /ElopeTofino/elopetofino4_8WhBRUEHW.webp
-        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
-        img_alt: Picture of a married couple on the beach
-      - img: ElopeTofino/elopetofino_FGbbm7uDsy.webp
-        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
-        img_alt: Sunset on big beach
-      - img: ElopeTofino/elopetofino5_U3hA1Oq-Y.webp
-        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
-        img_alt: Picture of a couple on the black rocks in Ucluelet
-      - img: ElopeTofino/elopetofino2_DXPjIg4zo.webp
-        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
-        img_alt: Women in wedding dress in front of the ocean
-      - img: ElopeTofino/elopetofino3_23cCp9osx.webp
-        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
-        img_alt: Couple holding hands
-  - type: divider_half
-    bg_color: white
-  - type: heading_full
-    bg_color: white
-    align: center
-    title_size: medium
-    title: Testimonials
-    desc: Lorem
-  - type: testimonial_half
-    bg_color: white
-    testimonials:
-      - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
-        img_alt: Picture of Linda Eam-Shepherd during her wedding
-        name: Linda Eam-Shepherd
-        position: Eloped in 2020
-        desc: Thank you so much Emilie for our August 29,2020 wedding at Pettinger
-          Point. Our day turned out so amazing and perfect.  ❤️ Cam and Linda
-          and Andre (our doggie)
-        image_toggle: true
-      - img: ElopeTofino/testimonial_elope3_EbfKtcEA5i.jpg
-        img_alt: Picture of Georgia Belliveau
-        name: Georgia Belliveau
-        position: Eloped in 2013
-        desc: Thank you Emilie! We had a BEAUTIFUL elopement, thank you so much for
-          helping our day be so special and memorable. Everything was perfect 🙂
-          Georgia+Andrew+OscarDog
-        image_toggle: true
-      - img: ElopeTofino/testimonial_elope_1__XnkqzSzCj.jpg
-        img_alt: Picture of Alana Robb-Douglas alongside her testimonial
-        name: Alana Robb-Douglas
-        position: Eloped in 2020
-        desc: The whole experience was magical. We had an intimate beach wedding, and
-          planning it was so stress-free thanks to Emilie and her expertise. The
-          ceremony was exactly what we envisioned and our photos were absolutely
-          stunning thanks to Douglas. Thank you to everyone for giving us the
-          perfect wedding.
-        image_toggle: true
-      - img: ElopeTofino/elope_testimonial4_RuPLj4KoW.png
-        img_alt: Picture of Alix
-        name: Alix L.
-        position: Eloped in 2020
-        desc: I highly recommend Emilie from Elope Tofino to assist in coordinating your
-          intimate wedding! When both my husband and I met her the day before
-          our wedding as well as our wedding day, she made us feel relaxed and
-          comfortable. I am so thankful for all the hard work and care she put
-          into making our dream intimate beach wedding a reality!
-        image_toggle: true
   - type: pricing
     bg_color: white
     title: Packages & Pricing
@@ -255,6 +185,71 @@ components:
           I've reserved for your wedding. Let me know if you want more details!
   - type: divider
     bg_color: white
+  - type: heading_full
+    bg_color: white
+    align: center
+    title_size: medium
+    title: Testimonials
+    desc: Lorem
+  - type: testimonial_half
+    bg_color: white
+    testimonials:
+      - img: ElopeTofino/elope_testimonial_4npPKtORMg.png
+        img_alt: Picture of Linda Eam-Shepherd during her wedding
+        name: Linda Eam-Shepherd
+        position: Eloped in 2020
+        desc: Thank you so much Emilie for our August 29,2020 wedding at Pettinger
+          Point. Our day turned out so amazing and perfect.  ❤️ Cam and Linda
+          and Andre (our doggie)
+        image_toggle: true
+      - img: ElopeTofino/testimonial_elope3_EbfKtcEA5i.jpg
+        img_alt: Picture of Georgia Belliveau
+        name: Georgia Belliveau
+        position: Eloped in 2013
+        desc: Thank you Emilie! We had a BEAUTIFUL elopement, thank you so much for
+          helping our day be so special and memorable. Everything was perfect 🙂
+          Georgia+Andrew+OscarDog
+        image_toggle: true
+      - img: ElopeTofino/testimonial_elope_1__XnkqzSzCj.jpg
+        img_alt: Picture of Alana Robb-Douglas alongside her testimonial
+        name: Alana Robb-Douglas
+        position: Eloped in 2020
+        desc: The whole experience was magical. We had an intimate beach wedding, and
+          planning it was so stress-free thanks to Emilie and her expertise. The
+          ceremony was exactly what we envisioned and our photos were absolutely
+          stunning thanks to Douglas. Thank you to everyone for giving us the
+          perfect wedding.
+        image_toggle: true
+      - img: ElopeTofino/elope_testimonial4_RuPLj4KoW.png
+        img_alt: Picture of Alix
+        name: Alix L.
+        position: Eloped in 2020
+        desc: I highly recommend Emilie from Elope Tofino to assist in coordinating your
+          intimate wedding! When both my husband and I met her the day before
+          our wedding as well as our wedding day, she made us feel relaxed and
+          comfortable. I am so thankful for all the hard work and care she put
+          into making our dream intimate beach wedding a reality!
+        image_toggle: true
+  - type: gallery
+    images:
+      - img: ElopeTofino/eloopetofino_fQKctZkfE.jpg
+        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
+        img_alt: Picture of the gay couple's wedding
+      - img: /ElopeTofino/elopetofino4_8WhBRUEHW.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
+        img_alt: Picture of a married couple on the beach
+      - img: ElopeTofino/elopetofino_FGbbm7uDsy.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
+        img_alt: Sunset on big beach
+      - img: ElopeTofino/elopetofino5_U3hA1Oq-Y.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
+        img_alt: Picture of a couple on the black rocks in Ucluelet
+      - img: ElopeTofino/elopetofino2_DXPjIg4zo.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-000000,ox-35,oy-30
+        img_alt: Women in wedding dress in front of the ocean
+      - img: ElopeTofino/elopetofino3_23cCp9osx.webp
+        overlay: ot-Paul%20Levy,ots-35,otc-FFFFFF,ox-35,oy-30
+        img_alt: Couple holding hands
   - bg_color: white
     phone: +1 (555) 123-4567
     cta: Submit

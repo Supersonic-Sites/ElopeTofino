@@ -28,6 +28,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        serif: [
+          '"EB Garamond"',
+        ],
         sans: [
           '"Raleway"',
           'system-ui',
@@ -48,6 +51,7 @@ module.exports = {
       colors: {
         'primary': '#7d9172',
         'stars': '#fdcc0d',
+        'elope': '#DBAB97',
       },
       screens: {
         '3xl': '2000px',

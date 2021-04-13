@@ -1,12 +1,12 @@
 <section class="bg-{{ .bg_color }}">
 
 
-    <div class="container max-w-7xl mx-auto px-4">
+    <div class="container max-w-3xl mx-auto px-4">
         {{ if eq .bg_color "white" }}
 
             {{ if eq .title_size "big" }}
 
-                <h2 class="capitalize text-5xl md:text-6xl lg:text-7xl text-{{ .align }} text-black">
+                <h2 class="capitalize text-5xl md:text-6xl lg:text-7xl text-{{ .align }} text-elope">
             {{ .title }}
                 </h2>
             {{ end }}
@@ -19,13 +19,15 @@
             {{ end }}
 
             {{ if eq .title_size "small" }}
-            <h2 class="  capitalize text-3xl md:text-4xl lg:text-4xl text-{{ .align }} text-black">
+            <h2 class="  capitalize text-3xl md:text-4xl lg:text-4xl text-{{ .align }} text-elope">
             {{ .title }}
             </h2>
             {{ end }}
 
+            <div class="w-32 border-b-2 border-black mx-auto my-6"></div>
+
             {{ if .desc_select }}
-            <p class="mt-6 text-black text-{{ .align }} text-xl">{{ .desc | safeHTML  }}</p>
+            <p class="mt-6 text-black text-xl text-{{ .align }}">{{ .desc | safeHTML  }}</p>
             {{ end }}           
         {{ else }}
 

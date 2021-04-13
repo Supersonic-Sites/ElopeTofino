@@ -368,8 +368,18 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "Code Snippet", name: "code", widget: "text" }
-              
 
+          - label: "Slider"
+            name: "slider"
+            widget: "object"
+            fields:
+              - label: "Slides"
+                name: "slides"
+                label_singular: "Slide"
+                widget: "list"
+                fields: 
+                  - { label: "Slide Image", name: "slide", widget: "string", default: "DEV/boilerplate-bg_tRB-gJlPq.jpg"}
+                  - { label: "Image Alt", name: "slide_alt", widget: "string", default: "Image Alt"}
 
           - label: "Video Full"
             name: "video_full"
@@ -534,6 +544,17 @@ collections:
               - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
               - { label: "Description", name: "desc", widget: "text" }    
               
+          - label: "Elope"
+            name: "elope"
+            widget: "object"
+            fields:
+              - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
+              - { label: "Text Aligned", name: "align",  widget: "select", options: ["left", "center"], default: "center"}
+              - { label: "Title Size", name: "title_size", widget: "select", options: ["small", "medium", "big"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description ON/OFF", name: "desc_select", widget: "boolean", required: false }
+              - { label: "Description", name: "desc", widget: "text" }    
+          
           - label: "People Section"
             name: "team1"
             widget: "object"

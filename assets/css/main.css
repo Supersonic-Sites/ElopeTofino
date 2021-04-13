@@ -12,6 +12,16 @@
   @apply transition duration-500 py-2 px-6 md:text-lg text-xl rounded-sm shadow-2xl hover:shadow-sm text-center bg-white text-primary border-2 border-white hover:border-gray-100 hover:bg-white hover:text-primary;
 }
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+  color: white;
+}
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+  color: white;
+}
 /*--Custom Fonts --*/
 /* raleway-regular - latin */
 @font-face {
@@ -32,6 +42,26 @@
        url('/fonts/raleway-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /*----*/
+
+/* eb-garamond-regular - latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/eb-garamond-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/eb-garamond-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* eb-garamond-700 - latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('/fonts/eb-garamond-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/eb-garamond-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .stars {
   fill: #fdcc0d;
 }

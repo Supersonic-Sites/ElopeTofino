@@ -13,7 +13,8 @@
 {{ end }}
 <script type="text/javascript" src="https://unpkg.com/imagekit-javascript/dist/imagekit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" async></script>
-
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <script defer>
     AOS.init();
@@ -22,4 +23,35 @@
     var imagekit = new ImageKit({
     urlEndpoint: "https://ik.imagekit.io/supersonicsites"
 });  
+</script>
+
+<script>
+const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  spaceBetween: 30,
+  effect: 'fade',
+  speed: 1500,
+  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
 </script>
