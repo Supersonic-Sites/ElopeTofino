@@ -27,6 +27,7 @@
               <li class="py-8 px-8 transition duration-500 text-xl hover: hover:text-primary">        
                 <a class="" href="{{ .Site.BaseURL | absURL }}about/">About</a>
               </li>
+              <div class="">
               <a href="{{ .Site.BaseURL | absURL }}">
                 <picture>
                   <source width="180px" height="180px" srcset="{{ .Site.BaseURL | absURL }}img/logo.webp" type="image/webp">
@@ -34,6 +35,7 @@
                   <img width="180px" height="180px" src="{{ .Site.BaseURL | absURL }}img/logo.png" alt="{{ .Site.Params.sitename }}">
                 </picture>
               </a>
+            </div>
               <li class="py-8 px-8 transition duration-500 text-xl hover: hover:text-primary">        
                 <a class="" href="{{ .Site.BaseURL | absURL }}services">Services</a>
               </li>
