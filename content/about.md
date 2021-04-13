@@ -32,7 +32,7 @@ components:
 
 
     aos_select: true
-    title: HI, I’M EMILIE BOTTIGLIERIE.
+    title: HI, I’M EMILIE.
     type: img_half_right
   - type: divider_half
     bg_color: white
