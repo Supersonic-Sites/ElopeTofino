@@ -5,7 +5,7 @@ description: Elope Tofino has a passion for small weddings and creating
 components:
   - type: header_sub
     bg_color: primary
-    img: ElopeTofino/wedding_fjkjslXvm.jpg
+    img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_102_2aeEeiqjO3.jpg
     title: About Me
   - type: divider
     bg_color: white

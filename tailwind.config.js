@@ -32,7 +32,7 @@ module.exports = {
           '"EB Garamond"',
         ],
         sans: [
-          '"Raleway"',
+          '"EB Garamond"',
           'system-ui',
           '-apple-system',
           'BlinkMacSystemFont',

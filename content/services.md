@@ -4,7 +4,7 @@ description: "Choose an Tofino & Ucluelet Elopement Package for 2-10 people "
 components:
   - type: header_sub
     bg_color: primary
-    img: ElopeTofino/wedding_fjkjslXvm.jpg
+    img: ElopeTofino/PLP_20_08_FrankYoonie-37_kCiPv11SlW.jpg
     title: Services
   - type: divider
     bg_color: white

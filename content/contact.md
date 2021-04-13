@@ -4,7 +4,7 @@ description: "Contact Elope Tofino to start planning your perfect intimate weddi
 components:
   - type: header_sub
     bg_color: primary
-    img: ElopeTofino/wedding_fjkjslXvm.jpg
+    img: ElopeTofino/PLP_20_08_FrankYoonie-37_kCiPv11SlW.jpg
     title: Contact Me
     bg_toggle: false
   - bg_color: white
