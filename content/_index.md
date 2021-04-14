@@ -5,13 +5,13 @@ description: Enjoy an intimate, fun, and meaningful Elopement wedding in the
 components:
   - type: slider
     slides:
-      - slide: ElopeTofino/K_S_May_16_PaulLevy_Photo-55_PPVzfKXn_.jpg
+      - slide: ElopeTofino/1_0l1aAgLgSA.jpg
         slide_alt: Image Alt
-      - slide: ElopeTofino/PLP_18_08_MarieKeith-225_gFlbGh5Jg.jpg
+      - slide: ElopeTofino/2_QMUx0VdK9.jpg
         slide_alt: Image Alt
-      - slide: ElopeTofino/PLP_18_08_MeaghanMasumi-208_gu3owFGB6.jpg
+      - slide: ElopeTofino/4_pobv0c_0SL.jpg
         slide_alt: Image Alt
-      - slide: ElopeTofino/PLP_RenneMatt_Jan17-32_VBKP75ehS.jpg
+      - slide: ElopeTofino/3_2q2QCxSLD.jpg
         slide_alt: Image Alt
   - type: divider
     bg_color: white
