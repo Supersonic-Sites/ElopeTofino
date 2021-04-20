@@ -19,9 +19,13 @@
           data-aos="{{ .aos }}" data-aos-duration="800"
           {{ end }}
           class="lazyload shadow-2xl" alt="{{ .img_alt }}" />
-
+          {{ if .credit_select }}
+          <p class="text-left">Credit: <a href="{{ .website }}" class="underline" rel="nofollow" target="_blank">{{ .photographer }}</a></p>
+          {{ else }}
+          <span></span>
+          {{ end }}
       </div>
-
+      
       <div class="col-span-12 md:col-span-6 ">
         <div class="flex flex-col justify-between h-full">
           <div class="mb-6">

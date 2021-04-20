@@ -4,7 +4,7 @@ description: "Contact Elope Tofino to start planning your perfect intimate weddi
 components:
   - type: header_sub
     bg_color: primary
-    img: ElopeTofino/PLP_20_08_FrankYoonie-37_kCiPv11SlW.jpg
+    img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_102_2aeEeiqjO3.jpg
     title: Contact Me
     bg_toggle: false
   - bg_color: white
@@ -13,6 +13,7 @@ components:
     desc: >
       I want to hear your story. Contact me today to see if an Elope Tofino
       wedding is the right fit for you! 
+    usebasin: https://usebasin.com/f/62ce0078a688
     title: Get In Touch
     type: contact
     email: contact@elopetofino.com

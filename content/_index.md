@@ -29,8 +29,10 @@ components:
       <br><br>
   - type: divider
     bg_color: white
-  - img: ElopeTofino/homepage_tXhBVnuoL2.jpg
+  - credit_select: true
+    img: ElopeTofino/homepage_tXhBVnuoL2.jpg
     aos: fade-up
+    photographer: Bracey Photography
     cta_link: contact/
     bg_color: white
     img_alt: PIcture of a wedding on the beach
@@ -48,6 +50,7 @@ components:
     aos_select: true
     title: Who said eloping can’t be fun and meaningful?
     type: img_half_right
+    website: https://www.braceyphotography.com/
   - type: divider
     bg_color: white
   - type: video_half_left
@@ -255,6 +258,7 @@ components:
     cta: Submit
     desc: "I want to hear your story. Contact me today to see if an Elope Tofino
       wedding is the right fit for you! "
+    usebasin: https://usebasin.com/f/62ce0078a688
     title: Get In Touch
     type: contact
     email: contact@elopetofino.com

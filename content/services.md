@@ -4,16 +4,18 @@ description: "Choose an Tofino & Ucluelet Elopement Package for 2-10 people "
 components:
   - type: header_sub
     bg_color: primary
-    img: ElopeTofino/PLP_20_08_FrankYoonie-37_kCiPv11SlW.jpg
+    img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_102_2aeEeiqjO3.jpg
     title: Services
   - type: divider
     bg_color: white
-  - img: ElopeTofino/PLP_20_08_HaleyRory-159_5B5lNqAgED.jpg
+  - credit_select: true
+    img: ElopeTofino/PLP_20_08_HaleyRory-159_5B5lNqAgED.jpg
     aos: fade-up
+    photographer: Haley Rory
     cta_link: contact/
     bg_color: white
     cta_select: false
-    img_alt: Please type in a description of the image
+    img_alt: Beautiful image of a couple by the ocean
     cta: Call To Action
     desc: >
       Starting at $2,600 the Intimate Elopement is a meaningful and affordable
@@ -56,10 +58,13 @@ components:
     aos_select: true
     title: Intimate Elopement
     type: img_half_right
+    website: https://sachinkhona.com/c
   - type: divider2x
     bg_color: white
-  - img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_057_g_pitERUhX.jpg
+  - credit_select: true
+    img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_057_g_pitERUhX.jpg
     aos: fade
+    photographer: Jen McLeod
     cta_link: contact/
     bg_color: white
     img_alt: Picture of couple by the ocean
@@ -106,13 +111,16 @@ components:
       You just need to book your accommodation and arrive the day before your stress-free wedding, and I'll take care of the rest. 
     title: "West Coast Elopement "
     type: img_half_left
+    website: https://jenmcleod.com/
   - type: divider2x
     bg_color: white
-  - img: ElopeTofino/thomas-william-Q3PzwHKpEdc-unsplash_pKIErEsGx.jpg
+  - credit_select: true
+    img: ElopeTofino/Jen_McLeod_Photography_NikkiParker_39_Jf0Mtk1Di.jpg
     aos: fade
+    photographer: Jen McLeod
     cta_link: contact/
     bg_color: white
-    img_alt: Please type in a description of the image
+    img_alt: Couple holding hands
     cta: Call To Action
     desc: >
       Do you still want a wedding but with only your closest friends and family
@@ -156,13 +164,16 @@ components:
       Reach out on my Contact page if you want a Tiny Wedding. After a few emails back and forth, and you choose your favourite flowers, your choice of cake and photographer, and your favourite location to personalize your elopement package, your job is done. It's as simple as that. I’ll take care of the rest. <br><br>The only thing on your to-do list is to book your accommodation and arrive the day before, ready to enjoy your intimate celebration with your closest family and friends! 
     title: Tiny Wedding
     type: img_half_right
+    website: https://jenmcleod.com/
   - type: divider2x
     bg_color: white
-  - img: ElopeTofino/rsz_2ee6e3_f585e42f1ebb40298172783b268e7566_mv2_EA07RrruG.jpg
+  - credit_select: false
+    img: ElopeTofino/rsz_2ee6e3_f585e42f1ebb40298172783b268e7566_mv2_EA07RrruG.jpg
     aos: fade
+    photographer: _DSC9575
     cta_link: contact/
     bg_color: white
-    img_alt: Please type in a description of the image
+    img_alt: Couple by an helicopter for an adventure elopement
     cta: Call To Action
     desc: >-
       If you’re eloping, why not elope in true style! You’re skipping traditions
@@ -203,6 +214,7 @@ components:
       If you’re ready for an adventure, contact me and I’ll get back to you with more information. 
     title: Adventure Elopement
     type: img_half_left
+    website: _DSC9575
   - type: divider
     bg_color: white
   - type: cta

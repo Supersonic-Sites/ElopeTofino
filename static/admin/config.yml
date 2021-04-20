@@ -434,6 +434,9 @@ collections:
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
               - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+              - { label: "Credit ON/OFF", name: "credit_select", widget: "boolean", required: false }
+              - { label: "Photographer", name: "photographer", widget: "string", default: "Paul Levy" }
+              - { label: "Website of Photographer", name: "website", widget: "string", default: "https://www.paullevyphoto.com/"}
 
           - label: "Half Image Right"
             name: "img_half_right"
@@ -449,6 +452,9 @@ collections:
               - { label: "CTA ON/OFF", name: "cta_select", widget: "boolean", required: false }
               - { label: "CTA", name: "cta", widget: "string", default: "Call To Action" }
               - { label: "CTA Link", name: "cta_link", widget: "string", default: "contact/" }
+              - { label: "Credit ON/OFF", name: "credit_select", widget: "boolean", required: false }
+              - { label: "Photographer", name: "photographer", widget: "string", default: "Paul Levy" }
+              - { label: "Website of Photographer", name: "website", widget: "string", default: "https://www.paullevyphoto.com/"}
 
           - label: "Third Image Left"
             name: "img_third_left"

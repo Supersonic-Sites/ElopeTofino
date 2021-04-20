@@ -1,16 +1,17 @@
 <section class="grid grid-cols-12 gap-0">
     {{ range .images }}
     <div class="col-span-6 md:col-span-4 3xl:col-span-2">
-        <img src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1280,bl-30,q-50,{{ .overlay }}/{{ .img }}"
+        <img src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1280,bl-30,q-50,/{{ .img }}"
                         sizes="100vw"
                         data-srcset="
-                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-640,c_scale,f_auto,q_auto,dpr_auto,{{ .overlay }}/{{ .img }} 640w,
-                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-768,c_scale,f_auto,q_auto,dpr_auto,{{ .overlay }}/{{ .img }} 768w,
-                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1280,c_scale,f_auto,q_auto,dpr_auto,{{ .overlay }}/{{ .img }} 1280w"
-                        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1580,c_scale,f_auto,q_auto,dpr_auto,{{ .overlay }}/{{ .img }} 1536w"
+                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-640,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-768,c_scale,f_auto,q_auto,dpr_auto,{/{{ .img }} 768w,
+                        https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1280,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
+                        data-src="https://ik.imagekit.io/supersonicsites/tr:ar-1-1,w-1580,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
                         width="640px"
                         height="640px"
                         class="lazyload" alt="{{ .img_alt }}" />
     </div>
     {{ end }}
-</section>
+    
+</section><p class="text-right">Credit: <a href="https://www.paullevyphoto.com/" class="underline pr-5" rel="nofollow" target="_blank">Paul Levy</a></p>

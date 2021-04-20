@@ -5,7 +5,7 @@ description: Choose every detail of your elopement and let Elope Tofino take
 components:
   - type: header_sub
     bg_color: primary
-    img: ElopeTofino/wedding_fjkjslXvm.jpg
+    img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_102_2aeEeiqjO3.jpg
     title: Elopement Guide
   - type: divider
     bg_color: white
@@ -81,11 +81,13 @@ components:
         desc: <a href="https://www.kaitlynsheaphotography.com/"><u>Visit website</u></a>
   - type: divider2x
     bg_color: white
-  - img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_102_6dbui83fqW.jpg
+  - credit_select: true
+    img: ElopeTofino/Jen_McLeod_Photography_JohnAstryd_102_6dbui83fqW.jpg
     aos: fade-up
+    photographer: Jen McLeod
     cta_link: contact/
     bg_color: white
-    img_alt: Please type in a description of the image
+    img_alt: Image of a bride holding a flower bouquet
     cta: Call To Action
     desc: >-
       As part of your elopement package, and based on your floral inspiration
@@ -107,10 +109,12 @@ components:
     aos_select: true
     title: "Step 2: Flowers"
     type: img_half_right
+    website: https://jenmcleod.com/
   - type: divider2x
     bg_color: white
   - img: ElopeTofino/IMG_3109_JPG_PV17EGRI_.webp
     aos: fade-up
+    photographer: none
     cta_link: contact/
     bg_color: white
     img_alt: Picture of a cake
@@ -139,6 +143,7 @@ components:
     aos_select: true
     title: "Step 3: The Cake"
     type: img_half_right
+    website: none
   - type: divider2x
     bg_color: white
   - type: heading_full
@@ -341,28 +346,83 @@ components:
       </div>
   - type: divider2x
     bg_color: white
-  - img: ElopeTofino/K_S_May_16_PaulLevy_Photo-55_PPVzfKXn_.jpg
+  - type: gallery-small
+    bg_color: white
+    title: Tonquin Rainforest
+    desc: >-
+      The Rainforest of Tonquin offers the perfect intimate location for your
+      elopement. Continuing along the trail at the top of the stairs will lead
+      to the Lighthouse Trail, which weaves through the forest along the scenic
+      coastline.<br><br>
+
+      <ul>
+
+      <li class="mb-2"><strong>Location:</strong> Tofino</li>
+
+      <li class="mb-2"><strong>Type:</strong> Forest</li>
+
+      <li class="mb-2"><strong>Access:</strong> 10 min walking</li>
+
+      <li class="mb-2"><strong>Capacity:</strong> 10</li>
+
+      <li class="mb-2"><strong>Privacy:</strong> Medium</li>
+
+      </ul>
+    code: >-2
+              <img
+                src="https://ik.imagekit.io/supersonicsites/tr:ar-12-9,w-884,bl-30,q-50,/ElopeTofino/laura-lefurgey-smith-y1u-xRoWyec-unsplash__1__EOkIbkI5z.jpg"
+                sizes="100vw"
+                width="884px"
+                height="663px"
+                data-srcset="
+                https://ik.imagekit.io/supersonicsites/tr:ar-12-9,w-884,c_scale,f_auto,q_auto,dpr_auto,/ElopeTofino/laura-lefurgey-smith-y1u-xRoWyec-unsplash__1__EOkIbkI5z.jpg 640w,
+                https://ik.imagekit.io/supersonicsites/tr:ar-12-9,w-884,c_scale,f_auto,q_auto,dpr_auto,/ElopeTofino/laura-lefurgey-smith-y1u-xRoWyec-unsplash__1__EOkIbkI5z.jpg 768w,
+                https://ik.imagekit.io/supersonicsites/tr:ar-12-9,w-884,c_scale,f_auto,q_auto,dpr_auto,/ElopeTofino/laura-lefurgey-smith-y1u-xRoWyec-unsplash__1__EOkIbkI5z.jpg 1280w"
+                data-src="https://ik.imagekit.io/supersonicsites/tr:ar-12-9,w-884,c_scale,f_auto,q_auto,dpr_auto,/ElopeTofino/laura-lefurgey-smith-y1u-xRoWyec-unsplash__1__EOkIbkI5z.jpg 1536w"
+
+                data-aos="fade-up" data-aos-duration="800"
+                class="lazyload shadow-2xl"
+                alt="rainforest picture" />
+  - type: divider2x
+    bg_color: white
+  - credit_select: true
+    img: ElopeTofino/K_S_May_16_PaulLevy_Photo-55_PPVzfKXn_.jpg
     aos: fade-up
+    photographer: Paul Levy
     cta_link: contact/
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: >-
+    desc: |
       
-      <ul>
-          <li class="list-disc ml-6 mb-2"><strong>Bridal hair and makeup service:</strong>$450</li>
-          <li class="list-disc ml-6 mb-2"><strong>Guest hair and makeup service</strong>$350</li>
-          <li class="list-disc ml-6 mb-2"><strong>Bridal flower crown</strong>: (ask for a quote)</li>
-          <li class="list-disc ml-6 mb-2"><strong>Guest boutonniere</strong>: $40</li>
-          <li class="list-disc ml-6 mb-2"><strong>Dog flower collar</strong>$70</li>
-          <li class="list-disc ml-6 mb-2"><strong>Single tier cake from Zoe's Bakery</strong>$65</li>
-          <li class="list-disc ml-6 mb-2"><strong>Additional 1 hour of photography coverage</strong>starting at $650.00 </li>
-          <li class="list-disc ml-6 mb-2"><strong>Elopement Cinematic video (no vows recorded)</strong>$1500.00</li>
-          <li class="list-disc ml-6 mb-2"><strong>Elopement Cinematic video (with vows recorded)</strong>$1900</li>
-          </ul>
+      <div class="flex justify-between">
+      <div>
+      <p><strong>Bridal hair and makeup service:</strong></p>
+      <p><strong>Guest hair and makeup service</strong></p>
+      <p><strong>Bridal flower crown</strong></p>
+      <p><strong>Guest boutonniere</strong></p>
+      <p><strong>Dog flower collar</strong></p>
+      <p><strong>Single tier cake from Zoe's Bakery</strong></p>
+      <p><strong>Additional 1 hour of photography coverage</strong></p>
+      <p><strong>Elopement Cinematic video (no vows recorded)</strong></p>
+      <p><strong>Elopement Cinematic video (with vows recorded)</strong></p>
+      </div>
+      <div class="text-right">
+      <p> $450</p>
+      <p> $350</p>
+      <p> (ask for a quote)</p>
+      <p> $40</p>
+      <p> $70</p>
+      <p> $65</p>
+      <p> starting at $650.00</p>
+      <p> $1500.00</p>
+      <p> $1900</p>
+      </div>
+      </div>
     aos_select: false
     title: "Step 5: Add On Services"
     type: img_half_right
+    website: https://www.paullevyphoto.com/
   - type: divider2x
     bg_color: white
   - type: cta
