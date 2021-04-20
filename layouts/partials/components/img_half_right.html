@@ -36,6 +36,7 @@
       </div>
 
       <div class="col-span-12 md:col-span-6 order-1 md:order-2 mb-6 md:mb-0">
+        <figure>
         <img
           src="https://ik.imagekit.io/supersonicsites/tr:w-884,bl-30,q-50,/{{ .img }}"
           sizes="100vw"
@@ -51,13 +52,14 @@
           {{ end }}
           class="lazyload shadow-2xl"
           alt="{{ .img_alt }}" />
+          {{ if .credit_select }}
+          <figcaption><p class="text-right">Credit: <a href="{{ .website }}" class="underline" rel="nofollow" target="_blank">{{ .photographer }}</a></p></figcaption>
+          {{ else }}
+          <span></span>
+          {{ end }}
+          </figure>
       </div>
       
     </div>
-    {{ if .credit_select }}
-    <p class="text-right">Credit: <a href="{{ .website }}" class="underline" rel="nofollow" target="_blank">{{ .photographer }}</a></p>
-    {{ else }}
-    <span></span>
-    {{ end }}
   </div>
 </section>

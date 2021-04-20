@@ -6,6 +6,7 @@
     <div class="grid grid-cols-12 md:gap-12 lg:gap-20">
 
       <div class="col-span-12 md:col-span-6">
+        <figure>
         <img src="https://ik.imagekit.io/supersonicsites/tr:ar-4-5,w-884,bl-30,q-50,/{{ .img }}"
           sizes="100vw"
           width="884px"
@@ -20,10 +21,11 @@
           {{ end }}
           class="lazyload shadow-2xl" alt="{{ .img_alt }}" />
           {{ if .credit_select }}
-          <p class="text-left">Credit: <a href="{{ .website }}" class="underline" rel="nofollow" target="_blank">{{ .photographer }}</a></p>
+          <figcaption><p class="text-right">Credit: <a href="{{ .website }}" class="underline" rel="nofollow" target="_blank">{{ .photographer }}</a></p></figcaption>
           {{ else }}
           <span></span>
           {{ end }}
+          </figure>
       </div>
       
       <div class="col-span-12 md:col-span-6 ">
