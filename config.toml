@@ -36,7 +36,7 @@ url = "contact/"
 weight = "4"
 
 [params]
-gtm = "#"
+gtm = "GTM-WCHW2KR"
 servicename = "Small & Elopement Wedding Planning"
 googlemap = "#"
 sitename = "ElopeTofino"
@@ -57,7 +57,7 @@ postalcode = "J0P 1P0"
 type = "ProfessionalServices"
 openinghour = "Mo-Su 9:00-21:00"
 email = "contact@elopetofino.com"
-address1 = "119 Rue Saint-Pierre"
+address1 = "-"
 address2 = "#"
 address_toggle = false
 
