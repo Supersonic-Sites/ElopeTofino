@@ -5,9 +5,9 @@ description: Enjoy an intimate, fun, and meaningful Elopement wedding in the
 components:
   - type: slider
     slides:
-      - slide: ElopeTofino/1_0l1aAgLgSA.jpg
-        slide_alt: Image Alt
       - slide: ElopeTofino/2_QMUx0VdK9.jpg
+        slide_alt: Image Alt
+      - slide: ElopeTofino/1_0l1aAgLgSA.jpg
         slide_alt: Image Alt
       - slide: ElopeTofino/4_pobv0c_0SL.jpg
         slide_alt: Image Alt
@@ -93,17 +93,18 @@ components:
           - feature: Rain Plan
         title: Intimate Elopement
         desc: Starts at
-        price: $2,600
+        price: $2,300
       - cta: Let's Talk
         cta_link: contact/
         title: West Coast Elopement
         desc: Starts at
-        price: $3,700
+        price: $3,500
         features:
           - feature: "3h of personal consultation and planning "
           - feature: "Coordination of the day "
           - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
+          - feature: Sparkling wine
           - feature: Bride(s) bouquet(s)
           - feature: "Groom(s) boutonniere(s) "
           - feature: Bridal hair & makeup

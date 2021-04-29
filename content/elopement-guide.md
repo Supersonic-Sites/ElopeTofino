@@ -36,11 +36,6 @@ components:
     img: DEV/boilerplate-bg_tRB-gJlPq.jpg
     img_alt: Photo
     member:
-      - img: ElopeTofino/ABP-7610_TUl8eJH2aA.jpg
-        img_alt: " Agathe Bernard"
-        title: Agathe Bernard
-        desc: <a href="https://agathebernard.com/photos"><u>Visit website</u></a>
-        desc_select: true
       - img: ElopeTofino/Screen_Shot_2019-05-13_at_12.39.25_ljTP4qiOhG.png
         title: " Jen McLeod"
         desc_select: true
@@ -53,7 +48,7 @@ components:
         desc_select: true
         desc: <a href="https://www.paullevyphoto.com/"><u>Visit website</u></a>
         img_alt: Paul Levy
-      - img: ElopeTofino/sara-spectrum_IW9xN08mW6.jpg
+      - img: ElopeTofino/SaraProfile_qTpcCzT8G.jpg
         desc: <a href="http://www.saraspectrum.com/marriage/"><u>Visit website</u></a>
         title: Sara Spectrum
         desc_select: true
@@ -68,12 +63,6 @@ components:
         desc_select: true
         desc: <a href="https://www.braceyphotography.com/"><u>Visit website</u></a>
         img_alt: Karley Bracey
-      - img: ElopeTofino/Screen_Shot_2019-05-20_at_11.13.20_i09pvDqF8r.png
-        title: " Douglas Ludwig"
-        desc_select: true
-        desc: <a href="http://www.douglasludwigphotography.com/"><u>Visit
-          website</u></a>
-        img_alt: Douglas Ludwig
       - img: ElopeTofino/Screen_Shot_2019-05-20_at_11.16.11_HmpVPd7Ey.png
         title: Kaitlyn Shea
         img_alt: " Kaitlyn Shea"
@@ -408,11 +397,11 @@ components:
       <p><strong>Elopement Cinematic video (with vows recorded)</strong></p>
       </div>
       <div class="text-right">
-      <p> $450</p>
+      <p> $500</p>
       <p> $350</p>
       <p> (ask for a quote)</p>
-      <p> $40</p>
-      <p> $70</p>
+      <p> $45</p>
+      <p> $75</p>
       <p> $65</p>
       <p> starting at $650.00</p>
       <p> $1500.00</p>
