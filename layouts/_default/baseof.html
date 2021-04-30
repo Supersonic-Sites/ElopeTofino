@@ -16,11 +16,13 @@
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    {{- partial "gtm-head.html" . }}
   </head>
 <body>
     {{- partial "nav" . }}
     {{ block "main" . }}{{ end }}
     {{- partial "footer" . }}
     {{- partial "script" . }}
+    {{- partial "gtm-body.html" . }}
 </body>
 </html>
