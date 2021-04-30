@@ -7,15 +7,14 @@
 
       <div class="col-span-12 md:col-span-6">
         <figure>
-        <img src="https://ik.imagekit.io/supersonicsites/tr:ar-4-5,w-884,bl-30,q-50,/{{ .img }}"
+        <img src="https://ik.imagekit.io/supersonicsites/tr:w-640,bl-30,q-50,/{{ .img }}"
           sizes="100vw"
-          width="884px"
-          height="1105px"
+          width="640px"
           data-srcset="
-          https://ik.imagekit.io/supersonicsites/tr:ar-4-5,w-884,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
-          https://ik.imagekit.io/supersonicsites/tr:ar-4-5,w-884,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
-          https://ik.imagekit.io/supersonicsites/tr:ar-4-5,w-884,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
-          data-src="https://ik.imagekit.io/supersonicsites/tr:ar-4-5,w-884,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
+          https://ik.imagekit.io/supersonicsites/tr:w-640,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 640w,
+          https://ik.imagekit.io/supersonicsites/tr:aw-640,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 768w,
+          https://ik.imagekit.io/supersonicsites/tr:w-640,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1280w"
+          data-src="https://ik.imagekit.io/supersonicsites/tr:w-640,c_scale,f_auto,q_auto,dpr_auto,/{{ .img }} 1536w"
           {{ if .aos_select }}
           data-aos="{{ .aos }}" data-aos-duration="800"
           {{ end }}
