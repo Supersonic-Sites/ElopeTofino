@@ -44,27 +44,27 @@
         <form action="{{ .usebasin }}" method="POST" class="grid grid-cols-1 gap-y-6">
           <div>
             <label for="Full Name" class="sr-only">Full name</label>
-            <input type="text" name="Full Name" id="full_name" autocomplete="name"
+            <input type="text" name="Full Name" id="full_name" autocomplete="name" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
               placeholder="Full name">
           </div>
           <div>
             <label for="email" class="sr-only">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email"
+            <input id="email" name="email" type="email" autocomplete="email" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
               placeholder="Email">
           </div>
           <div class="flex flex-row">
             <div class="mr-3 w-full">
             <label for="Phone Number" class="sr-only">Phone</label>
-            <input type="text" name="Phone Number" id="phone" autocomplete="tel"
+            <input type="text" name="Phone Number" id="phone" autocomplete="tel" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm                   focus:border-white ring-primary"
                    placeholder="Phone">
                      
              </div>
             <div class="w-full">
             <label for="Where are they from" class="sr-only">Town & Province</label>
-            <input type="text" name="phone" id="Where are they from" autocomplete="tel"
+            <input type="text" name="phone" id="Where are they from" autocomplete="tel" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
                    placeholder="Town & Province">
                      
@@ -75,31 +75,31 @@
             <div class="mr-3 w-full">
             <label for="Preferred Destination" class="mb-6">Where would you like to elope?</label><br><br>
 
-            <input name="Preferred Destination" type="radio" value="Tofino" class="text-primary ring-primary"/> Tofino <br /> 
-	          <input name="Preferred Destination" type="radio" value="Ucluelet" class="text-primary ring-primary"/> Ucluelet <br /> 
-            <input name="Preferred Destination" type="radio" value="Any" class="text-primary ring-primary"/> Not picky, either location <br /> 
+            <input name="Preferred Destination" type="radio" value="Tofino" class="text-primary ring-primary" required/> Tofino <br /> 
+	          <input name="Preferred Destination" type="radio" value="Ucluelet" class="text-primary ring-primary" required/> Ucluelet <br /> 
+            <input name="Preferred Destination" type="radio" value="Any" class="text-primary ring-primary" required/> Not picky, either location <br /> 
             </div>
             <div class="w-full">
             <label for="package" class="mb-6">Do you have a preferred package ?</label><br><br>
 
-            <input name="package" type="radio" value="Intimate Elopement" class="text-primary ring-primary" /> Intimate Elopement<br /> 
-	          <input name="package" type="radio" value="West Coast Elopement" class="text-primary ring-primary" /> West Coast Elopement <br /> 
-            <input name="package" type="radio" value="Tiny Wedding" class="text-primary ring-primary" /> Tiny Wedding<br /> 
-	          <input name="package" type="radio" value="Adventure Elopement" class="text-primary ring-primary" /> Adventure Elopement <br /> 
+            <input name="package" type="radio" value="Intimate Elopement" class="text-primary ring-primary" required /> Intimate Elopement<br /> 
+	          <input name="package" type="radio" value="West Coast Elopement" class="text-primary ring-primary" required /> West Coast Elopement <br /> 
+            <input name="package" type="radio" value="Tiny Wedding" class="text-primary ring-primary" required/> Tiny Wedding<br /> 
+	          <input name="package" type="radio" value="Adventure Elopement" class="text-primary ring-primary" required /> Adventure Elopement <br /> 
             </div>
           </div>
           
           <div class="flex flex-row mb-6">
             <div class="mr-3 w-full">
               <label for="Guest Count" class="sr-only">Estimate Guests count</label>
-            <input type="text" name="Guest Count" id="count"
+            <input type="text" name="Guest Count" id="count" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
                    placeholder="Estimate Guests count">
             </div>
             
             <div class="w-full">
               <label for="Preferred Date" class="sr-only">Preferred Date</label>
-              <input type="date" name="Preferred Date" id="date"
+              <input type="date" name="Preferred Date" id="date" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
                    placeholder="Preferred Date">
               </div>
@@ -109,7 +109,7 @@
           
           <div>
             <label for="Message" class="sr-only">Message</label>
-            <textarea id="message" name="Message" rows="4"
+            <textarea id="message" name="Message" rows="4" required
               class="block w-full shadow-sm py-3 px-4 mb-6 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
               placeholder="Message"></textarea>
           </div>
