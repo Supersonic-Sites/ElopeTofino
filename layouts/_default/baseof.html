@@ -13,7 +13,7 @@
     {{ end }}
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
     <!-- <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script> -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" as="script">  
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     {{- partial "gtm-head.html" . }}
   </head>
