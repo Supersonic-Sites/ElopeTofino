@@ -71,7 +71,7 @@
              </div>
           </div>
           
-          <div class="flex flex-row">
+          <div class="flex flex-col md:flex-row">
             <div class="mr-3 w-full">
             <label for="Preferred Destination" class="mb-6">Where would you like to elope?</label><br><br>
 
@@ -79,22 +79,22 @@
 	          <input name="Preferred Destination" type="radio" value="Ucluelet" class="text-primary ring-primary" /> Ucluelet <br /> 
             <input name="Preferred Destination" type="radio" value="Any" class="text-primary ring-primary" /> Not picky, either location <br /> 
             </div>
-            <div class="w-full">
+            <div class="w-full mt-6 md:mt-0">
             <label for="package" class="mb-6">Do you have a preferred package ?</label><br><br>
 
-            <input name="package" type="radio" value="Intimate Elopement" class="text-primary ring-primary" required /> Intimate Elopement<br /> 
-	          <input name="package" type="radio" value="West Coast Elopement" class="text-primary ring-primary" required /> West Coast Elopement <br /> 
-            <input name="package" type="radio" value="Tiny Wedding" class="text-primary ring-primary" required/> Tiny Wedding<br /> 
+            <input name="package" type="radio" value="Intimate Elopement" class="text-primary ring-primary" required /> Intimate Elopement <span class="text-sm">(Max 6 pers)</span><br /> 
+	          <input name="package" type="radio" value="West Coast Elopement" class="text-primary ring-primary" required /> West Coast Elopement <span class="text-sm">(Max 10 pers)</span><br /> 
+            <input name="package" type="radio" value="Tiny Wedding" class="text-primary ring-primary" required/> Tiny Wedding <span class="text-sm">(Max 15 pers)</span><br /> 
 	          <input name="package" type="radio" value="Adventure Elopement" class="text-primary ring-primary" required /> Adventure Elopement <br /> 
             </div>
           </div>
-          
-          <div class="flex flex-row mb-6">
-            <div class="mr-3 w-full">
-              <label for="Guest Count" class="sr-only">Estimate Guests count</label>
+
+          <div class="flex flex-col md:flex-row mb-6">
+            <div class="mr-3 w-full mb-6 md:mb-0">
+              <label for="Guest Count" class="sr-only">Estimate Guests Count</label>
             <input type="text" name="Guest Count" id="count" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
-                   placeholder="Estimate Guests count">
+                   placeholder="Estimate Guests Count - Max 15">
             </div>
             
             <div class="w-full">
