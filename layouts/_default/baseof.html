@@ -10,10 +10,9 @@
     {{ $styles = $styles | resources.PostCSS }}
     {{ if  hugo.IsProduction  }}
       {{ $styles = $styles | minify }}
+      <!-- <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script> -->
     {{ end }}
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
-    <!-- <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script> -->
-
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     {{- partial "gtm-head.html" . }}
   </head>
