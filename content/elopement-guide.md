@@ -397,7 +397,7 @@ components:
       <p><strong>Elopement Cinematic video (with vows recorded)</strong></p>
       </div>
       <div class="text-right">
-      <p> $500</p>
+      <p> $550</p>
       <p> $350</p>
       <p> (ask for a quote)</p>
       <p> $45</p>
