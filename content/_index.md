@@ -79,7 +79,7 @@ components:
       - cta: Let's Talk
         cta_link: contact/
         features:
-          - feature: 2h of personal consultation and planning
+          - feature: Personal consultation and planning
           - feature: "Coordination of the day "
           - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
@@ -100,7 +100,7 @@ components:
         desc: Starts at
         price: $3,600
         features:
-          - feature: "3h of personal consultation and planning "
+          - feature: "Personal consultation and planning "
           - feature: "Coordination of the day "
           - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
@@ -119,9 +119,9 @@ components:
         cta_link: contact/
         title: Tiny Wedding
         desc: Starts at
-        price: $4,800
+        price: $4,900
         features:
-          - feature: "4h of personal  consultation and planning "
+          - feature: "Personal  consultation and planning "
           - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
           - feature: Bride(s) bouquet(s)
@@ -164,9 +164,8 @@ components:
     cta_link: contact/
     faqs:
       - question: Can I have more than 8 guests?
-        answer: I wish I could say yes, but unfortunately 10 pers is the max in BC due
-          to Covid-19 restrictions. There is nothing I can do until the
-          restrictions are lifted.
+        answer: Of course ! You are welcome to have up to 15 guests. However additional
+          fee might apply for additional guest.
       - question: Can I bring my dog?
         answer: >-
           Yes, we love furry friends! Just be aware that most of the beaches
