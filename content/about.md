@@ -94,8 +94,8 @@ components:
   - type: divider
     bg_color: white
   - type: cta
-    bg_color: white
-    title: Ready To Elope?
+    bg_color: black
+    title: Ready To Get A Quote?
     cta: Contact Us
     cta_link: contact/
 ---
