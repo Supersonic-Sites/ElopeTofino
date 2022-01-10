@@ -68,6 +68,27 @@ components:
         img_alt: " Kaitlyn Shea"
         desc_select: true
         desc: <a href="https://www.kaitlynsheaphotography.com/"><u>Visit website</u></a>
+      - img: ElopeTofino/5_ElopeTofino--Linds-Portrait_qc4AzC2JaX.jpg
+        title: Lindsay Lovesea
+        desc_select: true
+        desc: <a href="https://www.loveseaphotography.com"><u>Visit website</u></a>
+        img_alt: Lindsay Lovesea
+      - img: ElopeTofino/Steffi_Wo1wQnCLAA.jpg
+        title: Steffi Jade
+        desc_select: true
+        desc: <a href="https://steffijade.wixsite.com/visuals/weddings/"><u>Visit
+          website</u></a>
+        img_alt: Steffi Jade
+      - img: ElopeTofino/clover_E_llaVsvwEP.jpg
+        title: Clover June
+        desc_select: true
+        desc: <a href="https://www.cloverjune.com/wedding/"><u>Visit website</u></a>
+        img_alt: Clover June
+      - img: ElopeTofino/Savanna_qyfPGfLZ1.jpg
+        title: Savanna Lynn
+        desc_select: true
+        desc: <a href="https://www.savannalynnphotography.com/"><u>Visit website</u></a>
+        img_alt: Savanna Lynn
   - type: divider2x
     bg_color: white
   - credit_select: true
@@ -382,32 +403,195 @@ components:
     bg_color: white
     img_alt: Please type in a description of the image
     cta: Call To Action
-    desc: |
-      
-      <div class="flex justify-between">
+    desc: >+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
       <div>
-      <p><strong>Bridal hair and makeup service:</strong></p>
-      <p><strong>Guest hair and makeup service</strong></p>
-      <p><strong>Bridal flower crown</strong></p>
-      <p><strong>Guest boutonniere</strong></p>
-      <p><strong>Dog flower collar</strong></p>
-      <p><strong>Single tier cake from Zoe's Bakery</strong></p>
-      <p><strong>Additional 1 hour of photography coverage</strong></p>
-      <p><strong>Elopement Cinematic video (no vows recorded)</strong></p>
-      <p><strong>Elopement Cinematic video (with vows recorded)</strong></p>
+
+      <span class="md:text-xl">Bridal hair and makeup service</span><br>
+
       </div>
-      <div class="text-right">
-      <p> $550</p>
-      <p> $350</p>
-      <p> (ask for a quote)</p>
-      <p> $45</p>
-      <p> $75</p>
-      <p> $65</p>
-      <p> starting at $650.00</p>
-      <p> $1500.00</p>
-      <p> $1900</p>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$550</div>
+
       </div>
+
       </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Guest hair and makeup service</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$350</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Bridal flower crown</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">(ask for a quote)</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Guest boutonniere</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$45</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Dog flower collar</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$90</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Single tier cake from Zoe's Bakery</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$65</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Meat & Cheese platter for 2</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$70</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Additional 1 hour of photography coverage</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">starting at $650</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Helicopter bridal pictures</span><br>
+
+      <small>must have minimum of 2hours of photography booked</small><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">starting at $2000</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Elopement Cinematic video (no vows recorded)</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$1500</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Elopement Cinematic video (with vows recorded)</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$1900</div>
+
+      </div>
+
+      </div>
+
     aos_select: false
     title: "Step 5: Add On Services"
     type: img_half_right

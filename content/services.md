@@ -28,7 +28,7 @@ components:
 
       <ul>
 
-      <li class="list-disc ml-6">2h of personal consultation and planning</li>
+      <li class="list-disc ml-6">Personal consultation and planning</li>
 
       <li class="list-disc ml-6">Coordination of the day</li>
 
@@ -76,7 +76,7 @@ components:
 
       <ul>
 
-      <li class="list-disc ml-6">3h of personal consultation and planning</li> 
+      <li class="list-disc ml-6">Personal consultation and planning</li> 
 
       <li class="list-disc ml-6">Coordination of the day </li>
 
@@ -129,7 +129,7 @@ components:
 
       <ul>
 
-      <li class="list-disc ml-6">4h of personal  consultation and planning</li>
+      <li class="list-disc ml-6">Personal  consultation and planning</li>
 
       <li class="list-disc ml-6">Detailed itinerary of the event</li> 
 
