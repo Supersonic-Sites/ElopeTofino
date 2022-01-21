@@ -104,7 +104,6 @@ components:
           - feature: "Coordination of the day "
           - feature: Detailed itinerary of the event
           - feature: BC marriage officiant
-          - feature: Sparkling wine
           - feature: Bride(s) bouquet(s)
           - feature: "Groom(s) boutonniere(s) "
           - feature: Bridal hair & makeup

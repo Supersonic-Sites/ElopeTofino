@@ -56,7 +56,9 @@ components:
       - img: ElopeTofino/Screen_Shot_2019-05-20_at_10.45.12_9232K6iz8j.png
         title: Bryanna Bradley
         desc_select: true
-        desc: <a href="http://www.bryannabradley.ca/"><u>Visit website</u></a>
+        desc: |-
+          <a href="http://www.bryannabradley.ca/"><u>Visit website</u></a><br>
+          <small>*Additional fee might apply</small>
         img_alt: Bryanna Bradley
       - img: ElopeTofino/Screen_Shot_2019-05-20_at_10.55.51_8SZ4a5kLHI.png
         title: Karley Bracey
@@ -263,51 +265,51 @@ components:
         <object data="https://lh3.googleusercontent.com/Z2R6BM-Ek48Wj5NIdHT19R_yLkYmNzNLf24jlQu1pNtexMIfVMxGtlVV2nnb1v7n7WoFGy72KDoWtigGH0S7FlS9J4CHcdMVrusjABfkEHuoNxan92qVlfLYgxtK6_wG_TndKHSRbw=w1920-h1080"></object>
       </div>
 
-  - type: divider
-    bg_color: white
-  - type: gallery-small
-    bg_color: white
-    title: Schooner Cove & Trail
-    desc: >-
-      <Strong>(Closed due to Covid-19 until further notice)</strong>
-
-      Spectacular and fairly secluded beach that is accessible from Long Beach North at low tide. There is a Schooner Cove trail that can take you to Long Beach North. The boardwalk trail is 2 km through beautiful temperate rainforest. 
-
-      <br><br>
-
-      <ul>
-
-      <li class="mb-2"><strong>Location:</strong> Tofino</li>
-
-      <li class="mb-2"><strong>Type:</strong> Beach/Rainforest</li>
-
-      <li class="mb-2"><strong>Access:</strong> 15 min walking</li>
-
-      <li class="mb-2"><strong>Capacity:</strong> 15</li>
-
-      <li class="mb-2"><strong>Privacy:</strong> Intimate</li>
-
-      </ul>
-    code: >
-      <script
-      src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js"
-      async></script>
-
-      <div class="pa-gallery-player-widget w-full shadow-2xl" style="width:100%; height:390px; display:none;"
-        data-link="https://photos.app.goo.gl/n5uutVzNAyUJE7Ay8"
-        data-title=" Schooner Cove &amp; Trail - Venue"
-        data-description="10 new photos added to shared album">
-        <object data="https://lh3.googleusercontent.com/kJMSo8dcS-0FmR8fc5oXHgxYaMoQwlZOJ8FdaYh9YSvpXNz06D8Vu_RkmQRFyAkOMEx8lmV1Zw9mR_Eh4fnglh1MtoMLTvQxWe-gBAyBnt9Wnme2-6C6a9gEKhenS_ttBH3Qn4i0ZA=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/uKDrWtdi0EigcDRNGFPQZjZ5dYOALYBGQAg3x_XUxPgZit1PQ-QS3_emODbW2yb_ccxDTfxMEY5e6bavElzzHPti-B_S-AU8T-7x01T-Dzs62UxQXFuZUEYgqaGMRekqH35uYDoKPw=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/osZdGJxgdjyUbJ3EjvHArGK3ONvCgCStzA3DLh2sQyBHVfoqawv7Pj-yCZQ3uVmZac1brA3SWi-0ccSbhDYt5pljmfJv1yZWRoG72bMK0wOKpQZGXfwhJDZB1cI-Z0HcTlnrLb5L4Q=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/VOSdXXUXfKuDnwbIFWU1yc_NScfqYnJ-NA2MFzzW8XCOfDfr8VME1gGSFcboGofUZddeFTvOg4UUqUDuBVtXNB3HezwZ2KF3dOMDqn5CrQcus87649sHkCEYBYPAZnq1VIyh42dUeA=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/BSdC9dY8y1wROQIxhaUoBLKc5q12VDSm9JwcUl_FTh_8O0KRAcEw0SyBHbdOC0KNftbEU_6o_dVzTZLlhdKl-5ynapiAlIIQ8FZI6OpuYIioIqGTczwo_K1pwapgENYXFdJ9i1CGtA=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/R09ySfehuz2s3yQeqSynfUMJU2MmUSfzBQ_t3fDe_eLU3GPseqeuPgGz0y1xv6TAuAIE3ni4gyrKsaTdi0Kz7BmwGK5pjVXEsnH2teZTDxJjdqGn0QLCBrQIgSZmoMJDpYj5kZCumg=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/n1nKcGJCZhapDYgxTUmTwC1Yt2XRog_Ll1O1I0ghUGYtWdgTgc5SPnw7StDdF3POM5d3dne1AS5qmtD4IuIZDVAVwlC6SokIBXE58rswAMM6-7KjfMnNNruZDLHTWerRAfmgHFKUrw=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/OXtr7CEHj3QW0N88DPz-2V_RElEH9WBfyNwGyNUwvxUUWXy-GZ_w0Rgw2AjYMOxWMPSyAcoXKJY-r751KL-zHXsIBCCieCAzWmSj3fBN7uWzCoGSs-PCqpEiZGUBP7wZioOGWF2RoA=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/f_mAvNjdR6zmrsSOdae6LPX81xYvH4ttFt-Ee2u4omaYwALpWlIYnnaQDw-5jrvxpUvRMFocTtRZm07VDHhcVcw4zQzhoSAT8U_Qh2RaLHXtp5xg_6g7XbGh7vaT1RFEl_nu080-xg=w1920-h1080"></object>
-        <object data="https://lh3.googleusercontent.com/Q8fBxReABfDL4ZjvePWYZus07h-q3inkMv4SL3JVlHPmYsJi8RXb8r6uySizZuV9eysKP8qebi9fXQoX0AN_esSBap3JLEuhR7nbO_UGRGm7zd_6-XiRnN3asLOn24g38rHaTh6OsA=w1920-h1080"></object>
-      </div>
+#  - type: divider
+#    bg_color: white
+#  - type: gallery-small
+#    bg_color: white
+#    title: Schooner Cove & Trail
+#    desc: >-
+#      <Strong>(Closed due to Covid-19 until further notice)</strong>
+#
+#      Spectacular and fairly secluded beach that is accessible from Long Beach North at low tide. There is a Schooner Cove trail that can take you to Long Beach North. The boardwalk trail is 2 km through beautiful temperate rainforest. 
+#
+#      <br><br>
+#
+#      <ul>
+#
+#      <li class="mb-2"><strong>Location:</strong> Tofino</li>
+#
+#      <li class="mb-2"><strong>Type:</strong> Beach/Rainforest</li>
+#
+#      <li class="mb-2"><strong>Access:</strong> 15 min walking</li>
+#
+#      <li class="mb-2"><strong>Capacity:</strong> 15</li>
+#
+#      <li class="mb-2"><strong>Privacy:</strong> Intimate</li>
+#
+#      </ul>
+#    code: >
+#      <script
+#      src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js"
+#      async></script>
+#
+#      <div class="pa-gallery-player-widget w-full shadow-2xl" style="width:100%; height:390px; display:none;"
+#        data-link="https://photos.app.goo.gl/n5uutVzNAyUJE7Ay8"
+#        data-title=" Schooner Cove &amp; Trail - Venue"
+#        data-description="10 new photos added to shared album">
+#        <object data="https://lh3.googleusercontent.com/kJMSo8dcS-0FmR8fc5oXHgxYaMoQwlZOJ8FdaYh9YSvpXNz06D8Vu_RkmQRFyAkOMEx8lmV1Zw9mR_Eh4fnglh1MtoMLTvQxWe-gBAyBnt9Wnme2-6C6a9gEKhenS_ttBH3Qn4i0ZA=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/uKDrWtdi0EigcDRNGFPQZjZ5dYOALYBGQAg3x_XUxPgZit1PQ-QS3_emODbW2yb_ccxDTfxMEY5e6bavElzzHPti-B_S-AU8T-7x01T-Dzs62UxQXFuZUEYgqaGMRekqH35uYDoKPw=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/osZdGJxgdjyUbJ3EjvHArGK3ONvCgCStzA3DLh2sQyBHVfoqawv7Pj-yCZQ3uVmZac1brA3SWi-0ccSbhDYt5pljmfJv1yZWRoG72bMK0wOKpQZGXfwhJDZB1cI-Z0HcTlnrLb5L4Q=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/VOSdXXUXfKuDnwbIFWU1yc_NScfqYnJ-NA2MFzzW8XCOfDfr8VME1gGSFcboGofUZddeFTvOg4UUqUDuBVtXNB3HezwZ2KF3dOMDqn5CrQcus87649sHkCEYBYPAZnq1VIyh42dUeA=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/BSdC9dY8y1wROQIxhaUoBLKc5q12VDSm9JwcUl_FTh_8O0KRAcEw0SyBHbdOC0KNftbEU_6o_dVzTZLlhdKl-5ynapiAlIIQ8FZI6OpuYIioIqGTczwo_K1pwapgENYXFdJ9i1CGtA=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/R09ySfehuz2s3yQeqSynfUMJU2MmUSfzBQ_t3fDe_eLU3GPseqeuPgGz0y1xv6TAuAIE3ni4gyrKsaTdi0Kz7BmwGK5pjVXEsnH2teZTDxJjdqGn0QLCBrQIgSZmoMJDpYj5kZCumg=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/n1nKcGJCZhapDYgxTUmTwC1Yt2XRog_Ll1O1I0ghUGYtWdgTgc5SPnw7StDdF3POM5d3dne1AS5qmtD4IuIZDVAVwlC6SokIBXE58rswAMM6-7KjfMnNNruZDLHTWerRAfmgHFKUrw=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/OXtr7CEHj3QW0N88DPz-2V_RElEH9WBfyNwGyNUwvxUUWXy-GZ_w0Rgw2AjYMOxWMPSyAcoXKJY-r751KL-zHXsIBCCieCAzWmSj3fBN7uWzCoGSs-PCqpEiZGUBP7wZioOGWF2RoA=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/f_mAvNjdR6zmrsSOdae6LPX81xYvH4ttFt-Ee2u4omaYwALpWlIYnnaQDw-5jrvxpUvRMFocTtRZm07VDHhcVcw4zQzhoSAT8U_Qh2RaLHXtp5xg_6g7XbGh7vaT1RFEl_nu080-xg=w1920-h1080"></object>
+#        <object data="https://lh3.googleusercontent.com/Q8fBxReABfDL4ZjvePWYZus07h-q3inkMv4SL3JVlHPmYsJi8RXb8r6uySizZuV9eysKP8qebi9fXQoX0AN_esSBap3JLEuhR7nbO_UGRGm7zd_6-XiRnN3asLOn24g38rHaTh6OsA=w1920-h1080"></object>
+#      </div>
   - type: divider
     bg_color: white
   - type: gallery-small
