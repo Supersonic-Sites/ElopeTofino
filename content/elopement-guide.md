@@ -40,7 +40,7 @@ components:
         title: " Jen McLeod"
         desc_select: true
         desc: |-
-          <a href="https://jenmcleod.com/blog/"><u>Visit website</u></a><br>
+          <a href="https://jenmcleod.com/"><u>Visit website</u></a><br>
           <small>*Additional fee might apply</small>
         img_alt: " Jen McLeod"
       - img: ElopeTofino/PaulLevy_Tofino_qq2qu_2V4.jpg
@@ -572,7 +572,7 @@ components:
 
       <div class="font-bold text-primary text-base flex flex-col text-right">
 
-      <div class="md:pl-2">$1500</div>
+      <div class="md:pl-2">$1700</div>
 
       </div>
 
@@ -589,7 +589,7 @@ components:
 
       <div class="font-bold text-primary text-base flex flex-col text-right">
 
-      <div class="md:pl-2">$1900</div>
+      <div class="md:pl-2">$2200</div>
 
       </div>
 
