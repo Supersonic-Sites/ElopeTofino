@@ -57,8 +57,7 @@ components:
         title: Bryanna Bradley
         desc_select: true
         desc: |-
-          <a href="http://www.bryannabradley.ca/"><u>Visit website</u></a><br>
-          <small>*Additional fee might apply</small>
+          <a href="http://www.bryannabradley.ca/"><u>Visit website</u></a>
         img_alt: Bryanna Bradley
       - img: ElopeTofino/Screen_Shot_2019-05-20_at_10.55.51_8SZ4a5kLHI.png
         title: Karley Bracey
