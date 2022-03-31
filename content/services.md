@@ -18,7 +18,7 @@ components:
     img_alt: Beautiful image of a couple by the ocean
     cta: Call To Action
     desc: >
-      Starting at $2,400 the Intimate Elopement is a meaningful and affordable
+      Starting at $2,500 the Intimate Elopement is a meaningful and affordable
       alternative to a large and complicated financially stressful wedding.
       <br><br>
 
@@ -58,7 +58,7 @@ components:
     aos_select: true
     title: Intimate Elopement
     type: img_half_right
-    website: https://sachinkhona.com/c
+    website: https://sachinkhona.com/
   - type: divider2x
     bg_color: white
   - credit_select: true
@@ -70,7 +70,7 @@ components:
     img_alt: Picture of couple by the ocean
     cta: Call To Action
     desc: >
-      Starting at $3,600, the West Coast Elopement Package offers you a small
+      Starting at $3,700, the West Coast Elopement Package offers you a small
       and meaningful celebration with extra touches like hair and makeup, and a
       delicious wedding cake for two! This package includes:<br><br>
 
@@ -124,7 +124,7 @@ components:
     cta: Call To Action
     desc: >
       Do you still want a wedding but with only your closest friends and family
-      present? The Tiny Wedding Package, starting at $4,900, is the perfect
+      present? The Tiny Wedding Package, starting at $4,950, is the perfect
       option for you. You’ll receive:<br><br>
 
       <ul>
@@ -149,9 +149,9 @@ components:
 
       <li class="list-disc ml-6">Signing table</li> 
 
-      <li class="list-disc ml-6">Wedding cake for up to 10</li>
+      <li class="list-disc ml-6">Wedding cake for up to 15</li>
 
-      <li class="list-disc ml-6">Meat & cheese platter for up to 10</li>
+      <li class="list-disc ml-6">Meat & cheese platter for up to 15</li>
 
       <li class="list-disc ml-6">Access to curated locations list</li>
 
@@ -178,7 +178,7 @@ components:
     desc: >-
       If you’re eloping, why not elope in true style! You’re skipping traditions
       anyway, so why not bypass the walk down the aisle and ride in a helicopter
-      instead! Starting at $5,500, the Adventure Elopement takes your elopement
+      instead! Starting at $5,800, the Adventure Elopement takes your elopement
       to new heights...literally. 
 
       <br><br>This exciting package includes:<br><br>
