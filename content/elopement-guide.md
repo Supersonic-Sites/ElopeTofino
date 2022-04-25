@@ -147,25 +147,56 @@ components:
     cta: Call To Action
     desc: >-
       A small wedding cake for 2 people will be included with your elopement
-      package.  ​<br><br>
+      package.  ​<br>
 
-      <ul>
+      <br>
 
-      <li class="list-disc ml-6">Chocolate Mousse</li>
+      <h3 class="text-xl font-bold">Chocolate Mousse</h3>
 
-      <li class="list-disc ml-6">Chocolate Hazelnut Mousse</li>
+      <hr>
 
-      <li class="list-disc ml-6">Vanilla Bean and Berry</li>
+      <p class="mt-1 text-base mb-2">A rich chocolate cake base topped with a dark chocolate mousse and enrobed in a chocolate ganache. Chocolate on chocolate, on chocolate !!<br>*Available in GF</p>
 
-      <li class="list-disc ml-6">Classic Carrot Cake</li>
 
-      <li class="list-disc ml-6">Lemon and Raspberry</li>
+      <h3 class="text-xl font-bold">Vanilla Bean And Berry</h3>
 
-      <li class="list-disc ml-6">Salted Caramel and Chocolate</li>
+      <hr>
 
-      <li class="list-disc ml-6">Classic Cheesecake</li>
+      <p class="mt-1 text-base mb-2">A vanilla sponge cake layered with Madagascan vanilla bean buttercream and seasonal berries.<br>*Available in GF<p>
 
-      </ul>
+      <h3 class="text-xl font-bold">Tropical Carrot Cake</h3>
+
+      <hr>
+
+      <p class="mt-1 text-base mb-2">Zoe’s classic carrot cake with a hint of pineapple, house cream cheese icing and finished in a toasted ribbon coconut.<p>
+
+      <h3 class="text-xl font-bold">Lemon And Rasberry</h3>
+
+      <hr>
+
+      <p class="mt-1 text-base mb-2">Vanilla sponge cake layered with fresh lemon curd, raspberries and lemon buttercream.<br>*Available in GF<p>
+
+      <h3 class="text-xl font-bold">Chocolate Salted Caramel</h3>
+
+      <hr>
+
+      <p class="mt-1 text-base mb-2">A rich and chocolate cake with layers of chocolate buttercream and salted caramel swirls.<br>*Available in GF<p>
+
+      <h3 class="text-xl font-bold">Classic Cheesecake</h3>
+
+      <hr>
+
+      <p class="mt-1 text-base mb-2">A rich creamy backed cheesecake with a classic graham cracker crust.
+
+      <p>
+
+      <h3 class="text-xl font-bold">Vegann Cashew Cheesecake (GF)</h3>
+
+      <hr>
+
+      <p class="mt-1 text-base mb-2">A creamy cashew cheesecake with a toasted coconut and almond crust.
+
+      <p>
     aos_select: true
     title: "Step 3: The Cake"
     type: img_half_right
