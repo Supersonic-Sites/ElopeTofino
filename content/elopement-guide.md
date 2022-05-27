@@ -53,7 +53,7 @@ components:
         img_alt: Paul Levy
       - img: ElopeTofino/SaraProfile_qTpcCzT8G.jpg
         desc: <a href="http://www.saraspectrum.com/marriage/" target=”_blank”><u>Visit
-          website</u></a>
+          website</u></a><br><small>* Videography available</small>
         title: Sara Spectrum
         desc_select: true
         img_alt: Sara Spectrum
@@ -99,12 +99,21 @@ components:
         desc: <a href="https://www.savannalynnphotography.com/" target=”_blank”><u>Visit
           website</u></a>
         img_alt: Savanna Lynn
-      - img: ElopeTofino/headshot_MWHfGtNRC.jpg
-        title: Marnie Recker
+      - img: ElopeTofino/gareau-20201113-sound-3270-Edit_V2mCL1qYF.jpg
+        title: Cristina Gareau
         desc_select: true
-        desc: <a href="https://www.marnierecker.com/photo-portfolio/weddings"
-          target=”_blank”><u>Visit website</u></a>
-        img_alt: Marnie Recker
+        desc: <a href="https://nanoustudio.com/wedding" target=”_blank”><u>Visit
+          website</u></a>
+        img_alt: Cristina Gareau
+      - img: ElopeTofino/3_7qf57aiO-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1653670549772
+        title: Kiin Photo & Video
+        desc: >-
+          <a href="https://www.youtube.com/channel/UC1CnPQ8O3GWQf2HUA-SDLWw"
+          target=”_blank”><u>Youtube</u></a> / 
+
+          <a href="https://www.instagram.com/kiinfilmandphoto/" target=”_blank”><u>Instagram</u></a><br><small>*Additional fee will apply</small>
+        desc_select: true
+        img_alt: Kiin Photo & Video
   - type: divider2x
     bg_color: white
   - credit_select: true
