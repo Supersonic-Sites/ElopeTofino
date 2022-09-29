@@ -1,7 +1,6 @@
 {
   "htmlElements": {
     "tags": [
-      "!doctype",
       "a",
       "article",
       "base",
@@ -20,7 +19,6 @@
       "form",
       "h1",
       "h2",
-      "h2\r\n",
       "h3",
       "h4",
       "head",
@@ -29,8 +27,6 @@
       "html",
       "iframe",
       "img",
-      "img\n",
-      "img\r\n",
       "input",
       "label",
       "li",
@@ -41,7 +37,6 @@
       "object",
       "p",
       "path",
-      "path\r\n",
       "pattern",
       "picture",
       "rect",
