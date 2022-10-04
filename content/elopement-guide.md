@@ -57,12 +57,12 @@ components:
         title: Sara Spectrum
         desc_select: true
         img_alt: Sara Spectrum
-      - img: ElopeTofino/Screen_Shot_2019-05-20_at_10.45.12_9232K6iz8j.png
-        title: Bryanna Bradley
+      - img: ElopeTofino/Melissa_Renwick_2lZY-1GYh.jpg
+        title: Melissa Renwick
         desc_select: true
-        desc: <a href="http://www.bryannabradley.ca/" target=”_blank”><u>Visit
+        desc: <a href="https://www.mayflyandjune.com/" target=”_blank”><u>Visit
           website</u></a>
-        img_alt: Bryanna Bradley
+        img_alt: Melissa Renwick
       - img: ElopeTofino/Screen_Shot_2019-05-20_at_10.55.51_8SZ4a5kLHI.png
         title: Karley Bracey
         desc_select: true
