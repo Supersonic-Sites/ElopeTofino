@@ -113,6 +113,7 @@
       "font-medium",
       "font-sans",
       "font-semibold",
+      "g-recaptcha",
       "gap-0",
       "gap-12",
       "gap-8",
@@ -431,6 +432,7 @@
       "f210dbf6-a58d-4871-961e-36d5016a0f49",
       "footerHeading",
       "full_name",
+      "hs-script-loader",
       "legal-requirements",
       "links-to-other-sites",
       "message",
@@ -442,7 +444,8 @@
       "privacy-of-children",
       "privacy-policy",
       "service-providers",
-      "use-of-data"
+      "use-of-data",
+      "websiteform"
     ]
   }
 }
