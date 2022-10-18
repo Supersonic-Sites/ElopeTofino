@@ -1,3 +1,8 @@
+<style>
+  .grecaptcha-badge {
+  display: none;
+  }
+  </style>
 <div class="relative bg-{{ .bg_color }}">
   <div class="absolute inset-0">
     <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
@@ -41,7 +46,7 @@
     </div>
     <div class="bg-white py-8 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
-        <form action="https://usebasin.com/f/62ce0078a688" method="POST" id="websiteform" class="grid grid-cols-1 gap-y-6">
+        <form action="https://usebasin.com/f/62ce0078a688" method="POST" id="invisible-recaptcha-form" class="grid grid-cols-1 gap-y-6">
           <div>
             <label for="Full Name" class="sr-only">Full name</label>
             <input type="text" name="Full Name" id="full_name" autocomplete="name" required
@@ -111,12 +116,8 @@
               placeholder="Message"></textarea>
           </div>
           <input type="hidden" name="_gotcha">
-          <div class="g-recaptcha" style="margin-bottom: 20px;" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
           <div>
-            <button type="submit"
-              class="btn_primary transition duration-500">
-              Send
-            </button>
+            <button class="g-recaptcha btn_primary transition duration-500" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' data-badge="inline">Send</button>
           </div>
         </form>
       </div>

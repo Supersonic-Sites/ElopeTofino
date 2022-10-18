@@ -46,6 +46,7 @@
       "source",
       "span",
       "strong",
+      "style",
       "svg",
       "textarea",
       "title",
@@ -433,6 +434,7 @@
       "footerHeading",
       "full_name",
       "hs-script-loader",
+      "invisible-recaptcha-form",
       "legal-requirements",
       "links-to-other-sites",
       "message",
@@ -444,8 +446,7 @@
       "privacy-of-children",
       "privacy-policy",
       "service-providers",
-      "use-of-data",
-      "websiteform"
+      "use-of-data"
     ]
   }
 }
