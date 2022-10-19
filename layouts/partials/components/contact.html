@@ -43,7 +43,7 @@
     </div>
     <div class="bg-white py-8 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
-        <form action="https://usebasin.com/f/62ce0078a688" method="POST" id="website-form" class="grid grid-cols-1 gap-y-6">
+        <form action="https://usebasin.com/f/62ce0078a688" method="POST" id="invisible-recaptcha-form" class="grid grid-cols-1 gap-y-6">
           <div>
             <label for="full_name" class="sr-only">Full name</label>
             <input type="text" name="full_name" id="full_name" autocomplete="name" required
@@ -113,10 +113,9 @@
               placeholder="Message"></textarea>
           </div>
           <input type="hidden" name="_gotcha">
-          <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback="onSubmit" data-badge="inline"></div>          
-          
           <div style="margin-top: 10px;">
-            <button class="btn_primary transition duration-500">Send</button>
+            <button class="g-recaptcha btn_primary transition duration-500" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' data-badge="inline">Send</button>
+            
           </div>
         </form>
       </div>

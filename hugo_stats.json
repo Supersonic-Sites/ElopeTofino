@@ -46,6 +46,7 @@
       "source",
       "span",
       "strong",
+      "style",
       "svg",
       "textarea",
       "title",
@@ -445,7 +446,8 @@
       "privacy-of-children",
       "privacy-policy",
       "service-providers",
-      "use-of-data"
+      "use-of-data",
+      "website-form"
     ]
   }
 }
