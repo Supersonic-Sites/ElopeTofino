@@ -1,4 +1,5 @@
 
+<script src="https://www.google.com/recaptcha/api.js" async></script>
 
 <div class="relative bg-{{ .bg_color }}">
   <div class="absolute inset-0">
@@ -43,10 +44,10 @@
     </div>
     <div class="bg-white py-8 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
-        <form action="https://usebasin.com/f/62ce0078a688" method="POST" id="website-form" class="grid grid-cols-1 gap-y-6" data-basin-form>
+        <form action="https://usebasin.com/f/62ce0078a688" method="POST" id="invisible-recaptcha-form" class="grid grid-cols-1 gap-y-6">
           <div>
-            <label for="full_name" class="sr-only">Full name</label>
-            <input type="text" name="full_name" id="full_name" autocomplete="name" required
+            <label for="Full Name" class="sr-only">Full name</label>
+            <input type="text" name="Full Name" id="full_name" autocomplete="name" required
               class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
               placeholder="Full name">
           </div>
@@ -113,14 +114,12 @@
               placeholder="Message"></textarea>
           </div>
           <input type="hidden" name="_gotcha">
-          <div style="margin-top: 10px;">
-            <button class="g-recaptcha btn_primary transition duration-500" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' data-badge="inline">Send</button>
-            
+          <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+
+          <div>
+            <button class="btn_primary transition duration-500">Send</button>
           </div>
-          
         </form>
-        <div class="w-form-done flex p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800 mt-9" role="alert" style="display: none;">Thank you! We have received your message! </div>
-        <div class="w-form-fail" style="display: none;">Oops, something went wrong 🚨🚨🚨</div>
       </div>
     </div>
   </div>
