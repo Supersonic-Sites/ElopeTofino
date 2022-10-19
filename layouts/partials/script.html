@@ -48,14 +48,4 @@ const swiper = new Swiper('.swiper-container', {
 
 });
 </script>
-<script>
-  	document.getElementById("website-form").addEventListener("submit", function() {
-		event.preventDefault();
-		grecaptcha.reset();
-		grecaptcha.execute();
-	}, false);
 
-	function onSubmit(token) {
-		document.getElementById("website-form").submit();
-	}
-</script>
