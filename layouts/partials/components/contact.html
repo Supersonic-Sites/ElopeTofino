@@ -1,8 +1,6 @@
-<style>
-  .grecaptcha-badge {
-  display: none;
-  }
-  </style>
+
+<script src="https://www.google.com/recaptcha/api.js" async></script>
+
 <div class="relative bg-{{ .bg_color }}">
   <div class="absolute inset-0">
     <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
@@ -116,8 +114,9 @@
               placeholder="Message"></textarea>
           </div>
           <input type="hidden" name="_gotcha">
-          <div>
-            <button class="g-recaptcha btn_primary transition duration-500" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' data-badge="inline">Send</button>
+          <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+          <div style="margin-top: 10px;>
+            <button class="btn_primary transition duration-500" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' data-badge="inline">Send</button>
           </div>
         </form>
       </div>
