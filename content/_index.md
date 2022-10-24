@@ -93,12 +93,12 @@ components:
           - feature: Rain Plan
         title: Intimate Elopement
         desc: Starts at
-        price: $2,500
+        price: $2,600
       - cta: Let's Talk
         cta_link: contact/
         title: West Coast Elopement
         desc: Starts at
-        price: $3,700
+        price: $3,800
         features:
           - feature: "Personal consultation and planning "
           - feature: "Coordination of the day "
@@ -118,7 +118,7 @@ components:
         cta_link: contact/
         title: Tiny Wedding
         desc: Starts at
-        price: $4,950
+        price: $4,990
         features:
           - feature: "Personal  consultation and planning "
           - feature: Detailed itinerary of the event
@@ -140,7 +140,7 @@ components:
         cta_link: contact/
         title: Adventure Elopement
         desc: Starts at
-        price: $5,800
+        price: $5,900
         features:
           - feature: 2 HOUR HELICOPTER TOUR
           - feature: Detailed itinerary of the event
