@@ -81,12 +81,6 @@ components:
         desc: <a href="https://www.loveseaphotography.com" target=”_blank”><u>Visit
           website</u></a>
         img_alt: Lindsay Lovesea
-      - img: ElopeTofino/Steffi_Wo1wQnCLAA.jpg
-        title: Steffi Jade
-        desc_select: true
-        desc: <a href="https://steffijade.wixsite.com/visuals/weddings/"
-          target=”_blank”><u>Visit website</u></a>
-        img_alt: Steffi Jade
       - img: ElopeTofino/clover_E_llaVsvwEP.jpg
         title: Clover June
         desc_select: true
@@ -334,7 +328,7 @@ components:
 
       <ul>
 
-      <li class="mb-2"><strong>Location:</strong> Tofino</li>
+      <li class="mb-2"><strong>Location:</strong> Near Ucluelet</li>
 
       <li class="mb-2"><strong>Type:</strong> Beach/Cove</li>
 

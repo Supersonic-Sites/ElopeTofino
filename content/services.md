@@ -11,7 +11,7 @@ components:
   - credit_select: true
     img: ElopeTofino/PLP_20_08_HaleyRory-159_5B5lNqAgED.jpg
     aos: fade-up
-    photographer: Haley Rory
+    photographer: Paul Levy
     cta_link: contact/
     bg_color: white
     cta_select: false
@@ -58,7 +58,7 @@ components:
     aos_select: true
     title: Intimate Elopement
     type: img_half_right
-    website: https://sachinkhona.com/
+    website: https://www.paullevyphoto.com
   - type: divider2x
     bg_color: white
   - credit_select: true
