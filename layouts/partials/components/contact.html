@@ -109,9 +109,10 @@
           </div>
           <div>
             <label for="Message" class="sr-only">Message</label>
-            <textarea required id="message" name="Message" rows="4" 
-              class="block w-full shadow-sm py-3 px-4 mb-6 placeholder-gray-500 rounded-sm focus:border-white ring-primary"
-              placeholder="Message"></textarea>
+            <textarea required id="message-input" name="message" rows="4" 
+              class="block w-full shadow-sm py-3 px-4 mb-6 placeholder-gray-500 rounded-sm focus:border-white ring-primary hs-form__field__input" aria-invalid="false" aria-labelledby="message-label" aria-describedby="message-description" aria-required="false" spellcheck="false" placeholder="Message"></textarea>
+
+
           </div>
           <input type="hidden" name="_gotcha">
           <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
@@ -124,7 +125,6 @@
     </div>
   </div>
 </div>
-
 
 
 
