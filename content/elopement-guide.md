@@ -52,7 +52,7 @@ components:
           website</u></a>
         img_alt: Paul Levy
       - img: ElopeTofino/SaraProfile_qTpcCzT8G.jpg
-        desc: <a href="http://www.saraspectrum.com/marriage/" target=”_blank”><u>Visit
+        desc: <a href="https://saraspectrumweddings.mypixieset.com/" target=”_blank”><u>Visit
           website</u></a><br><small>* Videography available</small>
         title: Sara Spectrum
         desc_select: true
