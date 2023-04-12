@@ -150,56 +150,37 @@ components:
     cta: Call To Action
     desc: >-
       A small wedding cake for 2 people will be included with your elopement
-      package.  ​<br>
+      package. While each flavour has slight variation, the elopement cakes are four layers of buttery sponge cake with silky smooth Italian meringue buttercream generously nestled in between. ​<br>
 
       <br>
 
-      <h3 class="text-xl font-bold">Chocolate Mousse</h3>
+      <h3 class="text-xl my-1"><strong>Lemon Yuzu</strong> - Available GF and/or VF</h3>
 
       <hr>
 
-      <p class="mt-1 text-base mb-2">A rich chocolate cake base topped with a dark chocolate mousse and enrobed in a chocolate ganache. Chocolate on chocolate, on chocolate !!<br>*Available in GF</p>
-
-
-      <h3 class="text-xl font-bold">Vanilla Bean And Berry</h3>
+      <h3 class="text-xl my-1"><strong>Pistachio Raspberry Rose</strong> - Available in GF</h3>
 
       <hr>
 
-      <p class="mt-1 text-base mb-2">A vanilla sponge cake layered with Madagascan vanilla bean buttercream and seasonal berries.<br>*Available in GF<p>
-
-      <h3 class="text-xl font-bold">Tropical Carrot Cake</h3>
+      <h3 class="text-xl my-1"><strong>Salted Caramel</strong> - Available GF and/or VF</h3>
 
       <hr>
 
-      <p class="mt-1 text-base mb-2">Zoe’s classic carrot cake with a hint of pineapple, house cream cheese icing and finished in a toasted ribbon coconut.<p>
-
-      <h3 class="text-xl font-bold">Lemon And Rasberry</h3>
+      <h3 class="text-xl my-1"><strong>Salted Caramel & chocolate</strong> - Available GF and/or VF</h3>
 
       <hr>
 
-      <p class="mt-1 text-base mb-2">Vanilla sponge cake layered with fresh lemon curd, raspberries and lemon buttercream.<br>*Available in GF<p>
-
-      <h3 class="text-xl font-bold">Chocolate Salted Caramel</h3>
+      <h3 class="text-xl my-1"><strong>The Bon-Bon (cookies & cream)</strong> - Available GF or VF(either or, not both)</h3>
 
       <hr>
 
-      <p class="mt-1 text-base mb-2">A rich and chocolate cake with layers of chocolate buttercream and salted caramel swirls.<br>*Available in GF<p>
-
-      <h3 class="text-xl font-bold">Classic Cheesecake</h3>
+      <h3 class="text-xl my-1"><strong>Earl Grey Vanilla</strong> - Available GF and/or VF</h3>
 
       <hr>
 
-      <p class="mt-1 text-base mb-2">A rich creamy backed cheesecake with a classic graham cracker crust.
 
-      <p>
+      <h3 class="text-xl my-1"><strong>Chocolat Chocolat !</strong> - Available GF and/or VF</h3>
 
-      <h3 class="text-xl font-bold">Vegann Cashew Cheesecake (GF)</h3>
-
-      <hr>
-
-      <p class="mt-1 text-base mb-2">A creamy cashew cheesecake with a toasted coconut and almond crust.
-
-      <p>
     aos_select: true
     title: "Step 3: The Cake"
     type: img_half_right
