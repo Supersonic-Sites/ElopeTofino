@@ -28,6 +28,21 @@ components:
       <h3 class="text-3xl font-bold">Choose a Photographer</h3><br>
 
       I only work with local people who know and and love this incredible area. Check out this list of amazing photographers, ready to capture every detail of your special day. 
+
+
+      <h3 class="text-2xl font-bold">Looking for videography too?</h3><br>
+
+      <p class="text-1xl">Videography is not included in the package but can be arranged.</p>
+
+      <ul>
+
+      <li class="list-disc ml-6">Ceremony only - audio recorded - $800 -  (up to 30min coverage)</li>
+
+      <li class="list-disc ml-6">Cinematic video of the full elopement - no audio recorded - $1700 (Up to 4h coverage)</li>
+
+      <li class="list-disc ml-6">Cinematic video of the full elopement - audio recorded - $2200 (Up to 4h coverage)</li>
+
+      </ul>
     team1:
       - img: DEV/boilerplate-bg_tRB-gJlPq.jpg
         title: Agathe Bernard
@@ -52,8 +67,9 @@ components:
           website</u></a>
         img_alt: Paul Levy
       - img: ElopeTofino/SaraProfile_qTpcCzT8G.jpg
-        desc: <a href="https://saraspectrumweddings.mypixieset.com/" target=”_blank”><u>Visit
-          website</u></a><br><small>* Videography available</small>
+        desc: <a href="https://saraspectrumweddings.mypixieset.com/"
+          target=”_blank”><u>Visit website</u></a><br><small>* Videography
+          available</small>
         title: Sara Spectrum
         desc_select: true
         img_alt: Sara Spectrum
@@ -150,7 +166,9 @@ components:
     cta: Call To Action
     desc: >-
       A small wedding cake for 2 people will be included with your elopement
-      package. While each flavour has slight variation, the elopement cakes are four layers of buttery sponge cake with silky smooth Italian meringue buttercream generously nestled in between. ​<br>
+      package. While each flavour has slight variation, the elopement cakes are
+      four layers of buttery sponge cake with silky smooth Italian meringue
+      buttercream generously nestled in between. ​<br>
 
       <br>
 
@@ -178,9 +196,15 @@ components:
 
       <hr>
 
-
       <h3 class="text-xl my-1"><strong>Chocolat Chocolat !</strong> - Available GF and/or VF</h3>
 
+      <hr>
+
+      <br>
+
+      <p class="text-xl my-1"><strong>*NB(1):</strong> It is also possible to substitute for a meat & platter</p>
+
+      <p class="text-xl my-1"><strong class="text-xl my-1">*NB(2):</strong> Two tier cakes are available for at additional cost.</p>
     aos_select: true
     title: "Step 3: The Cake"
     type: img_half_right
@@ -457,6 +481,24 @@ components:
 
       <div>
 
+      <span class="md:text-xl">In-suite bridal hair and makeup service</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$600</div>
+
+      </div>
+
+      </div>
+
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
       <span class="md:text-xl">Guest hair and makeup service</span><br>
 
       </div>
@@ -593,7 +635,7 @@ components:
 
       <div>
 
-      <span class="md:text-xl">Dog flower collar</span><br>
+      <span class="md:text-xl">Dog flower corsage</span><br>
 
       </div>
 
@@ -627,6 +669,23 @@ components:
 
       <div>
 
+      <span class="md:text-xl">Single-tier cake from Ouest Artisan Patisserie</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$70</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
       <span class="md:text-xl">Meat & Cheese platter for 2</span><br>
 
       </div>
@@ -634,6 +693,23 @@ components:
       <div class="font-bold text-primary text-base flex flex-col text-right">
 
       <div class="md:pl-2">$70</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Luxury beach picnic  (Ucluelet only)</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">starting at $450</div>
 
       </div>
 
