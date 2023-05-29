@@ -18,7 +18,7 @@ components:
     img_alt: Beautiful image of a couple by the ocean
     cta: Call To Action
     desc: >
-      Starting at $2,600 the Intimate Elopement is a meaningful and affordable
+      Starting at $2,700 the Intimate Elopement is a meaningful and affordable
       alternative to a large and complicated financially stressful wedding.
       <br><br>
 
@@ -70,7 +70,7 @@ components:
     img_alt: Picture of couple by the ocean
     cta: Call To Action
     desc: >
-      Starting at $3,800, the West Coast Elopement Package offers you a small
+      Starting at $3,900, the West Coast Elopement Package offers you a small
       and meaningful celebration with extra touches like hair and makeup, and a
       delicious wedding cake for two! This package includes:<br><br>
 
@@ -124,7 +124,7 @@ components:
     cta: Call To Action
     desc: >
       Do you still want a wedding but with only your closest friends and family
-      present? The Tiny Wedding Package, starting at $4,990, is the perfect
+      present? The Tiny Wedding Package, starting at $5,100, is the perfect
       option for you. You’ll receive:<br><br>
 
       <ul>
