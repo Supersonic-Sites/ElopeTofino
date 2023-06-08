@@ -140,7 +140,7 @@ components:
         cta_link: contact/
         title: Adventure Elopement
         desc: Starts at
-        price: $5,900
+        price: $6,100
         features:
           - feature: 2 HOUR HELICOPTER TOUR
           - feature: Detailed itinerary of the event

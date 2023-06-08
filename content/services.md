@@ -178,7 +178,7 @@ components:
     desc: >-
       If you’re eloping, why not elope in true style! You’re skipping traditions
       anyway, so why not bypass the walk down the aisle and ride in a helicopter
-      instead! Starting at $5,900, the Adventure Elopement takes your elopement
+      instead! Starting at $6,100, the Adventure Elopement takes your elopement
       to new heights...literally. 
 
       <br><br>This exciting package includes:<br><br>

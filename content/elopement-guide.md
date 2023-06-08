@@ -68,8 +68,7 @@ components:
         img_alt: Paul Levy
       - img: ElopeTofino/SaraProfile_qTpcCzT8G.jpg
         desc: <a href="https://saraspectrumweddings.mypixieset.com/"
-          target=”_blank”><u>Visit website</u></a><br><small>* Videography
-          available</small>
+          target=”_blank”><u>Visit website</u></a>
         title: Sara Spectrum
         desc_select: true
         img_alt: Sara Spectrum
@@ -291,7 +290,7 @@ components:
 
       <li class="mb-2"><strong>Access:</strong> 5 min walking</li>
 
-      <li class="mb-2"><strong>Capacity:</strong> 10</li>
+      <li class="mb-2"><strong>Capacity:</strong> 20</li>
 
       <li class="mb-2"><strong>Privacy:</strong> Intimate</li>
 
