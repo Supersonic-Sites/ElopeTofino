@@ -459,22 +459,6 @@ components:
     img_alt: Please type in a description of the image
     cta: Call To Action
     desc: >+
-      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
-
-      <div>
-
-      <span class="md:text-xl">Bridal hair and makeup service</span><br>
-
-      </div>
-
-      <div class="font-bold text-primary text-base flex flex-col text-right">
-
-      <div class="md:pl-2">$550</div>
-
-      </div>
-
-      </div>
-
 
       <div class="flex justify-between pb-1 mb-1 border-b border-grey">
 
@@ -510,24 +494,6 @@ components:
 
       </div>
 
-
-      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
-
-      <div>
-
-      <span class="md:text-xl">Wedding arbour + drape rental</span><br>
-
-      </div>
-
-      <div class="font-bold text-primary text-base flex flex-col text-right">
-
-      <div class="md:pl-2">$350</div>
-
-      </div>
-
-      </div>
-
-
       <div class="flex justify-between pb-1 mb-1 border-b border-grey">
 
       <div>
@@ -544,58 +510,6 @@ components:
 
       </div>
 
-
-      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
-
-      <div>
-
-      <span class="md:text-xl">Live musician</span><br>
-
-      </div>
-
-      <div class="font-bold text-primary text-base flex flex-col text-right">
-
-      <div class="md:pl-2">$300</div>
-
-      </div>
-
-      </div>
-
-
-      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
-
-      <div>
-
-      <span class="md:text-xl">Private chef or Private catering </span><br>
-
-      </div>
-
-      <div class="font-bold text-primary text-base flex flex-col text-right">
-
-      <div class="md:pl-2">starting at $1200</div>
-
-      </div>
-
-      </div>
-
-
-      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
-
-      <div>
-
-      <span class="md:text-xl">Luxury picnic set up</span><br>
-
-      </div>
-
-      <div class="font-bold text-primary text-base flex flex-col text-right">
-
-      <div class="md:pl-2">$400</div>
-
-      </div>
-
-      </div>
-
-
       <div class="flex justify-between pb-1 mb-1 border-b border-grey">
 
       <div>
@@ -611,6 +525,8 @@ components:
       </div>
 
       </div>
+
+
 
 
       <div class="flex justify-between pb-1 mb-1 border-b border-grey">
@@ -641,23 +557,6 @@ components:
       <div class="font-bold text-primary text-base flex flex-col text-right">
 
       <div class="md:pl-2">$90</div>
-
-      </div>
-
-      </div>
-
-
-      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
-
-      <div>
-
-      <span class="md:text-xl">Single tier cake from Zoe's Bakery</span><br>
-
-      </div>
-
-      <div class="font-bold text-primary text-base flex flex-col text-right">
-
-      <div class="md:pl-2">$70</div>
 
       </div>
 
@@ -702,6 +601,23 @@ components:
 
       <div>
 
+      <span class="md:text-xl">Live musician</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">$300</div>
+
+      </div>
+
+      </div>
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
       <span class="md:text-xl">Luxury beach picnic  (Ucluelet only)</span><br>
 
       </div>
@@ -726,6 +642,24 @@ components:
       <div class="font-bold text-primary text-base flex flex-col text-right">
 
       <div class="md:pl-2">starting at $650</div>
+
+      </div>
+
+      </div>
+
+
+
+      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Private chef or Private catering </span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">starting at $1200</div>
 
       </div>
 
