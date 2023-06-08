@@ -88,7 +88,8 @@ components:
           - feature: 1h professional photography
           - feature: Two witnesses
           - feature: Marriage licence assistance
-          - feature: "Signing table "
+          - feature: "Signing table"
+          - feature: "Ceremony Music"
           - feature: Access to curated locations list
           - feature: Rain Plan
         title: Intimate Elopement
@@ -111,6 +112,7 @@ components:
           - feature: "Two witnesses "
           - feature: Marriage licence assistance
           - feature: "Signing table "
+          - feature: "Ceremony Music"
           - feature: Wedding cake for two
           - feature: Access to curated locations list
           - feature: Rain Plan
@@ -130,10 +132,11 @@ components:
           - feature: 3h professional photography
           - feature: Marriage licence assistance
           - feature: "Signing table "
-          - feature: Wedding cake for up to 15
+          - feature: Wedding cake for up to 15 + cake flowers
           - feature: Meat & cheese platter for up to 15
           - feature: Access to curated locations list
           - feature: Rain plan​
+          - feature: "Ceremony Music"
           - feature: Does NOT include venue rental fee, costs of drinks, dinners, or
               entertainment
       - cta: Let's Talk
@@ -151,7 +154,7 @@ components:
           - feature: "BC marriage officiant "
           - feature: "Two witnesses "
           - feature: Marriage licence assistance
-          - feature: Wedding cake for two
+          - feature: Wedding cake for two + cake flowers
           - feature: Coordination of the day
           - feature: Sparkling wine
   - type: divider_half
