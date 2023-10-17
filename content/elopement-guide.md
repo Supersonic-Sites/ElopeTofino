@@ -631,23 +631,6 @@ components:
       </div>
 
 
-      <div class="flex justify-between pb-1 mb-1 border-b border-grey">
-
-      <div>
-
-      <span class="md:text-xl">Additional 1 hour of photography coverage</span><br>
-
-      </div>
-
-      <div class="font-bold text-primary text-base flex flex-col text-right">
-
-      <div class="md:pl-2">starting at $650</div>
-
-      </div>
-
-      </div>
-
-
 
       <div class="flex justify-between pb-1 mb-1 border-b border-grey">
 
@@ -713,6 +696,22 @@ components:
       <div class="font-bold text-primary text-base flex flex-col text-right">
 
       <div class="md:pl-2">$2200</div>
+
+      </div>
+
+      </div>
+
+            <div class="flex justify-between pb-1 mb-1 border-b border-grey">
+
+      <div>
+
+      <span class="md:text-xl">Additional 1 hour of photography coverage</span><br>
+
+      </div>
+
+      <div class="font-bold text-primary text-base flex flex-col text-right">
+
+      <div class="md:pl-2">starting at $700</div>
 
       </div>
 
