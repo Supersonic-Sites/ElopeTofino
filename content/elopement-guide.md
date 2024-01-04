@@ -66,7 +66,7 @@ components:
         desc: <a href="https://www.paullevyphoto.com/" target=”_blank”><u>Visit
           website</u></a><small>Minimum 90min of coverage if the couple comes with guests)</small>
         img_alt: Paul Levy
-      - img: https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/5ece31f5-005f-4f8a-ce8b-3d1790704d00/SquareDesktop
+      - img: ElopeTofino/brianna_-u7a4P3Tx.jpg
         title: Brianna Bradley
         desc_select: true
         desc: <a href="https://www.bryannabradley.ca" target=”_blank”><u>Visit
