@@ -18,7 +18,7 @@ components:
       add on extra optional services if needed. By only working with trusted
       suppliers that are great at what they do, I ensure that everything runs as
       smoothly as possible on your wedding day.
-    desc_select: true
+    desc_select: true  
     title: All you need to know to get started
   - type: divider
     bg_color: white
@@ -64,8 +64,14 @@ components:
         title: Paul Levy
         desc_select: true
         desc: <a href="https://www.paullevyphoto.com/" target=”_blank”><u>Visit
-          website</u></a>
+          website</u></a><small>Minimum 90min of coverage if the couple comes with guests)</small>
         img_alt: Paul Levy
+      - img: https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/5ece31f5-005f-4f8a-ce8b-3d1790704d00/SquareDesktop
+        title: Brianna Bradley
+        desc_select: true
+        desc: <a href="https://www.bryannabradley.ca" target=”_blank”><u>Visit
+          website</u></a>
+        img_alt: Brianna Bradley
       - img: ElopeTofino/SaraProfile_qTpcCzT8G.jpg
         desc: <a href="https://saraspectrumweddings.mypixieset.com/"
           target=”_blank”><u>Visit website</u></a>
@@ -328,7 +334,7 @@ components:
       at a beach made out of shells and black sand that features striking rock
       formations, which help create some memorable (and massive) scenes of wild
       ocean spray from the sheer force of the oncoming waves. <br><br>Additional
-      vendors hiking time : $250<br><br>
+      vendors hiking time : $300<br><br>
 
       <ul>
 
