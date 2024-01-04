@@ -64,7 +64,7 @@ components:
         title: Paul Levy
         desc_select: true
         desc: <a href="https://www.paullevyphoto.com/" target=”_blank”><u>Visit
-          website</u></a><small>Minimum 90min of coverage if the couple comes with guests)</small>
+          website</u></a><br><small>Minimum 90min of coverage if the couple comes with guests)</small>
         img_alt: Paul Levy
       - img: ElopeTofino/brianna_-u7a4P3Tx.jpg
         title: Brianna Bradley
