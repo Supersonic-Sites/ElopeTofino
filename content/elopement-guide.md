@@ -573,13 +573,13 @@ components:
 
       <div>
 
-      <span class="md:text-xl">Single-tier cake from Ouest Artisan Patisserie</span><br>
+      <span class="md:text-xl">Single tier wedding cake + Flowers matching your bouquet</span><br>
 
       </div>
 
       <div class="font-bold text-primary text-base flex flex-col text-right">
 
-      <div class="md:pl-2">$70</div>
+      <div class="md:pl-2">$150</div>
 
       </div>
 
