@@ -177,11 +177,7 @@ components:
 
       <br>
 
-      <h3 class="text-xl my-1"><strong>Lemon Yuzu</strong> - Available GF and/or VF</h3>
-
-      <hr>
-
-      <h3 class="text-xl my-1"><strong>Pistachio Raspberry Rose</strong> - Available in GF</h3>
+      <h3 class="text-xl my-1"><strong>Lemon</strong> - Available GF and/or VF</h3>
 
       <hr>
 
