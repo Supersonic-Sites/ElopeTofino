@@ -81,7 +81,7 @@ components:
       - img: ElopeTofino/Melissa_Renwick_2lZY-1GYh.jpg
         title: Melissa Renwick
         desc_select: true
-        desc: <a href="https://www.mayflyandjune.com/" target=”_blank”><u>Visit
+        desc: <a href="https://www.melissarenwickweddings.com/" target=”_blank”><u>Visit
           website</u></a>
         img_alt: Melissa Renwick
       - img: ElopeTofino/Screen_Shot_2019-05-20_at_10.55.51_8SZ4a5kLHI.png
@@ -117,7 +117,7 @@ components:
       - img: ElopeTofino/gareau-20201113-sound-3270-Edit_V2mCL1qYF.jpg
         title: Cristina Gareau
         desc_select: true
-        desc: <a href="https://nanoustudio.com/wedding" target=”_blank”><u>Visit
+        desc: <a href="https://nanoustudio.com/weddings" target=”_blank”><u>Visit
           website</u></a>
         img_alt: Cristina Gareau
       - img: ElopeTofino/3_7qf57aiO-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1653670549772
@@ -329,8 +329,7 @@ components:
       on the beach. This 1km trail descends through a thick forest and arrives
       at a beach made out of shells and black sand that features striking rock
       formations, which help create some memorable (and massive) scenes of wild
-      ocean spray from the sheer force of the oncoming waves. <br><br>Additional
-      vendors hiking time : $300<br><br>
+      ocean spray from the sheer force of the oncoming waves. <br><br>Pacific Rim National Park Permit $300<br><br>
 
       <ul>
 
