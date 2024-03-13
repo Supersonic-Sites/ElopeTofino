@@ -339,7 +339,7 @@ components:
 
       <li class="mb-2"><strong>Access:</strong> 10 min walking</li>
 
-      <li class="mb-2"><strong>Capacity:</strong> 10</li>
+      <li class="mb-2"><strong>Capacity:</strong> 15</li>
 
       <li class="mb-2"><strong>Privacy:</strong> Intimate</li>
 
