@@ -46,7 +46,7 @@ components:
       when planning your big day. <br><br>
 
 
-      So why not just...run away? Tell me your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. I provide intimate and meaningful weddings for 2-10 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
+      So why not just...run away? Tell me your dream wedding and allow Elope Tofino to take care of all the details - the photographer, the flowers, cake, champagne, officiant, you name it. I provide intimate and meaningful weddings for 2-15 people, set in a West Coast paradise. It’s everything a wedding should be - a beautiful, fun, and stress free celebration of your relationship and the start of a new adventure together. 
     aos_select: false
     title: Who said eloping can’t be fun and meaningful?
     type: img_half_right
